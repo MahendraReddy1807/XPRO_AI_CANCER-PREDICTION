@@ -1,0 +1,1001 @@
+Patient_ID,Name,Age,Gender,Height_cm,Weight_kg,BMI,Systolic_BP,Diastolic_BP,Heart_Rate,Temperature_F,Blood_Sugar,Cholesterol,Hemoglobin,Smoking,Alcohol_Consumption,Exercise_Hours_Week,Diabetes,Hypertension,Heart_Disease,Hospital_Visits_Year,Insurance_Type,Family_History_Cancer,Biopsy_Performed,Biopsy_Result,Treatment,Allergies,Sonography_Result,Tumor_Size_cm,Risk_Score,High_Risk,Gender_encoded,Smoking_encoded,Alcohol_Consumption_encoded,Diabetes_encoded,Hypertension_encoded,Heart_Disease_encoded,Insurance_Type_encoded
+1.0,Derrick Mills,69.0,Male,178.0,84.0,26.5,130.2,103.6,67.1,94.2,97.3,173.1,12.0,No,Yes,2.0,No,No,No,7,Public,No,No,Benign,,Penicillin,Normal,1.66,21.2,0,1,0,1,0,0,0,1
+3.0,Sergio Lewis,78.0,Male,162.0,70.0,26.7,90.3,57.6,76.1,97.7,124.1,137.3,12.2,Yes,Yes,1.0,No,No,No,1,Uninsured,No,No,Benign,Chemotherapy,Dust,Normal,1.34,45.4,1,1,1,1,0,0,0,2
+4.0,Melanie Garrett,38.0,Female,170.0,66.0,22.8,115.8,66.2,75.2,97.1,165.7,216.3,13.7,Yes,Yes,6.0,No,No,No,4,Public,No,No,Benign,Surgery,,Normal,4.1,61.2,1,0,1,1,0,0,0,1
+5.0,Shawn Bradford,41.0,Male,168.0,59.0,20.9,144.1,99.8,55.7,98.8,126.5,278.1,14.2,No,No,4.0,No,No,No,3,Private,No,No,Benign,,,Normal,5.9,59.6,1,1,0,0,0,0,0,0
+6.0,Angela Allen,20.0,Female,165.0,63.0,23.1,89.5,77.5,78.1,98.0,130.8,160.2,13.5,Yes,No,0.0,No,No,No,0,Private,No,No,Benign,Surgery,Penicillin,Normal,2.84,43.2,1,0,1,0,0,0,0,0
+7.0,Monica Gordon,39.0,Female,177.0,119.0,38.0,98.9,81.2,58.9,97.4,159.2,169.6,9.3,Yes,No,5.0,Yes,No,No,1,Private,No,No,Benign,Radiation Therapy,Peanuts,Normal,8.46,54.2,1,0,1,0,1,0,0,0
+8.0,Craig Anderson,70.0,Female,180.0,94.0,29.0,122.5,91.4,56.4,97.0,111.3,171.6,17.1,Yes,No,0.0,Yes,Yes,No,0,Public,No,No,Benign,Radiation Therapy,,Normal,9.81,54.5,1,0,1,0,1,1,0,1
+9.0,Sarah Crawford,19.0,Male,171.0,55.0,18.8,100.3,90.4,65.8,97.5,94.4,205.2,16.2,No,Yes,2.0,No,No,No,3,Private,No,No,Benign,Chemotherapy,Seafood,Normal,1.2,18.1,0,1,0,1,0,0,0,0
+10.0,Nathan Brown,47.0,Male,185.0,55.0,16.1,104.1,84.2,63.0,100.3,131.0,157.5,14.9,No,No,1.0,No,No,No,3,Private,Yes,No,Benign,Surgery,,Normal,0.18,46.6,1,1,0,0,0,0,0,0
+11.0,Cynthia Fox,55.0,Male,159.0,82.0,32.4,111.5,76.9,67.3,97.6,143.6,216.8,17.8,No,Yes,3.0,No,No,No,2,Public,No,No,Benign,,,Normal,7.9,52.9,1,1,0,1,0,0,0,1
+12.0,Gregory Becker,19.0,Female,168.0,83.0,29.4,92.7,75.3,52.7,97.8,85.6,233.9,12.0,No,No,4.0,No,No,No,0,Private,No,No,Benign,,Peanuts,Normal,1.91,20.2,0,0,0,0,0,0,0,0
+13.0,Tracey Johnson,81.0,Female,163.0,83.0,31.2,100.5,92.9,81.5,97.9,78.4,221.4,17.8,No,No,2.0,No,Yes,No,2,Uninsured,No,No,Benign,Surgery,,Normal,3.53,39.6,0,0,0,0,0,1,0,2
+14.0,Jeff Davis,77.0,Female,151.0,71.0,31.1,134.1,88.3,83.5,99.1,104.2,129.3,12.1,No,Yes,3.0,No,No,No,3,Private,No,No,Benign,Chemotherapy,,Normal,3.94,37.9,0,0,0,1,0,0,0,0
+15.0,Timothy Kelly,38.0,Female,169.0,73.0,25.6,93.9,76.1,46.6,99.3,124.9,239.8,14.5,No,No,1.0,No,No,No,1,Private,No,No,Benign,Immunotherapy,Pollen,Normal,9.17,41.9,1,0,0,0,0,0,0,0
+16.0,Heather Dennis,50.0,Female,169.0,80.0,28.0,88.0,96.2,81.7,94.0,123.9,237.5,11.5,Yes,No,3.0,No,Yes,No,3,Uninsured,Yes,No,Benign,,Penicillin,Normal,6.59,79.8,1,0,1,0,0,1,0,2
+17.0,Amanda Allen,75.0,Male,185.0,76.0,22.2,107.4,78.1,60.3,100.1,57.3,233.2,14.0,Yes,Yes,1.0,Yes,Yes,No,4,Private,Yes,No,Benign,Chemotherapy,Pollen,Abnormal,0.41,63.9,1,1,1,1,1,1,0,0
+18.0,Michael Shaw,39.0,Female,176.0,42.0,13.6,134.6,67.2,80.3,100.8,157.3,214.9,14.8,Yes,No,3.0,No,No,No,4,Public,No,No,Benign,,Peanuts,Normal,0.15,49.6,1,0,1,0,0,0,0,1
+19.0,Elizabeth Gonzalez,66.0,Male,160.0,72.0,28.1,116.1,68.6,69.2,97.0,80.8,208.8,13.7,Yes,No,4.0,No,No,No,3,Public,No,No,Benign,,Peanuts,Abnormal,2.0,46.5,1,1,1,0,0,0,0,1
+20.0,James Hodges,76.0,Male,189.0,62.0,17.4,110.7,65.3,70.3,97.1,92.0,241.3,15.4,Yes,No,0.0,No,No,No,3,Private,No,No,Benign,Surgery,Penicillin,Normal,3.18,62.4,1,1,1,0,0,0,0,0
+21.0,Charles Jarvis,59.0,Female,182.0,78.0,23.5,120.9,75.9,67.8,97.9,72.9,276.9,14.2,No,No,2.0,No,No,No,1,Public,No,No,Benign,Surgery,,Normal,4.85,48.4,1,0,0,0,0,0,0,1
+23.0,Tina Singh,32.0,Male,168.0,81.0,28.7,129.9,67.9,55.1,98.9,107.3,243.1,12.9,No,Yes,2.0,No,No,No,1,Private,No,No,Malignant,Immunotherapy,,Normal,3.15,45.0,1,1,0,1,0,0,0,0
+24.0,Tracy Heath,79.0,Female,160.0,70.0,27.3,127.7,82.8,77.3,95.7,74.5,196.6,15.6,No,Yes,2.0,Yes,No,No,2,Private,No,No,Benign,Chemotherapy,Pollen,Normal,3.77,29.9,0,0,0,1,1,0,0,0
+25.0,Carl Mendez,79.0,Male,166.0,89.0,32.3,111.8,70.1,83.2,96.9,125.9,194.8,12.7,No,No,7.0,No,No,No,4,Private,No,No,Benign,Chemotherapy,,Normal,3.29,36.5,0,1,0,0,0,0,0,0
+26.0,James Sheppard,64.0,Female,181.0,82.0,25.0,140.1,76.1,78.6,100.9,123.1,138.5,15.8,No,Yes,3.0,Yes,No,Yes,0,Private,No,No,Benign,Chemotherapy,,Normal,0.09,23.3,0,0,0,1,1,0,1,0
+27.0,Joseph Reynolds,79.0,Male,189.0,81.0,22.7,97.5,57.3,97.9,97.2,94.4,188.6,16.4,No,No,6.0,No,Yes,No,2,Public,No,No,Benign,,Penicillin,Abnormal,9.55,33.6,0,1,0,0,0,1,0,1
+28.0,Tonya Willis,68.0,Male,185.0,84.0,24.5,142.6,76.7,63.7,100.5,125.2,160.1,10.7,Yes,No,3.0,No,No,No,2,Public,No,No,Benign,Surgery,Penicillin,Normal,1.39,43.2,1,1,1,0,0,0,0,1
+29.0,Julie Velez,72.0,Male,165.0,106.0,38.9,123.1,77.1,81.5,99.1,75.2,181.4,16.3,Yes,Yes,4.0,No,No,No,3,Private,No,No,Benign,Surgery,,Normal,2.88,40.6,0,1,1,1,0,0,0,0
+30.0,Gerald Phillips,81.0,Male,159.0,58.0,22.9,113.3,88.1,68.7,95.9,85.2,156.1,18.1,No,Yes,3.0,Yes,No,No,1,Private,Yes,No,Benign,,,Normal,1.29,42.9,1,1,0,1,1,0,0,0
+32.0,Jamie Woodward,68.0,Male,152.0,61.0,26.4,117.9,62.0,69.9,98.4,60.3,183.8,15.2,Yes,No,5.0,Yes,Yes,No,4,Public,No,No,Benign,,,Normal,9.32,46.0,1,1,1,0,1,1,0,1
+33.0,Michael Riley,24.0,Female,173.0,83.0,27.7,144.4,96.3,65.3,97.9,154.2,203.9,16.1,Yes,No,1.0,No,No,No,5,Public,No,No,Benign,Surgery,,Normal,1.01,48.7,1,0,1,0,0,0,0,1
+35.0,April Grant,56.0,Female,165.0,69.0,25.3,104.7,83.0,64.1,99.3,102.0,142.2,14.4,Yes,Yes,3.0,No,No,No,1,Uninsured,No,No,Benign,Radiation Therapy,,Normal,0.22,36.8,0,0,1,1,0,0,0,2
+36.0,Timothy Baldwin,35.0,Female,154.0,71.0,29.9,140.7,79.9,53.0,99.7,149.9,214.5,11.4,No,No,0.0,No,No,No,2,Public,No,No,Benign,,,Normal,7.71,48.2,1,0,0,0,0,0,0,1
+38.0,Kathleen Greene,77.0,Male,165.0,89.0,32.7,138.0,83.3,77.4,99.2,92.7,243.0,15.0,No,No,3.0,No,No,No,2,Private,No,No,Benign,Chemotherapy,,Normal,7.0,53.1,1,1,0,0,0,0,0,0
+39.0,Justin Hardy,31.0,Male,158.0,56.0,22.4,154.0,87.1,86.7,96.5,101.7,209.0,15.0,No,No,3.0,No,Yes,No,4,Private,No,No,Benign,,,Normal,4.72,39.5,0,1,0,0,0,1,0,0
+40.0,Ashlee Collins,26.0,Male,141.0,76.0,38.2,112.0,53.8,71.3,97.9,96.3,224.3,16.1,No,No,1.0,No,No,No,3,Private,Yes,No,Benign,,Pollen,Abnormal,9.08,51.1,1,1,0,0,0,0,0,0
+41.0,John Reyes,70.0,Female,170.0,64.0,22.1,133.6,71.9,85.8,103.0,93.5,256.4,12.5,Yes,No,2.0,No,No,No,3,Public,No,No,Benign,Chemotherapy,Seafood,Normal,4.1,63.8,1,0,1,0,0,0,0,1
+42.0,Kimberly Page,19.0,Male,188.0,56.0,15.8,96.9,76.2,53.7,99.7,134.3,187.6,12.9,No,No,3.0,Yes,Yes,No,2,Private,No,No,Benign,Chemotherapy,,Normal,5.14,34.5,0,1,0,0,1,1,0,0
+43.0,Tonya Roberts,77.0,Female,187.0,72.0,20.6,135.1,83.8,64.7,102.2,104.5,177.0,17.8,No,No,2.0,No,Yes,No,4,Public,Yes,No,Benign,Radiation Therapy,,Normal,6.95,61.1,1,0,0,0,0,1,0,1
+44.0,David Smith,61.0,Female,165.0,70.0,25.7,124.0,97.9,66.5,100.7,121.4,234.9,13.7,No,No,3.0,No,No,Yes,4,Public,No,No,Unknown,Immunotherapy,Dust,Normal,5.21,47.4,1,0,0,0,0,0,1,1
+45.0,Sarah Jordan,25.0,Male,164.0,111.0,41.3,129.5,68.4,68.6,99.0,130.9,220.4,14.4,No,No,1.0,No,No,No,2,Private,No,No,Benign,Immunotherapy,,Normal,1.89,36.6,0,1,0,0,0,0,0,0
+46.0,Justin Lawson,64.0,Female,175.0,81.0,26.4,107.1,72.5,71.0,99.1,111.6,192.5,13.9,No,No,6.0,No,No,No,2,Public,No,No,Benign,Radiation Therapy,Penicillin,Normal,3.17,32.6,0,0,0,0,0,0,0,1
+47.0,Kenneth Brooks,52.0,Male,160.0,54.0,21.1,86.8,72.3,78.3,98.5,70.9,255.7,12.4,No,No,0.0,No,No,No,0,Private,No,No,Benign,Surgery,Penicillin,Normal,0.92,35.0,0,1,0,0,0,0,0,0
+48.0,Hunter White,53.0,Male,173.0,67.0,22.4,130.1,68.0,64.7,96.0,59.4,191.5,17.2,No,Yes,2.0,No,Yes,No,1,Public,No,No,Malignant,Radiation Therapy,,Normal,4.33,25.5,0,1,0,1,0,1,0,1
+49.0,Matthew Silva,67.0,Female,178.0,90.0,28.4,78.7,74.8,71.7,98.6,104.5,201.3,12.9,No,Yes,1.0,No,No,No,2,Private,No,No,Unknown,Chemotherapy,Penicillin,Normal,6.09,48.8,1,0,0,1,0,0,0,0
+50.0,Henry Rodriguez,21.0,Female,182.0,106.0,32.0,113.7,91.6,69.5,100.4,94.9,200.8,11.7,No,Yes,1.0,No,Yes,No,1,Public,Yes,No,Benign,Surgery,,Normal,1.19,38.5,0,0,0,1,0,1,0,1
+51.0,Lee Flores,19.0,Female,169.0,51.0,17.9,138.8,64.2,58.9,97.7,102.6,162.6,13.1,Yes,No,4.0,No,No,No,4,Private,No,No,Benign,Radiation Therapy,,Normal,6.31,42.5,1,0,1,0,0,0,0,0
+52.0,Roberta Butler,23.0,Male,168.0,47.0,16.7,123.8,86.4,68.6,99.2,99.5,203.1,10.0,No,Yes,2.0,Yes,No,No,0,Private,No,No,Benign,Surgery,Seafood,Normal,8.93,30.4,0,1,0,1,1,0,0,0
+53.0,Christopher Taylor,71.0,Male,161.0,103.0,39.7,159.0,54.5,68.3,99.9,177.5,255.9,12.7,No,No,2.0,Yes,No,No,2,Uninsured,No,No,Benign,,,Normal,3.38,61.8,1,1,0,0,1,0,0,2
+54.0,Angel Brown,21.0,Female,162.0,81.0,30.9,140.5,71.6,68.0,97.2,60.1,217.8,12.1,No,No,2.0,No,No,No,2,Uninsured,Yes,No,Malignant,Chemotherapy,,Normal,2.22,41.6,1,0,0,0,0,0,0,2
+55.0,Jennifer Guzman,71.0,Female,168.0,62.0,22.0,106.9,75.1,70.4,97.9,40.3,201.2,15.2,No,Yes,6.0,No,No,No,4,Public,No,No,Benign,Chemotherapy,Penicillin,Normal,8.93,41.7,1,0,0,1,0,0,0,1
+56.0,Courtney Ray,80.0,Female,174.0,83.0,27.4,120.5,105.1,70.9,97.1,110.0,193.5,12.7,No,No,1.0,No,No,No,1,Public,No,No,Benign,Chemotherapy,Peanuts,Normal,6.92,41.8,1,0,0,0,0,0,0,1
+57.0,Maxwell Whitney,35.0,Male,179.0,35.0,10.9,119.1,75.9,64.8,97.4,88.7,213.2,15.8,No,Yes,6.0,No,No,No,4,Private,No,No,Benign,Surgery,,Normal,1.05,21.4,0,1,0,1,0,0,0,0
+58.0,Heather Miller,61.0,Female,162.0,75.0,28.6,88.4,47.0,85.3,96.7,109.5,230.0,16.8,No,No,3.0,Yes,No,No,2,Private,No,No,Malignant,,Peanuts,Normal,4.08,44.6,1,0,0,0,1,0,0,0
+59.0,Christina Butler,51.0,Male,185.0,80.0,23.4,101.2,50.0,56.0,97.2,117.5,224.4,15.6,No,No,2.0,No,Yes,No,3,Public,No,No,Benign,Surgery,,Normal,6.74,45.0,1,1,0,0,0,1,0,1
+60.0,Kim Miller,79.0,Male,167.0,89.0,31.9,108.8,80.5,61.3,100.7,138.5,186.7,13.6,No,No,5.0,No,No,No,2,Public,Yes,No,Benign,Surgery,Peanuts,Normal,5.74,68.6,1,1,0,0,0,0,0,1
+61.0,Sherry Foster,31.0,Female,170.0,60.0,20.8,79.3,89.2,103.4,97.2,54.8,213.0,14.3,No,Yes,6.0,No,No,No,1,Private,No,No,Benign,Surgery,Seafood,Abnormal,6.19,32.3,0,0,0,1,0,0,0,0
+63.0,Wayne Holmes,32.0,Female,146.0,61.0,28.6,115.0,82.5,53.8,97.8,112.9,159.7,13.7,No,No,2.0,Yes,No,No,4,Uninsured,No,No,Benign,Surgery,Penicillin,Normal,7.98,30.5,0,0,0,0,1,0,0,2
+64.0,Miguel King,79.0,Male,179.0,79.0,24.7,86.5,97.4,78.8,100.4,123.1,206.7,12.3,No,No,7.0,No,Yes,No,2,Public,No,No,Malignant,Immunotherapy,,Normal,3.2,46.2,1,1,0,0,0,1,0,1
+65.0,Helen White,57.0,Male,177.0,62.0,19.8,128.1,71.9,45.1,100.6,165.8,113.5,15.4,No,No,8.0,No,No,No,1,Public,No,No,Benign,Chemotherapy,,Normal,7.08,43.4,1,1,0,0,0,0,0,1
+66.0,Fernando Gillespie,70.0,Female,167.0,69.0,24.7,134.3,93.4,67.2,99.9,128.7,219.3,19.1,Yes,Yes,3.0,No,No,No,3,Public,No,No,Benign,,,Normal,9.91,71.5,1,0,1,1,0,0,0,1
+67.0,Diane Mills,41.0,Female,171.0,60.0,20.5,124.5,55.5,95.7,99.1,98.3,226.4,15.0,No,No,4.0,No,No,No,3,Private,No,No,Benign,Surgery,Penicillin,Normal,3.9,31.3,0,0,0,0,0,0,0,0
+68.0,Brian Rodriguez,43.0,Female,175.0,85.0,27.8,113.5,66.4,51.5,98.3,73.3,229.9,10.0,No,No,5.0,No,No,No,0,Private,No,No,Benign,Radiation Therapy,,Normal,7.91,35.1,0,0,0,0,0,0,0,0
+69.0,Deborah Lutz,77.0,Female,154.0,88.0,37.1,131.8,52.9,46.2,96.8,83.1,184.2,13.3,No,Yes,2.0,No,No,No,5,Private,No,No,Benign,Surgery,Pollen,Abnormal,2.46,25.5,0,0,0,1,0,0,0,0
+70.0,Timothy Johns,58.0,Female,165.0,71.0,26.1,133.6,75.9,52.0,101.5,82.2,212.4,14.2,Yes,No,0.0,No,No,No,0,Private,No,Yes,Benign,,Dust,Normal,2.82,47.1,1,0,1,0,0,0,0,0
+71.0,Kendra Garcia,46.0,Female,178.0,76.0,24.0,126.1,79.3,80.8,97.5,119.7,257.0,14.2,No,No,4.0,No,Yes,No,5,Public,Yes,No,Benign,Chemotherapy,,Normal,9.35,73.8,1,0,0,0,0,1,0,1
+72.0,Jaime Reeves,32.0,Female,157.0,53.0,21.5,103.5,81.7,83.5,99.6,107.7,256.6,12.5,No,No,1.0,No,No,No,1,Public,No,No,Benign,Chemotherapy,Penicillin,Normal,0.26,36.3,0,0,0,0,0,0,0,1
+73.0,Heidi Callahan,62.0,Male,173.0,71.0,23.7,125.5,80.9,63.8,100.2,60.3,198.8,14.5,No,Yes,4.0,No,Yes,No,2,Uninsured,No,No,Benign,Surgery,Seafood,Normal,2.17,21.1,0,1,0,1,0,1,0,2
+74.0,Phillip Martin,82.0,Female,156.0,74.0,30.4,143.9,66.1,78.2,97.8,86.9,205.6,11.5,No,Yes,5.0,No,No,No,4,Public,No,No,Benign,Immunotherapy,,Abnormal,4.83,43.8,1,0,0,1,0,0,0,1
+75.0,Rachael Foster,26.0,Male,175.0,114.0,37.2,108.1,77.1,86.7,100.2,126.3,244.4,12.1,No,No,3.0,No,No,No,1,Public,No,No,Benign,Radiation Therapy,Penicillin,Abnormal,4.02,53.2,1,1,0,0,0,0,0,1
+76.0,Christopher Casey,18.0,Female,170.0,58.0,20.1,162.0,57.5,91.4,99.7,110.5,140.0,15.3,No,No,2.0,No,No,No,1,Private,No,No,Benign,,,Normal,6.29,27.2,0,0,0,0,0,0,0,0
+78.0,Felicia Munoz,80.0,Male,182.0,90.0,27.2,120.6,75.4,42.4,97.9,111.5,253.4,15.1,No,No,1.0,No,Yes,No,5,Uninsured,No,No,Malignant,,Penicillin,Normal,0.71,49.0,1,1,0,0,0,1,0,2
+79.0,Kathleen Gonzalez,28.0,Female,163.0,79.0,29.7,106.6,72.7,60.1,96.7,148.8,239.0,11.3,Yes,Yes,6.0,No,Yes,No,3,Public,No,No,Benign,Radiation Therapy,Pollen,Normal,3.69,57.7,1,0,1,1,0,1,0,1
+80.0,Deborah Richardson,25.0,Female,162.0,101.0,38.5,124.5,103.8,64.9,97.8,107.1,214.8,17.5,No,No,4.0,No,No,No,4,Private,Yes,No,Benign,,,Normal,5.24,58.9,1,0,0,0,0,0,0,0
+81.0,Rachael Ruiz,52.0,Male,172.0,81.0,27.4,85.2,61.4,66.9,98.9,88.4,139.8,12.5,No,No,2.0,No,Yes,No,1,Private,No,No,Benign,Surgery,Penicillin,Normal,5.62,27.2,0,1,0,0,0,1,0,0
+82.0,Brian Adams,52.0,Female,181.0,81.0,24.7,109.1,63.1,67.7,98.7,72.5,198.0,13.6,No,No,3.0,No,No,No,1,Uninsured,No,No,Benign,Radiation Therapy,,Normal,6.01,27.2,0,0,0,0,0,0,0,2
+83.0,Kristi Anderson,50.0,Female,160.0,74.0,28.9,98.2,63.6,83.4,98.0,107.5,176.4,14.7,No,No,4.0,Yes,Yes,No,6,Private,No,No,Benign,,Dust,Normal,5.49,34.8,0,0,0,0,1,1,0,0
+85.0,Daniel Brewer,58.0,Female,174.0,91.0,30.1,139.9,86.5,67.9,99.3,94.5,167.6,14.3,No,No,1.0,No,No,No,1,Public,No,No,Benign,,,Normal,7.65,28.6,0,0,0,0,0,0,0,1
+86.0,James Lucas,45.0,Male,177.0,66.0,21.1,132.9,91.1,83.2,101.6,93.8,159.0,15.2,Yes,No,0.0,Yes,Yes,Yes,2,Private,No,No,Benign,Surgery,Dust,Normal,0.88,28.2,0,1,1,0,1,1,1,0
+87.0,Sherry Delacruz,24.0,Female,172.0,55.0,18.6,72.6,118.6,74.3,99.3,59.1,117.4,15.9,Yes,No,5.0,No,No,No,2,Private,No,No,Benign,,,Normal,1.98,26.6,0,0,1,0,0,0,0,0
+88.0,Lisa Jones,29.0,Female,166.0,72.0,26.1,160.8,46.3,70.8,99.5,72.2,248.9,15.6,No,Yes,1.0,No,No,No,2,Public,No,No,Benign,Surgery,,Normal,7.39,41.8,1,0,0,1,0,0,0,1
+89.0,Richard Wright,51.0,Female,162.0,63.0,24.0,125.9,89.1,80.9,99.5,124.3,184.0,13.7,Yes,No,4.0,No,Yes,No,1,Public,Yes,No,Unknown,,Peanuts,Normal,2.8,63.4,1,0,1,0,0,1,0,1
+90.0,Emily Edwards MD,50.0,Male,171.0,74.0,25.3,104.5,71.6,70.9,99.2,106.9,206.3,13.7,No,Yes,4.0,No,No,No,6,Private,No,No,Benign,Chemotherapy,,Normal,4.93,44.6,1,1,0,1,0,0,0,0
+92.0,Michael Young,40.0,Female,141.0,68.0,34.2,123.5,70.7,52.7,99.2,109.2,157.3,15.9,Yes,Yes,2.0,No,Yes,No,1,Private,No,No,Benign,,Peanuts,Normal,5.07,47.4,1,0,1,1,0,1,0,0
+93.0,Michelle Mayo,79.0,Male,174.0,74.0,24.4,106.7,66.4,63.8,98.1,102.8,149.6,12.2,Yes,No,3.0,No,Yes,No,1,Private,No,No,Benign,,,Normal,3.47,52.0,1,1,1,0,0,1,0,0
+94.0,Andrew Parsons,54.0,Female,179.0,76.0,23.7,124.0,105.3,68.5,97.4,137.3,159.8,14.2,No,Yes,3.0,No,No,No,4,Public,No,No,Benign,Chemotherapy,,Normal,9.94,42.7,1,0,0,1,0,0,0,1
+95.0,Keith Reynolds,61.0,Male,146.0,88.0,41.3,107.9,92.6,75.3,98.2,103.7,171.1,13.3,No,No,4.0,No,Yes,No,2,Private,No,Yes,Benign,Surgery,,Normal,3.57,33.1,0,1,0,0,0,1,0,0
+96.0,Franklin Neal,52.0,Female,160.0,41.0,16.0,111.9,80.3,85.2,99.1,56.3,214.7,13.7,No,No,4.0,No,No,No,1,Public,Yes,Yes,Benign,Surgery,,Normal,6.27,57.2,1,0,0,0,0,0,0,1
+97.0,Jesse Nichols,82.0,Male,176.0,66.0,21.3,106.3,100.3,69.7,98.1,148.9,168.2,11.5,No,No,2.0,Yes,No,No,0,Private,No,No,Benign,Chemotherapy,,Abnormal,8.88,49.3,1,1,0,0,1,0,0,0
+98.0,Nicholas James,64.0,Male,191.0,78.0,21.4,91.3,57.3,52.9,99.1,111.1,269.9,13.2,No,No,1.0,No,Yes,No,1,Private,No,No,Benign,Surgery,,Abnormal,6.38,58.1,1,1,0,0,0,1,0,0
+99.0,Jeremy Francis,20.0,Male,170.0,93.0,32.2,122.9,60.0,80.1,99.3,82.3,241.1,17.6,No,No,3.0,Yes,No,No,1,Private,No,No,Unknown,,Seafood,Normal,5.66,39.7,0,1,0,0,1,0,0,0
+100.0,Deborah Arroyo,18.0,Female,163.0,68.0,25.6,131.7,47.3,79.1,99.8,62.4,232.3,15.2,Yes,No,6.0,No,No,Yes,2,Private,No,No,Malignant,Radiation Therapy,Dust,Abnormal,5.69,44.2,1,0,1,0,0,0,1,0
+101.0,Laura Harris,22.0,Male,168.0,47.0,16.7,130.3,69.5,46.7,100.5,111.9,195.2,9.0,No,No,4.0,No,No,No,4,Private,No,No,Benign,Surgery,,Normal,4.96,28.1,0,1,0,0,0,0,0,0
+102.0,Michael Grant,31.0,Female,184.0,84.0,24.8,136.4,82.4,70.0,98.7,96.5,260.6,16.4,No,No,2.0,Yes,No,No,1,Private,No,No,Benign,,,Normal,8.08,42.3,1,0,0,0,1,0,0,0
+103.0,Sheila Thompson,44.0,Male,164.0,65.0,24.2,126.5,81.5,50.9,96.6,147.2,191.3,16.2,No,Yes,5.0,No,No,No,3,Private,No,No,Benign,Chemotherapy,Peanuts,Normal,0.5,26.9,0,1,0,1,0,0,0,0
+104.0,Robert Mckee,26.0,Male,162.0,57.0,21.7,109.3,82.2,62.0,98.1,89.6,198.7,13.3,No,No,0.0,Yes,Yes,No,2,Private,No,No,Benign,Surgery,Pollen,Normal,8.85,21.1,0,1,0,0,1,1,0,0
+105.0,Carla Gordon,32.0,Female,165.0,66.0,24.2,136.8,58.8,59.2,98.7,74.9,206.8,15.4,No,No,3.0,No,No,No,2,Private,No,No,Benign,,,Abnormal,5.86,32.5,0,0,0,0,0,0,0,0
+106.0,Marie Carter,59.0,Female,160.0,72.0,28.1,92.8,92.0,79.7,95.8,126.9,228.1,12.3,Yes,No,5.0,No,No,No,4,Public,No,No,Benign,,Dust,Normal,8.49,68.9,1,0,1,0,0,0,0,1
+107.0,Gerald Perez,68.0,Male,171.0,66.0,22.6,102.0,83.6,71.4,100.7,127.8,225.5,13.1,No,No,6.0,No,No,No,1,Private,Yes,No,Unknown,,Penicillin,Abnormal,0.1,61.3,1,1,0,0,0,0,0,0
+108.0,Erik Williams,80.0,Female,186.0,42.0,12.1,100.7,91.0,54.6,98.8,105.1,181.0,17.0,No,No,2.0,Yes,No,No,1,Private,No,No,Benign,,Pollen,Normal,8.69,41.8,1,0,0,0,1,0,0,0
+109.0,Caleb Sharp,69.0,Female,173.0,88.0,29.4,141.6,51.6,80.6,99.2,120.3,178.7,13.5,No,Yes,4.0,No,No,No,2,Public,No,No,Benign,Chemotherapy,,Normal,1.2,27.8,0,0,0,1,0,0,0,1
+110.0,Nicole Castro,21.0,Female,167.0,94.0,33.7,138.9,84.7,52.8,100.6,98.9,225.6,10.3,Yes,No,5.0,No,No,No,2,Uninsured,No,No,Benign,Surgery,Pollen,Normal,7.21,44.9,1,0,1,0,0,0,0,2
+111.0,Mary Garcia,40.0,Male,167.0,85.0,30.5,129.7,62.2,74.0,97.7,107.0,228.6,13.9,No,No,1.0,No,No,No,3,Public,No,No,Benign,,,Normal,4.17,39.9,0,1,0,0,0,0,0,1
+112.0,Jeremy Scott,32.0,Male,154.0,58.0,24.5,141.4,74.0,60.2,99.5,134.9,184.3,13.8,No,No,4.0,No,No,No,1,Uninsured,No,No,Unknown,Chemotherapy,Pollen,Normal,6.81,37.5,0,1,0,0,0,0,0,2
+113.0,David Maxwell,60.0,Female,179.0,72.0,22.5,102.4,88.0,65.6,98.4,118.8,136.5,16.4,No,No,4.0,Yes,No,No,3,Public,No,No,Benign,Chemotherapy,,Normal,6.28,37.1,0,0,0,0,1,0,0,1
+114.0,Mary Edwards,46.0,Male,169.0,75.0,26.3,127.0,81.4,76.1,98.3,94.9,191.7,14.0,Yes,Yes,7.0,No,No,No,1,Private,No,No,Benign,,Penicillin,Normal,1.63,30.7,0,1,1,1,0,0,0,0
+115.0,Lauren Pearson,53.0,Female,168.0,84.0,29.8,117.5,67.2,76.3,97.4,140.6,224.9,13.2,No,No,3.0,No,No,No,1,Private,Yes,No,Benign,,Seafood,Normal,5.15,72.5,1,0,0,0,0,0,0,0
+117.0,William Torres,49.0,Female,173.0,64.0,21.4,117.7,57.0,69.0,98.0,161.6,152.1,14.2,No,No,3.0,No,Yes,Yes,2,Public,No,No,Benign,,Penicillin,Normal,5.6,41.5,0,0,0,0,0,1,1,1
+118.0,Kevin Mayo,76.0,Female,162.0,76.0,29.0,112.3,97.3,73.7,99.6,48.8,182.9,12.5,No,No,3.0,No,No,No,5,Public,No,No,Benign,,,Normal,7.38,32.9,0,0,0,0,0,0,0,1
+119.0,Rebecca Rodriguez DVM,45.0,Female,166.0,82.0,29.8,130.8,76.9,64.7,95.8,81.2,184.4,16.3,Yes,No,1.0,Yes,No,No,0,Public,No,No,Benign,,Seafood,Normal,0.81,28.0,0,0,1,0,1,0,0,1
+120.0,Tara Richardson,83.0,Male,181.0,97.0,29.6,137.5,96.8,72.2,100.4,98.8,254.2,14.4,No,No,0.0,Yes,No,No,6,Private,No,No,Benign,,Pollen,Normal,5.16,54.5,1,1,0,0,1,0,0,0
+121.0,Robert Huerta,59.0,Female,171.0,86.0,29.4,106.6,72.1,75.3,100.2,95.6,198.6,14.0,No,No,10.0,Yes,No,No,1,Public,No,No,Malignant,Surgery,,Normal,6.18,28.9,0,0,0,0,1,0,0,1
+122.0,Richard Carpenter,62.0,Male,156.0,87.0,35.7,118.8,72.1,68.8,98.7,130.2,163.7,14.4,No,Yes,5.0,Yes,Yes,No,2,Private,No,No,Benign,,Penicillin,Normal,2.95,38.4,0,1,0,1,1,1,0,0
+123.0,Nicholas Romero,79.0,Male,179.0,76.0,23.7,98.8,68.5,48.4,98.3,68.3,222.3,11.9,No,No,1.0,No,No,No,4,Private,No,No,Benign,Immunotherapy,Dust,Abnormal,9.53,43.6,1,1,0,0,0,0,0,0
+124.0,Steven Campbell,74.0,Female,163.0,96.0,36.1,70.0,93.1,74.0,99.2,107.8,183.8,12.9,No,Yes,3.0,No,Yes,No,3,Uninsured,No,No,Benign,,Peanuts,Abnormal,5.2,40.4,0,0,0,1,0,1,0,2
+125.0,Amanda Winters,23.0,Female,189.0,81.0,22.7,124.0,69.4,74.4,102.0,82.7,151.0,14.0,No,No,1.0,No,Yes,No,3,Public,No,No,Unknown,,Seafood,Normal,1.83,10.9,0,0,0,0,0,1,0,1
+126.0,Joshua Jensen,45.0,Female,181.0,62.0,18.9,132.2,89.7,61.8,96.0,108.9,164.3,13.6,No,Yes,1.0,No,No,No,1,Private,No,No,Benign,Chemotherapy,Dust,Normal,1.08,21.8,0,0,0,1,0,0,0,0
+127.0,Diana Mata,45.0,Female,166.0,96.0,34.8,125.2,74.3,54.6,99.8,98.1,269.4,16.5,No,No,1.0,No,No,Yes,2,Public,No,No,Benign,Radiation Therapy,Seafood,Normal,5.42,45.6,1,0,0,0,0,0,1,1
+128.0,Lauren Jones,61.0,Male,183.0,85.0,25.4,81.0,50.4,87.7,97.2,102.8,215.4,14.4,No,Yes,2.0,No,No,Yes,4,Private,No,No,Benign,Radiation Therapy,Peanuts,Abnormal,3.75,43.6,1,1,0,1,0,0,1,0
+130.0,Allen Garcia,79.0,Female,179.0,68.0,21.2,75.6,62.3,67.3,98.2,84.7,190.0,14.0,No,No,3.0,No,No,No,2,Public,No,No,Unknown,,Dust,Normal,0.31,19.5,0,0,0,0,0,0,0,1
+131.0,April Perez,79.0,Male,175.0,79.0,25.8,147.4,80.5,56.4,98.0,108.6,211.7,16.1,No,No,2.0,No,Yes,No,2,Public,No,No,Benign,Surgery,Seafood,Abnormal,5.67,51.6,1,1,0,0,0,1,0,1
+132.0,Joshua Jennings,18.0,Male,162.0,82.0,31.2,98.3,62.1,60.1,98.6,128.3,211.2,14.8,No,No,9.0,No,Yes,No,1,Private,Yes,No,Benign,Surgery,,Abnormal,5.99,64.2,1,1,0,0,0,1,0,0
+133.0,Stacy Jackson,44.0,Male,164.0,78.0,29.0,145.1,93.9,85.6,96.9,82.1,211.7,14.0,No,No,2.0,Yes,No,No,1,Private,No,No,Benign,,,Normal,1.42,24.6,0,1,0,0,1,0,0,0
+134.0,Amanda Thornton,79.0,Male,180.0,80.0,24.7,138.9,78.6,71.7,100.1,73.9,204.6,14.0,No,No,5.0,No,Yes,No,4,Uninsured,No,No,Benign,Radiation Therapy,Penicillin,Normal,6.02,43.6,1,1,0,0,0,1,0,2
+135.0,Mrs. Jamie Pollard,20.0,Male,167.0,100.0,35.9,102.0,77.3,63.4,95.9,118.4,234.8,12.1,No,No,3.0,No,No,No,3,Public,No,No,Benign,Chemotherapy,Peanuts,Normal,9.52,37.7,0,1,0,0,0,0,0,1
+136.0,Tammie Stephens,44.0,Male,166.0,91.0,33.0,97.3,89.8,76.1,99.4,99.0,200.9,15.0,No,No,2.0,No,No,No,4,Uninsured,No,No,Benign,Surgery,,Normal,9.78,35.4,0,1,0,0,0,0,0,2
+138.0,William Nash,79.0,Male,174.0,89.0,29.4,103.1,79.7,88.0,96.8,72.8,175.5,13.0,Yes,Yes,3.0,No,No,No,3,Uninsured,No,No,Benign,,,Normal,8.07,48.6,1,1,1,1,0,0,0,2
+139.0,Yolanda Gray,54.0,Female,191.0,60.0,16.4,122.0,68.4,86.2,98.9,46.6,120.8,16.2,No,No,3.0,No,No,No,2,Private,No,No,Benign,Surgery,Seafood,Normal,2.09,19.0,0,0,0,0,0,0,0,0
+140.0,William Johnson,68.0,Male,159.0,81.0,32.0,110.3,53.4,64.4,96.3,84.0,281.1,11.5,No,No,2.0,No,Yes,No,3,Private,No,No,Malignant,Chemotherapy,Dust,Abnormal,1.56,40.7,0,1,0,0,0,1,0,0
+141.0,Todd Scott,61.0,Male,170.0,102.0,35.3,84.4,69.7,62.5,98.7,77.0,234.5,13.2,No,Yes,5.0,No,No,No,3,Public,Yes,No,Malignant,Immunotherapy,Dust,Normal,4.45,57.7,1,1,0,1,0,0,0,1
+142.0,Brandon Patterson,41.0,Female,184.0,72.0,21.3,75.4,70.7,38.6,96.5,97.6,166.8,16.1,No,No,3.0,No,No,No,0,Private,No,No,Benign,,,Normal,6.2,24.6,0,0,0,0,0,0,0,0
+143.0,Shelby Wilson,76.0,Male,169.0,62.0,21.7,124.5,81.6,52.2,99.3,80.9,188.7,14.6,Yes,No,2.0,No,Yes,Yes,1,Public,No,No,Benign,Immunotherapy,,Normal,8.51,47.9,1,1,1,0,0,1,1,1
+144.0,Julie Hudson,49.0,Female,175.0,65.0,21.2,108.8,74.8,53.9,97.2,122.2,174.5,13.9,Yes,Yes,3.0,No,No,No,3,Public,No,No,Benign,Surgery,,Normal,2.32,41.5,0,0,1,1,0,0,0,1
+145.0,Heather Perez,69.0,Female,159.0,59.0,23.3,108.9,90.3,71.6,97.9,91.4,261.7,14.5,No,No,4.0,No,Yes,No,2,Private,No,Yes,Benign,Chemotherapy,,Abnormal,4.8,50.6,1,0,0,0,0,1,0,0
+146.0,Nicholas Diaz,79.0,Male,174.0,63.0,20.8,133.9,70.8,66.1,99.0,104.5,143.2,14.4,No,No,4.0,No,Yes,No,1,Private,No,No,Benign,,Peanuts,Normal,6.47,41.6,1,1,0,0,0,1,0,0
+147.0,Megan Silva,75.0,Male,168.0,69.0,24.4,143.5,79.1,53.9,97.4,104.7,204.6,11.0,No,Yes,2.0,No,No,No,1,Public,No,No,Benign,Radiation Therapy,,Normal,4.46,49.0,1,1,0,1,0,0,0,1
+148.0,Beverly Johnson,69.0,Female,180.0,54.0,16.7,114.5,97.8,66.6,98.5,105.8,195.7,13.3,No,No,4.0,No,No,No,1,Private,No,No,Benign,Radiation Therapy,,Normal,4.54,37.9,0,0,0,0,0,0,0,0
+149.0,Cheryl Barber,29.0,Female,182.0,75.0,22.6,113.2,85.1,76.1,96.3,99.3,233.1,17.2,Yes,No,5.0,No,No,No,2,Private,No,No,Benign,,,Normal,2.25,38.6,0,0,1,0,0,0,0,0
+150.0,Natalie Cross,56.0,Male,196.0,89.0,23.2,130.0,79.1,76.3,99.5,115.3,195.8,12.7,Yes,Yes,3.0,No,Yes,No,3,Public,No,No,Benign,,,Normal,9.87,51.2,1,1,1,1,0,1,0,1
+151.0,Emily Morris,19.0,Female,176.0,61.0,19.7,92.9,71.0,47.2,101.2,76.1,129.7,13.4,No,No,2.0,No,No,No,1,Private,No,No,Benign,Immunotherapy,,Normal,4.75,18.7,0,0,0,0,0,0,0,0
+152.0,Samantha Mendoza,20.0,Male,173.0,98.0,32.7,124.5,70.5,68.5,102.8,142.0,190.0,12.9,No,No,2.0,No,Yes,No,0,Private,No,No,Benign,Immunotherapy,,Normal,5.33,34.7,0,1,0,0,0,1,0,0
+153.0,Nathan Gutierrez,73.0,Female,172.0,83.0,28.1,131.0,67.2,53.4,98.7,92.9,161.1,13.8,No,No,2.0,No,No,No,1,Public,No,No,Benign,Radiation Therapy,,Normal,2.19,23.7,0,0,0,0,0,0,0,1
+154.0,Mrs. Leslie Rivera,76.0,Male,166.0,90.0,32.7,133.6,71.9,80.8,99.8,60.7,203.2,12.8,No,No,2.0,No,No,No,1,Private,Yes,No,Benign,Chemotherapy,,Normal,5.14,62.9,1,1,0,0,0,0,0,0
+155.0,Miguel Clements,19.0,Female,173.0,65.0,21.7,81.3,91.3,79.4,95.9,105.6,257.4,15.0,No,No,4.0,Yes,No,No,1,Private,No,No,Benign,Chemotherapy,,Abnormal,2.55,40.1,0,0,0,0,1,0,0,0
+156.0,Kathleen Burton,19.0,Female,167.0,88.0,31.6,104.8,76.7,59.2,100.9,74.5,130.4,14.4,Yes,No,2.0,No,No,Yes,2,Private,No,No,Benign,Surgery,Penicillin,Normal,2.02,25.5,0,0,1,0,0,0,1,0
+157.0,Janet Harrison,71.0,Female,172.0,59.0,19.9,102.4,59.8,60.8,99.8,120.0,168.0,15.5,No,Yes,3.0,No,No,No,1,Public,No,No,Benign,Chemotherapy,Pollen,Normal,2.76,33.0,0,0,0,1,0,0,0,1
+158.0,Timothy Richardson,18.0,Female,183.0,88.0,26.3,122.0,106.5,64.5,97.9,166.3,177.9,11.9,No,No,2.0,No,No,No,3,Private,Yes,No,Benign,,Penicillin,Normal,0.03,39.3,0,0,0,0,0,0,0,0
+159.0,Kimberly Weiss,36.0,Male,160.0,78.0,30.5,129.6,84.8,43.0,100.5,76.4,184.7,13.3,Yes,No,4.0,No,No,No,0,Public,No,No,Benign,Chemotherapy,Penicillin,Abnormal,5.7,38.5,0,1,1,0,0,0,0,1
+160.0,Jason Jarvis MD,19.0,Male,181.0,83.0,25.3,149.9,58.9,74.0,98.2,110.0,229.6,13.5,No,Yes,6.0,No,No,No,7,Private,No,No,Benign,Surgery,Dust,Abnormal,3.87,34.1,0,1,0,1,0,0,0,0
+161.0,Brian Love,70.0,Male,183.0,57.0,17.0,110.1,73.4,66.7,97.9,47.3,193.1,14.9,No,No,5.0,No,No,No,2,Public,No,No,Benign,Surgery,,Normal,8.99,31.5,0,1,0,0,0,0,0,1
+162.0,Scott Fernandez,61.0,Male,169.0,62.0,21.7,110.0,81.7,81.6,99.3,113.6,216.6,12.4,No,Yes,4.0,No,No,No,1,Private,No,No,Benign,Immunotherapy,,Normal,0.41,33.6,0,1,0,1,0,0,0,0
+163.0,Paula Cohen,49.0,Female,149.0,84.0,37.8,143.0,105.6,56.8,97.0,73.4,175.0,15.8,No,No,3.0,No,No,No,3,Private,No,No,Benign,Radiation Therapy,,Normal,0.43,12.8,0,0,0,0,0,0,0,0
+164.0,David Robinson,49.0,Male,164.0,61.0,22.7,125.9,63.4,62.6,100.1,81.3,209.2,16.4,No,No,5.0,No,Yes,No,1,Public,Yes,No,Benign,,,Normal,8.86,56.5,1,1,0,0,0,1,0,1
+165.0,Eric Adams,72.0,Male,183.0,82.0,24.5,145.4,94.6,51.9,97.0,67.0,231.1,12.0,No,No,0.0,No,Yes,No,2,Public,No,No,Malignant,Surgery,Penicillin,Normal,1.27,30.8,0,1,0,0,0,1,0,1
+166.0,Philip Barrett,73.0,Female,170.0,54.0,18.7,125.8,101.0,57.9,97.0,122.0,170.7,13.0,Yes,Yes,4.0,No,No,No,0,Public,Yes,No,Malignant,,,Normal,0.02,60.2,1,0,1,1,0,0,0,1
+167.0,Lisa Boyd,34.0,Female,160.0,88.0,34.4,96.9,70.6,55.8,97.2,130.2,231.3,12.9,Yes,No,2.0,Yes,No,No,3,Public,Yes,No,Benign,Immunotherapy,Dust,Normal,1.79,73.4,1,0,1,0,1,0,0,1
+168.0,Larry Rodriguez,55.0,Female,165.0,57.0,20.9,93.3,75.8,82.0,99.7,100.7,202.1,19.3,No,Yes,3.0,Yes,No,No,2,Private,No,No,Benign,Chemotherapy,,Normal,8.24,45.9,1,0,0,1,1,0,0,0
+169.0,Chloe Love,41.0,Female,178.0,83.0,26.2,89.0,64.5,61.6,97.7,74.1,241.8,13.1,Yes,No,4.0,No,No,No,4,Private,No,No,Benign,Immunotherapy,Dust,Normal,8.03,59.6,1,0,1,0,0,0,0,0
+170.0,Rickey Turner,28.0,Male,175.0,84.0,27.4,133.2,76.9,71.5,96.6,147.7,191.9,17.4,No,No,6.0,No,No,No,0,Uninsured,No,No,Benign,Surgery,Pollen,Normal,3.4,31.8,0,1,0,0,0,0,0,2
+171.0,Abigail Lee,33.0,Male,168.0,65.0,23.0,143.8,79.5,65.4,97.7,77.5,215.2,11.5,Yes,No,4.0,No,No,No,3,Uninsured,No,No,Unknown,,Pollen,Normal,6.68,47.8,1,1,1,0,0,0,0,2
+173.0,Kimberly Crawford,20.0,Female,166.0,79.0,28.7,136.9,96.4,68.0,96.8,113.8,196.2,12.6,Yes,No,3.0,No,Yes,No,2,Public,No,No,Benign,Chemotherapy,,Normal,9.05,42.7,1,0,1,0,0,1,0,1
+174.0,Kyle Mason,37.0,Male,161.0,67.0,25.8,143.3,68.8,77.2,96.9,66.9,210.4,12.3,No,Yes,1.0,No,No,Yes,1,Public,No,No,Benign,Chemotherapy,Peanuts,Normal,0.56,20.4,0,1,0,1,0,0,1,1
+175.0,Linda Duncan,76.0,Female,186.0,60.0,17.3,108.4,50.5,55.5,101.8,129.7,221.5,13.5,Yes,No,5.0,No,No,No,2,Private,No,No,Benign,Radiation Therapy,,Abnormal,8.13,72.9,1,0,1,0,0,0,0,0
+176.0,Melinda Nichols,53.0,Male,167.0,46.0,16.5,96.9,79.7,79.7,97.3,88.6,150.0,12.6,No,No,4.0,Yes,No,No,3,Private,No,No,Benign,,Dust,Normal,1.71,17.6,0,1,0,0,1,0,0,0
+177.0,Jesse Short,36.0,Male,182.0,80.0,24.2,137.0,84.4,59.8,98.1,118.1,257.3,12.4,No,No,2.0,No,No,No,3,Private,No,No,Malignant,Chemotherapy,,Normal,3.92,48.2,1,1,0,0,0,0,0,0
+178.0,Stephanie Andrews,84.0,Female,185.0,52.0,15.2,128.4,83.7,64.2,98.0,142.0,125.6,16.3,No,Yes,4.0,No,Yes,No,4,Uninsured,No,No,Benign,Immunotherapy,,Normal,1.92,40.5,0,0,0,1,0,1,0,2
+180.0,Michael Anderson,37.0,Female,166.0,71.0,25.8,127.7,81.9,62.0,99.5,83.0,196.2,15.9,Yes,No,3.0,No,No,No,2,Public,Yes,No,Benign,Immunotherapy,,Normal,6.78,58.7,1,0,1,0,0,0,0,1
+181.0,Christopher Castro,69.0,Male,174.0,85.0,28.1,126.5,102.7,70.5,100.0,97.7,216.5,15.0,No,No,2.0,No,Yes,No,2,Public,No,No,Benign,Radiation Therapy,,Normal,5.48,41.2,0,1,0,0,0,1,0,1
+182.0,Chris Williams,50.0,Female,170.0,70.0,24.2,145.7,85.7,66.2,98.1,146.1,263.0,14.2,No,No,0.0,No,Yes,No,2,Private,No,No,Benign,Radiation Therapy,,Normal,6.98,61.8,1,0,0,0,0,1,0,0
+183.0,Michelle Le,57.0,Male,161.0,70.0,27.0,145.9,74.4,71.6,96.7,80.2,125.7,13.0,No,No,1.0,No,No,No,1,Private,Yes,No,Benign,Surgery,Peanuts,Normal,6.4,48.4,1,1,0,0,0,0,0,0
+184.0,Steven Lewis,56.0,Male,173.0,86.0,28.7,130.9,72.5,41.4,100.5,82.2,179.7,12.1,No,Yes,3.0,No,No,Yes,3,Public,No,No,Benign,Chemotherapy,Penicillin,Normal,7.76,28.2,0,1,0,1,0,0,1,1
+185.0,Thomas Zimmerman,18.0,Female,158.0,80.0,32.0,136.9,77.5,48.0,98.5,114.3,114.9,14.7,No,Yes,3.0,No,No,Yes,2,Private,No,No,Malignant,Chemotherapy,Peanuts,Normal,2.39,19.4,0,0,0,1,0,0,1,0
+186.0,Christian Marshall,28.0,Female,182.0,80.0,24.2,130.3,104.6,77.4,101.2,82.7,201.3,11.7,No,No,7.0,Yes,Yes,No,3,Private,No,No,Benign,Chemotherapy,Dust,Normal,4.29,29.5,0,0,0,0,1,1,0,0
+187.0,Christian Morton,74.0,Female,165.0,82.0,30.1,110.8,77.3,82.4,95.2,104.6,210.9,12.0,No,No,3.0,No,No,No,1,Private,Yes,No,Benign,Surgery,,Normal,1.52,60.0,1,0,0,0,0,0,0,0
+188.0,Robert Reyes,67.0,Female,172.0,52.0,17.6,135.1,79.7,59.1,98.9,53.5,263.6,16.3,No,No,2.0,No,No,No,0,Public,No,No,Benign,Surgery,Penicillin,Normal,4.3,48.7,1,0,0,0,0,0,0,1
+189.0,Katie Greene,40.0,Female,173.0,86.0,28.7,92.1,72.8,67.1,101.5,166.4,204.8,17.8,Yes,No,3.0,No,No,No,1,Private,No,No,Benign,Radiation Therapy,Peanuts,Normal,7.02,64.4,1,0,1,0,0,0,0,0
+190.0,Joseph Watkins,48.0,Female,167.0,84.0,30.1,141.1,96.5,73.5,98.1,59.6,241.8,14.8,No,No,5.0,No,No,Yes,0,Private,Yes,No,Benign,Radiation Therapy,Penicillin,Normal,6.91,66.3,1,0,0,0,0,0,1,0
+191.0,Maria Dean,59.0,Male,176.0,60.0,19.4,96.1,109.4,78.3,98.3,90.3,223.4,16.2,Yes,No,4.0,No,No,No,3,Public,Yes,No,Benign,Radiation Therapy,,Abnormal,7.09,73.9,1,1,1,0,0,0,0,1
+193.0,Sarah Koch,33.0,Male,179.0,74.0,23.1,103.1,81.2,59.4,97.8,157.4,143.6,11.3,No,No,0.0,No,No,No,1,Private,No,No,Benign,Radiation Therapy,,Normal,6.62,37.8,0,1,0,0,0,0,0,0
+194.0,Sarah Smith,77.0,Male,157.0,73.0,29.6,131.1,80.6,66.0,98.1,60.3,211.0,15.2,No,No,4.0,No,Yes,No,1,Private,No,No,Benign,Immunotherapy,,Normal,3.67,39.1,0,1,0,0,0,1,0,0
+195.0,Eric Gibson,19.0,Female,171.0,80.0,27.4,119.3,44.2,78.4,98.1,159.5,140.3,15.1,No,No,9.0,Yes,No,No,1,Public,No,No,Benign,Chemotherapy,,Normal,9.44,34.5,0,0,0,0,1,0,0,1
+196.0,Christine Williams,18.0,Female,189.0,96.0,26.9,88.1,91.2,100.0,97.7,122.7,251.8,14.1,No,Yes,1.0,No,Yes,No,1,Uninsured,No,No,Benign,,,Normal,3.43,42.5,1,0,0,1,0,1,0,2
+197.0,Todd Larsen,65.0,Male,160.0,91.0,35.5,128.4,82.0,67.3,100.4,112.5,193.5,13.5,No,Yes,2.0,No,Yes,No,2,Public,No,No,Benign,Chemotherapy,,Normal,6.03,38.3,0,1,0,1,0,1,0,1
+198.0,Kenneth Brown,29.0,Male,163.0,55.0,20.7,108.4,86.4,53.1,99.3,70.5,247.8,15.9,No,No,2.0,No,Yes,No,0,Private,No,No,Benign,,,Normal,7.5,41.8,1,1,0,0,0,1,0,0
+199.0,Joy Aguilar,54.0,Female,175.0,84.0,27.4,137.6,69.3,74.8,99.0,117.1,180.8,12.0,Yes,No,3.0,No,No,No,1,Private,Yes,No,Benign,,Seafood,Normal,9.06,70.7,1,0,1,0,0,0,0,0
+200.0,Lauren Wilson,49.0,Male,172.0,95.0,32.1,120.0,74.2,85.9,99.8,78.3,210.8,12.5,Yes,No,4.0,Yes,No,No,4,Private,No,No,Benign,Immunotherapy,Dust,Normal,4.38,49.7,1,1,1,0,1,0,0,0
+201.0,Sean Flores,26.0,Female,174.0,81.0,26.8,127.9,73.8,71.3,98.2,138.0,208.4,12.0,No,No,6.0,No,No,No,1,Private,No,No,Benign,,,Normal,3.6,41.9,1,0,0,0,0,0,0,0
+202.0,Morgan Harrison,36.0,Female,175.0,91.0,29.7,100.8,95.3,59.1,97.4,70.9,198.2,14.2,Yes,Yes,8.0,No,No,No,4,Private,Yes,No,Benign,Chemotherapy,Penicillin,Normal,4.3,56.4,1,0,1,1,0,0,0,0
+203.0,Michelle Williams,65.0,Female,176.0,105.0,33.9,108.2,74.3,81.5,97.7,96.6,182.7,11.8,No,Yes,2.0,Yes,No,No,1,Private,No,No,Unknown,Chemotherapy,Pollen,Abnormal,3.24,25.0,0,0,0,1,1,0,0,0
+204.0,Heidi Doyle,20.0,Female,181.0,90.0,27.5,110.8,111.2,78.0,98.6,83.3,215.7,12.6,No,No,6.0,Yes,No,Yes,1,Private,No,No,Malignant,Radiation Therapy,Penicillin,Normal,6.54,29.7,0,0,0,0,1,0,1,0
+205.0,Paula Williams,37.0,Female,174.0,79.0,26.1,137.1,86.5,57.7,97.0,70.4,163.0,12.6,No,No,4.0,No,No,No,1,Public,No,No,Benign,Radiation Therapy,Pollen,Normal,9.33,23.7,0,0,0,0,0,0,0,1
+206.0,Katie Lane,41.0,Male,168.0,91.0,32.2,153.5,60.9,74.6,97.8,122.2,151.6,13.5,No,No,8.0,No,No,Yes,1,Public,No,No,Benign,Radiation Therapy,,Normal,1.26,21.4,0,1,0,0,0,0,1,1
+207.0,Joshua Burton,71.0,Female,177.0,77.0,24.6,103.9,78.1,82.0,97.8,116.1,249.7,11.0,No,Yes,0.0,Yes,No,No,1,Public,No,No,Malignant,Surgery,Dust,Normal,5.61,59.7,1,0,0,1,1,0,0,1
+208.0,Steven Mclaughlin,50.0,Female,189.0,75.0,21.0,141.5,70.2,84.2,101.8,136.3,229.1,14.2,No,No,1.0,No,Yes,No,0,Uninsured,No,No,Benign,Chemotherapy,,Normal,8.98,51.8,1,0,0,0,0,1,0,2
+209.0,Joshua Frank,41.0,Male,169.0,70.0,24.5,76.6,47.1,69.2,94.4,46.6,202.6,16.5,No,No,6.0,Yes,No,No,2,Private,No,No,Benign,Surgery,,Normal,1.0,22.6,0,1,0,0,1,0,0,0
+210.0,John Johnson,53.0,Female,160.0,98.0,38.3,96.1,104.0,65.7,98.3,131.9,266.6,14.3,Yes,No,2.0,No,No,No,0,Uninsured,No,No,Benign,Radiation Therapy,Pollen,Normal,4.94,77.3,1,0,1,0,0,0,0,2
+211.0,James Brown,55.0,Female,181.0,63.0,19.2,100.8,90.5,84.7,101.2,175.2,189.3,17.1,No,No,3.0,No,Yes,Yes,3,Public,Yes,No,Benign,Immunotherapy,Pollen,Normal,8.65,62.9,1,0,0,0,0,1,1,1
+212.0,Jessica Brown,42.0,Female,169.0,98.0,34.3,92.9,88.0,55.5,98.8,86.5,252.9,16.7,No,Yes,1.0,No,No,No,1,Private,Yes,No,Benign,,,Normal,9.0,64.9,1,0,0,1,0,0,0,0
+213.0,Jeffrey Trujillo DDS,35.0,Female,148.0,82.0,37.4,88.3,82.5,75.3,99.7,156.9,207.0,15.6,No,No,3.0,No,No,No,4,Public,No,Yes,Benign,Surgery,Pollen,Normal,5.14,48.2,1,0,0,0,0,0,0,1
+214.0,Rebecca Sanchez,83.0,Female,178.0,54.0,17.0,128.3,59.3,53.6,98.7,92.1,159.0,14.1,No,No,1.0,No,No,No,1,Private,No,No,Benign,Surgery,,Abnormal,0.25,20.3,0,0,0,0,0,0,0,0
+215.0,Christopher Collins,71.0,Female,165.0,81.0,29.8,115.7,72.7,82.8,97.6,58.8,273.9,14.0,No,No,2.0,No,No,No,2,Public,No,No,Benign,Surgery,Peanuts,Normal,1.06,39.9,0,0,0,0,0,0,0,1
+216.0,Erin Clark,52.0,Female,169.0,43.0,15.1,127.6,92.6,66.9,95.2,90.8,239.6,15.5,No,No,4.0,No,Yes,Yes,4,Public,No,No,Benign,,,Normal,5.87,37.2,0,0,0,0,0,1,1,1
+217.0,John Ward,78.0,Female,173.0,84.0,28.1,133.8,64.2,85.2,98.9,131.4,195.2,13.2,No,Yes,6.0,Yes,No,No,0,Private,Yes,No,Benign,Chemotherapy,,Normal,1.24,57.1,1,0,0,1,1,0,0,0
+218.0,Savannah Jones,58.0,Female,172.0,88.0,29.7,125.3,42.0,75.9,97.4,74.9,229.1,10.2,No,No,2.0,No,Yes,No,2,Public,No,No,Benign,,Seafood,Normal,1.49,28.1,0,0,0,0,0,1,0,1
+219.0,Spencer Rose,50.0,Female,177.0,66.0,21.1,133.2,76.6,55.3,97.4,82.0,183.9,15.0,Yes,No,2.0,No,No,No,2,Private,No,No,Benign,Surgery,,Normal,7.72,41.8,1,0,1,0,0,0,0,0
+220.0,Jamie Cook,50.0,Female,166.0,77.0,27.9,118.6,77.9,87.1,97.9,117.8,233.2,11.7,No,Yes,2.0,No,No,No,1,Private,No,No,Benign,Radiation Therapy,,Normal,7.51,44.8,1,0,0,1,0,0,0,0
+221.0,Scott Hickman,31.0,Male,175.0,104.0,34.0,96.3,82.0,88.6,101.2,100.1,104.4,12.1,No,Yes,4.0,No,Yes,No,3,Private,Yes,No,Benign,,,Normal,8.43,50.3,1,1,0,1,0,1,0,0
+222.0,Cynthia Myers,38.0,Female,167.0,67.0,24.0,141.2,90.9,80.6,102.2,117.5,159.2,14.0,Yes,No,3.0,No,No,No,3,Uninsured,No,No,Benign,,,Normal,1.06,35.1,0,0,1,0,0,0,0,2
+223.0,Miguel Mosley,65.0,Female,177.0,59.0,18.8,108.2,89.6,60.9,98.9,107.1,239.2,13.8,No,Yes,6.0,No,Yes,No,2,Public,No,No,Malignant,Immunotherapy,Peanuts,Normal,1.98,39.2,0,0,0,1,0,1,0,1
+224.0,Kenneth Rodriguez,37.0,Male,176.0,97.0,31.3,101.3,83.9,66.3,97.9,114.4,190.0,11.2,Yes,No,3.0,No,No,No,4,Private,No,No,Benign,Chemotherapy,,Normal,8.33,46.7,1,1,1,0,0,0,0,0
+225.0,Paige Fischer,25.0,Female,161.0,104.0,40.1,116.4,97.9,71.7,96.8,87.0,208.3,14.3,No,No,2.0,No,Yes,No,1,Private,No,No,Benign,,Seafood,Normal,7.21,30.9,0,0,0,0,0,1,0,0
+226.0,Lydia Barnett,24.0,Male,181.0,75.0,22.9,101.7,57.2,61.6,99.3,107.0,146.1,15.9,No,No,2.0,No,No,No,2,Private,No,No,Malignant,Radiation Therapy,,Normal,8.06,28.6,0,1,0,0,0,0,0,0
+227.0,Amanda Martin,84.0,Male,165.0,90.0,33.1,111.7,87.6,90.3,101.3,72.2,273.9,11.7,No,No,5.0,No,No,No,4,Public,No,No,Benign,Surgery,,Abnormal,9.9,54.8,1,1,0,0,0,0,0,1
+228.0,David Austin,34.0,Female,178.0,95.0,30.0,126.9,89.4,71.7,98.2,138.7,247.6,16.5,No,Yes,3.0,No,No,No,1,Private,No,No,Benign,Chemotherapy,,Abnormal,8.64,58.0,1,0,0,1,0,0,0,0
+229.0,Marisa Allen,50.0,Male,174.0,64.0,21.1,127.0,61.4,37.6,95.0,81.0,192.0,10.9,Yes,Yes,7.0,No,No,No,2,Public,No,No,Benign,Surgery,Penicillin,Normal,5.2,41.8,1,1,1,1,0,0,0,1
+230.0,Evan Douglas,65.0,Female,188.0,68.0,19.2,102.0,57.5,74.1,99.6,133.9,183.8,18.2,No,No,2.0,No,No,No,0,Public,No,No,Benign,,,Normal,3.11,39.6,0,0,0,0,0,0,0,1
+231.0,Vanessa Davis,76.0,Female,168.0,93.0,33.0,110.2,68.8,65.8,100.1,93.0,241.2,13.2,No,No,4.0,Yes,No,No,0,Public,Yes,No,Benign,Radiation Therapy,,Normal,5.7,72.9,1,0,0,0,1,0,0,1
+232.0,Angela Barrett,39.0,Female,167.0,100.0,35.9,141.5,70.1,69.1,96.2,106.1,279.3,14.3,No,No,2.0,No,No,No,2,Public,No,No,Benign,,,Normal,6.39,52.2,1,0,0,0,0,0,0,1
+233.0,Joseph Aguilar,47.0,Male,170.0,83.0,28.7,129.9,91.3,65.6,98.9,85.2,238.2,10.2,No,No,2.0,No,No,No,3,Public,No,No,Benign,Chemotherapy,Dust,Normal,3.35,31.1,0,1,0,0,0,0,0,1
+234.0,Amy Stewart,55.0,Male,167.0,62.0,22.2,161.5,70.8,79.7,99.3,69.5,286.9,13.9,No,Yes,2.0,No,No,No,0,Public,Yes,No,Malignant,Chemotherapy,,Normal,7.71,67.9,1,1,0,1,0,0,0,1
+235.0,Marissa Nguyen,68.0,Female,178.0,105.0,33.1,143.6,67.2,83.4,98.5,47.7,163.1,14.5,No,Yes,4.0,No,No,No,5,Private,No,No,Benign,Immunotherapy,Seafood,Normal,0.93,18.8,0,0,0,1,0,0,0,0
+236.0,Jennifer Hernandez,71.0,Female,154.0,67.0,28.3,142.9,70.8,73.4,97.4,68.3,167.2,13.8,No,No,3.0,No,No,No,1,Public,No,No,Benign,,,Normal,7.79,31.7,0,0,0,0,0,0,0,1
+237.0,Michael Stewart,25.0,Female,159.0,70.0,27.7,92.2,96.8,65.9,100.1,90.3,152.4,12.9,No,No,6.0,No,Yes,No,5,Public,No,Yes,Benign,,,Normal,0.32,6.8,0,0,0,0,0,1,0,1
+238.0,Daniel Scott,44.0,Male,159.0,80.0,31.6,135.3,80.2,69.5,98.0,106.4,217.7,12.1,Yes,No,4.0,Yes,No,No,2,Private,No,No,Benign,,,Normal,4.98,58.3,1,1,1,0,1,0,0,0
+239.0,James Johnson,44.0,Female,180.0,98.0,30.2,118.9,77.3,70.2,96.4,130.3,207.0,16.3,No,Yes,2.0,No,No,No,5,Public,Yes,Yes,Benign,Chemotherapy,,Normal,8.61,70.4,1,0,0,1,0,0,0,1
+240.0,Heather Bradley,38.0,Female,187.0,88.0,25.2,109.0,78.3,60.4,95.5,86.6,193.9,14.1,No,Yes,2.0,Yes,Yes,No,2,Public,No,No,Benign,,Penicillin,Normal,0.86,11.5,0,0,0,1,1,1,0,1
+241.0,Taylor Barnett,47.0,Female,169.0,81.0,28.4,123.4,99.4,76.9,100.5,73.5,232.4,17.1,No,No,4.0,No,No,No,2,Private,No,No,Malignant,,Pollen,Normal,5.18,36.1,0,0,0,0,0,0,0,0
+242.0,Connie Foster,45.0,Male,168.0,82.0,29.1,138.9,68.8,75.5,99.5,56.7,249.3,12.9,No,No,5.0,No,No,No,5,Public,No,No,Benign,Chemotherapy,,Abnormal,1.59,35.4,0,1,0,0,0,0,0,1
+243.0,Christine Keller,81.0,Female,171.0,76.0,26.0,130.0,99.7,88.5,98.7,114.4,139.0,13.1,No,No,1.0,No,No,No,0,Public,No,No,Benign,Surgery,,Normal,8.95,42.1,1,0,0,0,0,0,0,1
+244.0,Kayla Willis,78.0,Female,182.0,83.0,25.1,102.4,83.2,85.1,97.9,141.5,176.1,15.6,No,No,1.0,No,Yes,No,4,Private,No,No,Unknown,Surgery,,Normal,8.32,48.4,1,0,0,0,0,1,0,0
+245.0,Vanessa Mccoy,65.0,Female,161.0,37.0,14.3,134.8,77.6,61.8,97.8,138.0,232.8,10.8,No,No,4.0,No,Yes,No,2,Private,Yes,No,Benign,Surgery,,Normal,9.34,75.3,1,0,0,0,0,1,0,0
+246.0,Thomas Davidson,36.0,Male,172.0,71.0,24.0,107.2,117.5,79.8,97.0,121.3,181.3,11.6,Yes,No,3.0,No,No,No,4,Private,No,No,Benign,,,Abnormal,8.75,46.5,1,1,1,0,0,0,0,0
+248.0,Danny Anderson,52.0,Female,175.0,58.0,18.9,113.9,74.7,78.4,95.4,150.9,240.7,11.7,Yes,Yes,2.0,No,No,No,4,Private,Yes,No,Benign,Immunotherapy,,Normal,1.85,87.8,1,0,1,1,0,0,0,0
+249.0,Andrew Brown,81.0,Male,172.0,81.0,27.4,115.6,61.5,63.8,97.5,110.0,148.4,10.4,No,No,4.0,No,No,No,3,Private,No,No,Benign,Radiation Therapy,Seafood,Normal,3.03,36.1,0,1,0,0,0,0,0,0
+250.0,Cynthia Harrell,66.0,Female,180.0,72.0,22.2,135.3,94.3,57.7,98.1,119.4,187.9,17.7,No,Yes,4.0,No,No,No,6,Public,No,No,Malignant,Surgery,,Normal,4.97,38.4,0,0,0,1,0,0,0,1
+253.0,Joseph Stafford,47.0,Male,163.0,68.0,25.6,83.6,98.4,49.0,99.8,79.5,231.3,14.1,No,No,5.0,No,No,No,1,Private,Yes,No,Benign,Surgery,,Normal,2.27,47.9,1,1,0,0,0,0,0,0
+254.0,Sydney Bryant,63.0,Female,152.0,73.0,31.6,108.0,77.0,67.9,100.6,99.7,177.2,8.4,No,No,6.0,No,No,No,1,Private,Yes,Yes,Benign,,,Normal,1.28,38.7,0,0,0,0,0,0,0,0
+255.0,Travis Gordon,23.0,Male,175.0,74.0,24.2,127.4,74.5,71.0,100.2,101.8,256.3,13.5,No,Yes,1.0,No,Yes,No,3,Private,Yes,No,Benign,,,Normal,4.83,67.9,1,1,0,1,0,1,0,0
+256.0,Mr. John Mcmillan,54.0,Female,184.0,68.0,20.1,131.7,54.9,65.6,99.3,157.8,195.0,14.9,No,No,4.0,No,No,No,3,Uninsured,No,No,Benign,Surgery,,Normal,1.58,32.4,0,0,0,0,0,0,0,2
+257.0,Sean Duncan,41.0,Male,169.0,78.0,27.3,118.0,110.5,51.0,98.6,102.4,226.9,14.7,Yes,No,4.0,No,No,Yes,1,Uninsured,No,No,Benign,Radiation Therapy,Seafood,Normal,6.94,57.6,1,1,1,0,0,0,1,2
+258.0,Jerry Rivera,63.0,Female,180.0,64.0,19.8,118.9,87.0,60.2,97.1,135.4,229.8,15.8,No,No,4.0,No,No,No,2,Public,No,No,Benign,Surgery,,Normal,5.76,54.8,1,0,0,0,0,0,0,1
+259.0,Amanda Jones,70.0,Male,186.0,58.0,16.8,128.2,72.6,74.7,99.7,86.9,174.9,13.2,No,No,6.0,No,No,No,3,Public,No,No,Benign,,Peanuts,Normal,7.41,31.5,0,1,0,0,0,0,0,1
+260.0,Michael Kaiser,77.0,Female,183.0,84.0,25.1,115.4,99.9,77.0,101.1,90.6,117.9,15.4,No,Yes,3.0,No,No,No,5,Private,No,No,Malignant,,,Normal,0.63,20.0,0,0,0,1,0,0,0,0
+261.0,Michael Miller,80.0,Female,186.0,84.0,24.3,147.9,65.4,69.8,99.1,60.1,214.4,12.6,No,Yes,3.0,No,Yes,Yes,0,Private,Yes,No,Benign,Radiation Therapy,Dust,Normal,9.65,63.8,1,0,0,1,0,1,1,0
+262.0,Randy Gray,49.0,Female,177.0,63.0,20.1,136.8,86.1,83.9,101.5,77.7,202.9,11.2,No,No,5.0,No,No,No,1,Private,No,No,Benign,Immunotherapy,,Normal,0.0,21.5,0,0,0,0,0,0,0,0
+263.0,Darius Lee,50.0,Female,171.0,88.0,30.1,137.5,77.4,74.8,96.3,115.8,222.2,11.4,No,No,2.0,No,No,No,2,Private,Yes,No,Benign,Chemotherapy,,Normal,3.25,59.5,1,0,0,0,0,0,0,0
+264.0,Jessica Brewer,84.0,Male,154.0,66.0,27.8,100.7,89.6,61.0,96.9,100.2,190.9,11.1,No,No,1.0,No,No,No,5,Private,Yes,No,Benign,Chemotherapy,Pollen,Normal,6.8,62.8,1,1,0,0,0,0,0,0
+265.0,Elizabeth Parker,35.0,Female,168.0,79.0,28.0,118.4,79.0,66.6,99.9,128.3,182.8,16.0,Yes,No,2.0,No,No,No,2,Uninsured,No,No,Benign,Surgery,,Normal,0.45,39.6,0,0,1,0,0,0,0,2
+266.0,Jacob Edwards,42.0,Male,162.0,87.0,33.2,114.0,58.2,53.2,99.0,105.4,280.3,11.0,Yes,No,4.0,No,No,No,1,Private,No,No,Unknown,Radiation Therapy,Penicillin,Normal,0.83,55.4,1,1,1,0,0,0,0,0
+267.0,Lisa Rivera,71.0,Male,192.0,74.0,20.1,99.9,81.1,68.7,100.6,89.4,141.1,14.5,No,No,3.0,No,No,No,3,Private,No,Yes,Benign,Chemotherapy,Penicillin,Normal,0.77,19.0,0,1,0,0,0,0,0,0
+268.0,Sandra Gonzales,75.0,Male,168.0,82.0,29.1,127.2,95.7,83.3,98.6,164.4,229.4,13.5,Yes,No,1.0,No,No,No,1,Private,No,No,Benign,,,Normal,5.82,72.6,1,1,1,0,0,0,0,0
+269.0,Jason Mcclure,84.0,Female,171.0,67.0,22.9,109.2,79.6,78.2,97.3,97.2,177.0,13.8,No,Yes,5.0,No,No,No,0,Private,Yes,No,Benign,Surgery,Pollen,Normal,8.96,54.8,1,0,0,1,0,0,0,0
+270.0,Kimberly Perry,63.0,Female,176.0,72.0,23.2,133.1,91.6,86.8,98.3,134.9,186.6,16.7,No,No,1.0,No,No,No,2,Private,No,No,Benign,,Seafood,Normal,5.55,44.8,1,0,0,0,0,0,0,0
+272.0,Dr. Jason Davis,49.0,Male,187.0,64.0,18.3,154.4,79.6,86.2,96.9,121.3,167.9,15.2,No,Yes,2.0,No,No,No,2,Uninsured,No,No,Benign,,Pollen,Normal,3.46,29.9,0,1,0,1,0,0,0,2
+273.0,Ernest Hogan,64.0,Male,164.0,72.0,26.8,102.1,70.6,67.7,100.1,127.8,222.8,14.1,No,Yes,1.0,No,No,No,1,Private,No,No,Benign,Radiation Therapy,,Normal,0.19,40.6,0,1,0,1,0,0,0,0
+274.0,Mike Brown,40.0,Female,172.0,52.0,17.6,124.4,91.2,87.7,99.9,106.3,255.6,13.7,Yes,No,4.0,No,Yes,No,2,Public,No,No,Benign,Radiation Therapy,,Normal,0.22,53.1,1,0,1,0,0,1,0,1
+276.0,Duane Robinson,44.0,Male,157.0,71.0,28.8,108.6,90.4,78.5,96.0,100.5,204.1,11.1,Yes,Yes,3.0,No,No,Yes,4,Private,No,No,Benign,Radiation Therapy,,Normal,1.03,46.4,1,1,1,1,0,0,1,0
+277.0,Matthew Barrett,19.0,Male,164.0,71.0,26.4,137.0,96.3,87.7,98.1,136.9,160.5,16.6,No,No,2.0,Yes,No,No,1,Public,No,No,Benign,,,Normal,10.0,34.5,0,1,0,0,1,0,0,1
+278.0,Diana Burke,34.0,Female,170.0,71.0,24.6,95.4,90.4,67.7,96.8,115.8,220.7,15.3,No,No,1.0,No,No,No,0,Private,No,No,Benign,Surgery,,Abnormal,1.64,30.9,0,0,0,0,0,0,0,0
+279.0,William Marshall,50.0,Female,166.0,74.0,26.9,149.0,84.1,72.6,100.4,113.4,286.3,13.0,No,No,3.0,No,No,Yes,3,Private,No,No,Benign,Radiation Therapy,Dust,Normal,6.75,54.8,1,0,0,0,0,0,1,0
+280.0,Shelley Waters,26.0,Male,163.0,82.0,30.9,120.3,65.0,85.5,97.7,48.3,184.8,17.3,No,No,4.0,No,No,No,2,Private,Yes,No,Malignant,Immunotherapy,,Normal,9.49,41.1,0,1,0,0,0,0,0,0
+282.0,John Jennings,65.0,Female,169.0,65.0,22.8,114.0,72.0,54.1,98.6,112.3,177.6,13.0,No,Yes,3.0,No,No,No,1,Private,Yes,No,Benign,Chemotherapy,,Normal,7.34,58.3,1,0,0,1,0,0,0,0
+283.0,Mark Hudson,56.0,Female,155.0,57.0,23.7,136.2,74.8,95.7,97.6,112.3,180.4,11.6,No,Yes,4.0,No,Yes,No,0,Uninsured,No,No,Benign,Chemotherapy,,Abnormal,3.51,31.7,0,0,0,1,0,1,0,2
+285.0,James Schneider,43.0,Female,171.0,68.0,23.3,105.0,65.3,71.9,97.5,95.7,216.2,11.8,No,No,2.0,Yes,No,No,4,Public,No,No,Benign,Chemotherapy,Pollen,Normal,2.02,26.2,0,0,0,0,1,0,0,1
+286.0,Amanda Gutierrez,67.0,Male,155.0,70.0,29.1,115.6,50.6,83.9,96.5,112.2,166.2,14.9,No,Yes,5.0,No,No,No,2,Private,Yes,No,Malignant,Chemotherapy,,Normal,8.21,58.8,1,1,0,1,0,0,0,0
+287.0,Manuel Roberts,42.0,Male,167.0,63.0,22.6,96.5,70.0,62.7,95.4,100.5,135.6,13.6,Yes,No,2.0,No,No,No,2,Private,Yes,No,Benign,Radiation Therapy,,Normal,2.57,60.6,1,1,1,0,0,0,0,0
+288.0,Nicole Brooks,41.0,Female,162.0,56.0,21.3,156.4,82.9,57.9,98.6,70.4,230.1,13.0,No,No,4.0,No,No,Yes,2,Public,No,No,Malignant,Surgery,,Abnormal,2.83,28.1,0,0,0,0,0,0,1,1
+290.0,Jason George,77.0,Female,183.0,78.0,23.3,136.6,80.2,48.5,96.5,112.9,186.5,13.5,No,No,1.0,No,Yes,No,3,Private,No,No,Benign,Surgery,,Normal,3.27,35.9,0,0,0,0,0,1,0,0
+291.0,Kathy Jordan,24.0,Male,151.0,84.0,36.8,124.2,108.5,66.5,100.4,105.2,258.7,11.8,No,Yes,7.0,No,No,No,2,Public,Yes,No,Benign,,,Normal,4.23,66.3,1,1,0,1,0,0,0,1
+292.0,Jesse Anderson,74.0,Male,171.0,67.0,22.9,100.3,95.3,72.9,99.6,81.5,143.6,19.6,No,Yes,3.0,No,No,No,1,Private,No,No,Unknown,,Peanuts,Abnormal,9.9,32.4,0,1,0,1,0,0,0,0
+293.0,Luis Andrews,53.0,Female,168.0,69.0,24.4,119.9,104.7,66.8,98.6,51.4,138.7,13.0,No,No,6.0,No,No,No,0,Private,Yes,No,Benign,,,Normal,3.69,43.5,1,0,0,0,0,0,0,0
+294.0,Steve Valdez,62.0,Male,177.0,61.0,19.5,135.7,85.9,51.5,100.6,118.9,210.8,9.6,No,No,6.0,No,No,No,1,Private,No,No,Benign,Surgery,,Abnormal,3.66,43.6,1,1,0,0,0,0,0,0
+295.0,Kyle Gonzalez,37.0,Female,172.0,75.0,25.4,116.2,97.5,89.1,99.6,92.0,246.0,12.3,No,No,7.0,No,No,No,2,Public,No,No,Benign,Chemotherapy,Dust,Normal,8.28,43.7,1,0,0,0,0,0,0,1
+297.0,Pamela Mata,25.0,Male,167.0,84.0,30.1,140.4,70.3,87.2,97.0,155.9,216.3,15.7,No,No,4.0,No,No,No,3,Private,No,No,Benign,Chemotherapy,Pollen,Normal,2.34,37.9,0,1,0,0,0,0,0,0
+300.0,Renee Harper,32.0,Male,170.0,80.0,27.7,98.4,103.1,73.2,98.9,93.7,231.9,13.3,No,No,9.0,No,Yes,No,1,Public,No,No,Malignant,,Peanuts,Normal,0.43,18.8,0,1,0,0,0,1,0,1
+301.0,Andrea Riddle,83.0,Female,189.0,78.0,21.8,107.7,71.7,67.4,97.3,143.6,235.1,13.4,No,No,2.0,No,Yes,No,3,Public,No,No,Benign,,,Normal,3.74,55.7,1,0,0,0,0,1,0,1
+302.0,Michelle Chaney,49.0,Male,169.0,115.0,40.3,123.9,76.2,55.9,99.5,50.9,187.5,13.3,No,No,1.0,No,No,Yes,4,Public,No,No,Benign,Surgery,Penicillin,Abnormal,3.46,21.9,0,1,0,0,0,0,1,1
+303.0,Jeffrey Hoover,80.0,Female,163.0,80.0,30.1,130.9,68.7,87.6,97.5,158.1,250.1,13.8,No,No,3.0,No,No,No,0,Public,No,No,Benign,Radiation Therapy,,Abnormal,2.45,61.2,1,0,0,0,0,0,0,1
+304.0,Michelle Mann,68.0,Male,155.0,60.0,25.0,76.6,85.7,62.5,98.4,104.1,245.5,15.7,No,No,3.0,No,No,No,3,Private,Yes,No,Benign,Radiation Therapy,Peanuts,Abnormal,6.54,79.0,1,1,0,0,0,0,0,0
+305.0,Jason Adams,42.0,Female,152.0,74.0,32.0,119.8,96.9,47.9,100.8,97.1,204.1,14.7,No,No,3.0,No,No,No,8,Private,Yes,Yes,Benign,Surgery,Peanuts,Normal,2.9,48.6,1,0,0,0,0,0,0,0
+306.0,Natalie Porter,75.0,Female,154.0,48.0,20.2,123.2,53.9,85.9,97.6,94.1,181.9,15.0,No,No,2.0,No,No,No,1,Public,No,No,Benign,Chemotherapy,Seafood,Normal,6.07,32.6,0,0,0,0,0,0,0,1
+308.0,Tony Morales,79.0,Female,175.0,63.0,20.6,145.8,75.8,62.7,97.0,131.4,198.5,15.8,No,No,4.0,No,No,No,1,Uninsured,No,No,Benign,Surgery,Penicillin,Normal,2.17,40.1,0,0,0,0,0,0,0,2
+309.0,Madison Valencia,39.0,Female,154.0,89.0,37.5,128.4,81.7,48.8,100.1,67.9,222.8,14.6,No,No,1.0,No,Yes,No,1,Private,No,No,Benign,Radiation Therapy,,Abnormal,2.67,27.2,0,0,0,0,0,1,0,0
+310.0,Stephen Khan,75.0,Female,179.0,67.0,20.9,146.2,86.9,90.9,99.0,110.4,187.0,14.7,No,No,1.0,No,No,No,1,Public,No,No,Benign,Surgery,Pollen,Abnormal,1.71,30.8,0,0,0,0,0,0,0,1
+311.0,Jill Davis,75.0,Male,165.0,73.0,26.8,115.7,77.2,54.5,98.4,88.5,112.1,16.4,No,No,3.0,No,Yes,No,6,Private,No,No,Unknown,Surgery,Peanuts,Normal,0.57,19.4,0,1,0,0,0,1,0,0
+312.0,Tina Richards,66.0,Male,171.0,65.0,22.2,138.7,78.4,70.7,97.8,77.1,250.7,12.7,No,No,4.0,No,No,No,2,Private,Yes,No,Benign,Chemotherapy,,Abnormal,6.19,70.5,1,1,0,0,0,0,0,0
+313.0,Timothy Green,69.0,Female,186.0,101.0,29.2,152.7,76.8,81.0,99.3,177.6,207.6,12.3,No,No,3.0,No,No,No,3,Private,No,No,Benign,,,Normal,6.73,56.2,1,0,0,0,0,0,0,0
+314.0,Ryan Fowler,59.0,Female,179.0,70.0,21.8,146.2,94.6,75.1,97.3,112.6,184.8,11.6,No,No,0.0,No,Yes,No,3,Public,No,No,Benign,,Peanuts,Normal,1.66,26.9,0,0,0,0,0,1,0,1
+315.0,Elizabeth Griffin,32.0,Female,167.0,102.0,36.6,98.2,86.3,69.3,99.1,118.4,234.3,14.4,No,No,6.0,No,No,No,5,Private,Yes,No,Benign,Radiation Therapy,,Abnormal,6.15,60.5,1,0,0,0,0,0,0,0
+316.0,Richard Farrell,71.0,Female,161.0,87.0,33.6,114.9,83.3,49.6,97.5,134.1,261.0,10.3,Yes,Yes,6.0,No,Yes,No,2,Private,No,No,Benign,Chemotherapy,Peanuts,Normal,9.82,81.7,1,0,1,1,0,1,0,0
+318.0,Tammy Lawson,25.0,Male,163.0,81.0,30.5,129.8,74.3,72.3,97.6,152.6,217.4,13.8,No,No,3.0,No,No,No,1,Private,No,No,Benign,Chemotherapy,Peanuts,Normal,4.9,45.6,1,1,0,0,0,0,0,0
+321.0,Karen Huerta,22.0,Male,169.0,71.0,24.9,121.4,89.9,78.2,99.0,86.2,205.1,13.6,No,No,3.0,No,No,No,1,Public,No,No,Benign,Radiation Therapy,Pollen,Normal,7.78,30.2,0,1,0,0,0,0,0,1
+322.0,Christian Aguirre,23.0,Female,171.0,88.0,30.1,79.6,106.5,81.6,93.1,117.5,225.4,16.2,Yes,Yes,4.0,Yes,No,No,0,Public,Yes,No,Benign,Chemotherapy,Penicillin,Normal,9.8,73.4,1,0,1,1,1,0,0,1
+323.0,Mark Copeland,64.0,Male,168.0,74.0,26.2,148.8,95.6,55.3,97.4,106.6,180.0,16.8,No,No,3.0,No,No,No,0,Private,No,No,Benign,,,Normal,0.88,25.7,0,1,0,0,0,0,0,0
+324.0,Daniel Wade DDS,72.0,Female,163.0,54.0,20.3,109.8,81.4,96.4,98.0,95.0,125.1,12.6,No,Yes,4.0,No,No,No,1,Public,No,No,Benign,Radiation Therapy,Pollen,Normal,8.22,31.9,0,0,0,1,0,0,0,1
+325.0,Chad Haynes,57.0,Male,172.0,74.0,25.0,121.1,72.3,79.2,100.9,99.6,182.0,14.4,No,No,4.0,No,No,No,2,Public,No,No,Benign,,,Abnormal,3.79,24.8,0,1,0,0,0,0,0,1
+326.0,Rachel Steele,69.0,Female,174.0,101.0,33.4,113.8,41.7,70.0,97.0,70.7,216.3,14.6,No,No,3.0,No,No,No,0,Private,No,No,Malignant,Chemotherapy,Peanuts,Normal,1.44,30.6,0,0,0,0,0,0,0,0
+327.0,Melissa Chan,33.0,Male,159.0,94.0,37.2,142.9,77.5,83.1,98.8,55.1,240.6,14.7,No,No,2.0,No,No,Yes,2,Private,No,No,Benign,,Penicillin,Normal,4.93,42.6,1,1,0,0,0,0,1,0
+328.0,Heather Johnson,30.0,Male,184.0,74.0,21.9,63.2,75.1,98.4,100.8,121.8,153.1,13.5,No,No,4.0,No,No,Yes,1,Public,No,No,Benign,Surgery,,Normal,0.72,17.2,0,1,0,0,0,0,1,1
+329.0,Jill Wolf,47.0,Male,169.0,89.0,31.2,119.7,85.9,52.7,96.6,120.8,241.1,16.6,No,No,3.0,No,No,No,1,Private,Yes,No,Benign,Chemotherapy,,Abnormal,5.22,74.1,1,1,0,0,0,0,0,0
+330.0,Thomas Hicks,36.0,Male,170.0,70.0,24.2,117.9,77.7,67.3,99.2,147.5,174.1,10.2,No,Yes,4.0,Yes,No,No,2,Public,No,No,Malignant,,,Normal,0.19,24.0,0,1,0,1,1,0,0,1
+331.0,Ryan Gonzales,34.0,Male,177.0,49.0,15.6,110.9,75.2,41.5,97.4,76.3,214.5,13.2,No,Yes,2.0,Yes,No,No,3,Public,No,No,Benign,,Dust,Abnormal,7.29,33.0,0,1,0,1,1,0,0,1
+332.0,Tamara Morrow,80.0,Male,172.0,61.0,20.6,154.5,53.3,72.3,97.8,120.8,179.6,14.9,No,No,3.0,Yes,No,No,3,Private,No,No,Malignant,Chemotherapy,Dust,Normal,4.88,41.5,0,1,0,0,1,0,0,0
+333.0,Ian Stephenson,36.0,Female,180.0,98.0,30.2,102.3,65.9,74.4,97.4,91.5,207.3,14.9,No,No,3.0,No,No,No,0,Public,No,No,Benign,,,Normal,4.59,32.2,0,0,0,0,0,0,0,1
+334.0,Beverly Elliott,75.0,Male,173.0,71.0,23.7,135.4,87.1,69.5,97.5,135.7,235.7,16.7,No,No,4.0,Yes,No,No,4,Uninsured,No,Yes,Benign,Surgery,,Normal,1.96,48.5,1,1,0,0,1,0,0,2
+335.0,David Graves,72.0,Female,164.0,71.0,26.4,127.1,105.7,62.1,102.7,130.7,150.9,16.4,No,Yes,2.0,No,Yes,No,2,Public,No,No,Benign,,Dust,Normal,3.61,42.8,1,0,0,1,0,1,0,1
+336.0,Austin Ellis,79.0,Female,174.0,71.0,23.5,145.2,78.5,45.4,99.9,106.3,172.8,13.4,No,Yes,4.0,No,No,No,3,Private,Yes,No,Benign,,,Normal,1.82,52.0,1,0,0,1,0,0,0,0
+337.0,Robert Berry,40.0,Female,159.0,104.0,41.1,106.7,84.9,74.5,100.3,89.8,207.4,16.6,Yes,Yes,2.0,No,No,No,2,Private,No,No,Benign,Chemotherapy,,Normal,7.35,49.4,1,0,1,1,0,0,0,0
+338.0,Ashley Lee,26.0,Male,171.0,99.0,33.9,105.3,94.3,87.5,99.3,128.8,296.1,12.6,No,Yes,3.0,No,No,No,3,Uninsured,Yes,No,Benign,Chemotherapy,,Normal,1.99,67.1,1,1,0,1,0,0,0,2
+339.0,Jacqueline Quinn,29.0,Female,170.0,108.0,37.4,141.9,67.8,62.9,96.2,119.4,165.5,15.9,No,No,4.0,No,Yes,No,3,Private,No,No,Benign,Surgery,,Normal,6.17,29.8,0,0,0,0,0,1,0,0
+340.0,Brandon Green,18.0,Male,168.0,73.0,25.9,128.5,85.5,75.3,99.2,79.5,281.6,17.6,No,Yes,4.0,No,Yes,No,0,Private,No,No,Benign,,Penicillin,Normal,2.8,32.6,0,1,0,1,0,1,0,0
+341.0,Julie Lewis,75.0,Male,169.0,79.0,27.7,89.1,68.9,51.2,100.2,60.2,280.2,16.4,No,No,4.0,No,No,No,0,Uninsured,No,No,Malignant,Radiation Therapy,Penicillin,Normal,6.57,52.6,1,1,0,0,0,0,0,2
+342.0,Holly Davis,18.0,Female,151.0,52.0,22.8,109.2,93.0,75.5,97.3,91.3,196.1,14.2,No,Yes,2.0,Yes,No,No,1,Public,No,No,Benign,Immunotherapy,,Normal,5.4,19.2,0,0,0,1,1,0,0,1
+343.0,Kevin Mayo,51.0,Male,165.0,97.0,35.6,127.7,82.3,65.3,100.0,145.5,188.1,13.3,No,No,0.0,No,No,No,3,Private,Yes,No,Benign,Chemotherapy,Dust,Normal,4.23,59.7,1,1,0,0,0,0,0,0
+344.0,Johnny Wright,65.0,Female,171.0,57.0,19.5,136.8,84.5,60.9,99.7,134.4,172.3,10.9,No,No,3.0,No,No,No,2,Public,No,No,Malignant,,,Normal,6.73,45.3,1,0,0,0,0,0,0,1
+345.0,Jennifer Wiggins,18.0,Female,172.0,78.0,26.4,106.4,68.3,60.9,101.4,66.6,197.3,14.6,Yes,Yes,2.0,No,No,No,3,Private,Yes,No,Benign,Immunotherapy,Penicillin,Normal,4.16,51.7,1,0,1,1,0,0,0,0
+346.0,Christy Bird,33.0,Female,160.0,59.0,23.0,61.7,90.6,65.3,98.0,65.0,143.7,11.8,No,No,3.0,Yes,No,No,0,Private,No,No,Benign,,,Normal,8.21,22.8,0,0,0,0,1,0,0,0
+347.0,Deanna Hines,78.0,Female,183.0,66.0,19.7,130.5,111.3,74.6,97.0,138.2,197.0,12.4,No,No,1.0,No,No,No,4,Public,No,No,Benign,,Seafood,Normal,7.3,48.4,1,0,0,0,0,0,0,1
+348.0,Andrew Wood,81.0,Male,161.0,62.0,23.9,95.6,64.9,54.3,98.1,65.9,259.9,11.6,No,Yes,3.0,No,No,No,1,Private,No,Yes,Malignant,Chemotherapy,,Normal,5.41,54.1,1,1,0,1,0,0,0,0
+349.0,Amanda Jenkins,80.0,Male,180.0,66.0,20.4,79.7,74.9,65.2,100.8,115.3,175.6,13.1,No,No,3.0,No,No,No,1,Public,No,No,Benign,Radiation Therapy,,Abnormal,8.77,41.8,1,1,0,0,0,0,0,1
+350.0,Anthony Morris,39.0,Female,174.0,67.0,22.1,63.4,83.5,69.5,95.9,81.5,190.4,13.9,No,No,2.0,No,No,No,5,Private,No,No,Benign,,Seafood,Normal,8.29,24.2,0,0,0,0,0,0,0,0
+352.0,Samuel Lawrence,43.0,Male,188.0,88.0,24.9,122.6,71.6,91.6,98.7,76.9,215.0,12.8,No,No,5.0,No,Yes,No,0,Private,No,No,Benign,,Penicillin,Normal,0.68,22.2,0,1,0,0,0,1,0,0
+353.0,Monica Padilla,33.0,Male,158.0,58.0,23.2,115.5,37.5,59.8,97.9,134.3,210.6,16.1,Yes,No,4.0,No,No,No,2,Public,Yes,No,Benign,,Pollen,Normal,5.66,82.8,1,1,1,0,0,0,0,1
+354.0,Dave Foster,68.0,Male,179.0,78.0,24.3,147.8,100.4,62.0,98.6,105.5,202.5,13.6,No,Yes,2.0,No,No,No,3,Public,No,No,Benign,Immunotherapy,Penicillin,Abnormal,3.55,44.6,1,1,0,1,0,0,0,1
+355.0,Tammy Howell,74.0,Male,180.0,93.0,28.7,132.7,91.4,58.3,100.0,107.6,191.3,12.4,No,No,2.0,No,No,No,1,Private,No,No,Benign,Radiation Therapy,,Normal,5.4,40.4,0,1,0,0,0,0,0,0
+356.0,Melissa Davis,46.0,Male,163.0,67.0,25.2,152.3,53.9,91.6,97.8,40.9,188.3,14.5,No,Yes,2.0,No,No,No,1,Public,No,No,Malignant,Radiation Therapy,,Normal,6.47,25.8,0,1,0,1,0,0,0,1
+358.0,Kara Anderson,79.0,Female,167.0,72.0,25.8,119.3,103.5,58.8,101.7,93.4,198.8,14.7,No,No,5.0,No,No,Yes,3,Uninsured,Yes,No,Benign,Chemotherapy,,Normal,6.74,53.6,1,0,0,0,0,0,1,2
+359.0,Lisa Ochoa,33.0,Female,173.0,93.0,31.1,87.7,101.7,83.3,97.1,107.4,212.6,13.3,Yes,Yes,6.0,No,No,No,2,Public,No,No,Benign,Immunotherapy,Peanuts,Normal,6.79,55.8,1,0,1,1,0,0,0,1
+360.0,Juan Mcdonald,65.0,Male,173.0,78.0,26.1,115.4,94.1,72.4,97.0,66.2,208.6,10.9,No,No,3.0,No,No,No,0,Private,No,No,Benign,Surgery,Seafood,Normal,1.09,28.6,0,1,0,0,0,0,0,0
+361.0,Kevin Olson,56.0,Male,169.0,67.0,23.5,115.0,77.4,73.1,100.3,67.3,244.9,13.6,Yes,No,3.0,No,No,Yes,3,Public,No,No,Benign,Surgery,Penicillin,Normal,1.92,53.9,1,1,1,0,0,0,1,1
+362.0,Kristen Floyd,50.0,Male,178.0,82.0,25.9,132.5,81.2,65.9,98.0,116.8,227.1,14.5,Yes,No,1.0,No,No,No,0,Public,No,No,Benign,Radiation Therapy,Seafood,Normal,6.31,59.8,1,1,1,0,0,0,0,1
+363.0,Nathan Green,40.0,Female,178.0,58.0,18.3,120.9,78.0,61.0,98.5,116.9,207.7,13.2,Yes,No,2.0,Yes,No,No,1,Public,No,No,Benign,,,Normal,4.08,54.7,1,0,1,0,1,0,0,1
+364.0,Adam Webb,27.0,Female,153.0,85.0,36.3,132.5,96.9,74.1,99.3,95.9,260.7,10.7,No,No,4.0,No,No,No,4,Uninsured,Yes,No,Benign,Surgery,Penicillin,Normal,7.63,61.4,1,0,0,0,0,0,0,2
+365.0,Cynthia Myers,51.0,Male,183.0,81.0,24.2,134.1,66.9,63.5,100.2,123.4,216.8,12.3,No,No,3.0,No,Yes,No,2,Public,Yes,No,Benign,Surgery,Peanuts,Normal,1.25,53.8,1,1,0,0,0,1,0,1
+366.0,Timothy Harrison,69.0,Female,153.0,70.0,29.9,163.1,67.9,91.8,98.1,64.8,252.2,16.9,No,No,2.0,No,Yes,No,3,Private,Yes,No,Benign,,,Normal,1.92,62.0,1,0,0,0,0,1,0,0
+367.0,Kevin Griffith,27.0,Male,180.0,62.0,19.1,113.7,95.2,54.8,100.9,89.3,224.3,16.9,No,No,3.0,No,Yes,No,0,Uninsured,No,No,Malignant,Immunotherapy,,Normal,5.58,31.4,0,1,0,0,0,1,0,2
+368.0,Melissa Anderson,36.0,Female,181.0,62.0,18.9,101.2,79.3,88.4,95.4,149.4,126.3,12.2,Yes,Yes,0.0,No,No,No,1,Public,No,No,Benign,,Peanuts,Normal,5.01,53.5,1,0,1,1,0,0,0,1
+369.0,Thomas Turner,75.0,Female,159.0,83.0,32.8,124.9,100.7,68.7,99.7,102.0,252.2,15.3,No,Yes,2.0,No,Yes,No,3,Private,No,No,Benign,Chemotherapy,Peanuts,Normal,2.66,53.6,1,0,0,1,0,1,0,0
+370.0,Danielle Moss,18.0,Female,166.0,93.0,33.7,104.0,69.9,73.6,97.3,103.8,205.4,11.6,Yes,No,1.0,No,No,No,1,Private,No,No,Benign,,,Normal,4.08,49.5,1,0,1,0,0,0,0,0
+371.0,Melissa Macdonald,21.0,Female,159.0,65.0,25.7,149.6,79.2,80.0,100.7,169.2,197.9,16.8,No,No,3.0,No,Yes,No,0,Public,No,Yes,Benign,Radiation Therapy,Seafood,Normal,0.35,21.0,0,0,0,0,0,1,0,1
+372.0,Laura Ramos,33.0,Female,168.0,82.0,29.1,114.3,66.2,62.4,98.8,58.0,211.3,14.5,Yes,No,4.0,No,No,No,1,Public,Yes,No,Benign,,,Normal,0.37,53.9,1,0,1,0,0,0,0,1
+374.0,Cindy Bishop,19.0,Female,178.0,66.0,20.8,110.6,57.8,37.5,99.6,149.9,209.1,10.6,No,Yes,1.0,No,Yes,No,2,Private,No,No,Malignant,Radiation Therapy,Peanuts,Normal,5.77,44.5,1,0,0,1,0,1,0,0
+375.0,Jeff Lawson,49.0,Male,183.0,75.0,22.4,134.4,72.7,61.4,99.9,90.3,176.3,15.4,No,Yes,6.0,Yes,No,No,3,Private,Yes,Yes,Benign,Surgery,,Normal,8.64,46.5,1,1,0,1,1,0,0,0
+376.0,George Barnett,41.0,Female,184.0,61.0,18.0,116.8,58.5,58.9,99.6,125.8,251.0,14.0,No,No,1.0,No,No,No,3,Public,No,No,Benign,,,Normal,2.6,45.4,1,0,0,0,0,0,0,1
+377.0,Crystal Bowman,29.0,Female,164.0,61.0,22.7,107.2,90.4,55.0,97.1,70.5,195.5,15.7,No,Yes,1.0,No,Yes,No,3,Public,No,No,Benign,Chemotherapy,Peanuts,Normal,0.34,7.8,0,0,0,1,0,1,0,1
+378.0,Stephen Lee,67.0,Female,168.0,65.0,23.0,153.3,90.7,67.4,97.9,79.4,184.7,15.8,Yes,No,1.0,No,No,No,3,Uninsured,No,No,Benign,,Dust,Normal,7.09,45.8,1,0,1,0,0,0,0,2
+379.0,Gabriel Doyle,52.0,Male,153.0,79.0,33.7,102.9,54.0,74.6,98.6,111.5,163.0,14.1,No,No,2.0,No,No,No,3,Public,No,No,Benign,Chemotherapy,,Normal,8.55,35.2,0,1,0,0,0,0,0,1
+380.0,Manuel Harper,50.0,Female,162.0,72.0,27.4,120.7,100.0,78.4,98.5,124.0,210.8,12.8,No,Yes,5.0,No,No,No,3,Private,Yes,No,Benign,,Penicillin,Abnormal,1.38,53.9,1,0,0,1,0,0,0,0
+381.0,Michael Hudson,50.0,Female,180.0,41.0,12.7,133.0,117.5,72.9,99.7,133.6,207.5,15.6,Yes,Yes,3.0,No,Yes,No,3,Public,No,No,Benign,Radiation Therapy,,Normal,3.86,63.3,1,0,1,1,0,1,0,1
+382.0,Austin Vasquez,78.0,Female,186.0,43.0,12.4,87.4,80.7,62.0,95.6,147.1,215.5,13.9,No,No,3.0,Yes,No,No,1,Private,Yes,No,Benign,Surgery,,Normal,1.59,68.1,1,0,0,0,1,0,0,0
+383.0,Lindsey Perez,68.0,Male,158.0,66.0,26.4,129.6,70.4,74.4,99.1,98.0,158.9,12.3,Yes,No,5.0,No,No,No,2,Uninsured,Yes,No,Benign,Chemotherapy,Peanuts,Normal,1.06,54.2,1,1,1,0,0,0,0,2
+384.0,Jodi Mitchell,60.0,Male,164.0,82.0,30.5,98.9,122.4,71.5,98.2,135.8,136.0,12.2,No,No,4.0,No,Yes,No,3,Public,No,No,Benign,Radiation Therapy,,Normal,6.48,44.1,1,1,0,0,0,1,0,1
+385.0,John Stewart,29.0,Male,170.0,34.0,11.8,136.5,60.2,81.2,97.3,89.7,225.0,11.0,Yes,No,2.0,No,No,No,0,Public,No,No,Benign,Surgery,Peanuts,Normal,9.68,46.8,1,1,1,0,0,0,0,1
+386.0,Kathleen Reid,84.0,Male,173.0,68.0,22.7,100.7,80.3,79.3,97.5,127.1,259.4,13.0,No,No,1.0,No,No,No,1,Private,No,No,Benign,Surgery,Dust,Normal,6.78,69.8,1,1,0,0,0,0,0,0
+387.0,Susan Owens,82.0,Female,162.0,67.0,25.5,133.9,82.7,70.4,98.3,106.2,158.9,16.2,No,Yes,2.0,No,No,No,1,Public,No,No,Benign,Chemotherapy,Pollen,Normal,9.85,42.3,1,0,0,1,0,0,0,1
+388.0,Ryan Torres,50.0,Male,174.0,96.0,31.7,142.1,100.2,59.2,93.2,113.4,263.6,14.4,Yes,Yes,4.0,No,No,No,3,Private,No,No,Benign,,,Normal,4.34,67.8,1,1,1,1,0,0,0,0
+389.0,Alison Stephens,57.0,Female,165.0,69.0,25.3,137.2,85.4,62.2,97.5,112.7,211.4,12.9,No,No,2.0,No,No,No,2,Private,No,No,Benign,Chemotherapy,Peanuts,Abnormal,8.98,46.4,1,0,0,0,0,0,0,0
+390.0,Roger Jones PhD,60.0,Male,170.0,81.0,28.0,125.0,72.5,63.4,97.3,51.9,199.7,15.6,No,Yes,3.0,No,No,No,3,Public,No,No,Benign,,Dust,Normal,2.05,20.3,0,1,0,1,0,0,0,1
+392.0,Jeffrey Scott,46.0,Female,170.0,43.0,14.9,108.5,74.9,73.2,97.4,103.1,144.6,14.2,No,No,5.0,No,No,No,3,Private,No,No,Benign,Surgery,,Abnormal,7.03,33.8,0,0,0,0,0,0,0,0
+393.0,Gary Wall,30.0,Female,166.0,87.0,31.6,149.4,64.9,78.6,98.3,49.4,239.5,13.6,No,No,0.0,No,No,No,0,Private,No,No,Benign,Radiation Therapy,Dust,Normal,3.71,28.2,0,0,0,0,0,0,0,0
+394.0,David White,29.0,Female,169.0,78.0,27.3,106.0,80.7,69.4,100.9,124.9,169.0,15.6,No,Yes,5.0,No,No,No,1,Public,No,No,Benign,Immunotherapy,,Normal,3.18,24.4,0,0,0,1,0,0,0,1
+395.0,Melissa Frazier,63.0,Female,169.0,83.0,29.1,99.3,71.5,70.2,100.1,126.1,168.8,10.8,No,No,7.0,No,No,Yes,1,Private,Yes,No,Benign,Surgery,Pollen,Normal,6.71,64.8,1,0,0,0,0,0,1,0
+397.0,Jonathan Rich,52.0,Male,167.0,44.0,15.8,104.1,98.8,63.8,97.9,66.4,124.7,10.7,No,Yes,3.0,No,No,Yes,1,Private,No,No,Benign,Radiation Therapy,,Normal,5.73,27.2,0,1,0,1,0,0,1,0
+398.0,Craig Carrillo,25.0,Female,186.0,101.0,29.2,101.0,72.5,58.9,99.4,141.4,139.1,13.5,Yes,No,2.0,No,No,No,2,Public,No,No,Benign,Chemotherapy,,Normal,2.99,44.9,1,0,1,0,0,0,0,1
+399.0,Thomas Mendez,43.0,Female,176.0,71.0,22.9,91.1,61.0,48.9,98.2,161.1,199.3,16.4,No,Yes,5.0,No,No,No,0,Public,No,No,Benign,Chemotherapy,,Normal,7.84,40.1,0,0,0,1,0,0,0,1
+400.0,Darren Macdonald,51.0,Female,167.0,79.0,28.3,110.3,77.5,61.7,98.3,104.4,211.7,13.0,No,No,2.0,No,No,Yes,5,Private,No,No,Unknown,Chemotherapy,,Normal,3.12,39.4,0,0,0,0,0,0,1,0
+401.0,Brenda Warren,24.0,Male,177.0,74.0,23.6,118.3,81.0,75.7,99.2,115.3,219.4,13.0,No,Yes,5.0,Yes,No,No,2,Private,Yes,No,Benign,Radiation Therapy,Penicillin,Normal,5.35,58.6,1,1,0,1,1,0,0,0
+402.0,Shawn Molina,75.0,Female,167.0,69.0,24.7,124.9,53.8,61.6,97.7,106.1,187.9,15.7,Yes,No,2.0,No,No,No,1,Private,No,No,Benign,Immunotherapy,,Normal,0.23,41.3,0,0,1,0,0,0,0,0
+403.0,Paul Robinson,46.0,Male,182.0,66.0,19.9,139.0,85.0,67.1,100.8,115.9,301.2,16.1,No,Yes,1.0,No,No,No,3,Public,No,No,Benign,Radiation Therapy,,Abnormal,7.92,53.8,1,1,0,1,0,0,0,1
+404.0,Norma Wilson,53.0,Male,174.0,80.0,26.4,130.5,64.3,75.6,98.4,96.4,190.9,13.8,No,No,3.0,No,No,No,3,Private,No,No,Benign,Radiation Therapy,,Normal,6.2,27.5,0,1,0,0,0,0,0,0
+405.0,Glenn Rhodes,38.0,Male,169.0,52.0,18.2,116.2,105.7,76.2,99.5,99.0,190.8,15.4,Yes,No,3.0,No,No,No,4,Private,No,No,Benign,Chemotherapy,Seafood,Abnormal,1.92,29.7,0,1,1,0,0,0,0,0
+406.0,Anna Montes,53.0,Male,174.0,86.0,28.4,116.0,87.9,57.0,100.8,127.2,168.1,11.8,No,No,2.0,No,No,No,1,Public,Yes,No,Benign,Surgery,,Normal,2.15,53.9,1,1,0,0,0,0,0,1
+407.0,Susan Jimenez,27.0,Female,154.0,69.0,29.1,130.2,74.0,82.0,100.1,170.4,205.0,16.8,No,No,5.0,No,No,No,4,Public,No,No,Benign,Radiation Therapy,Seafood,Abnormal,2.62,39.2,0,0,0,0,0,0,0,1
+408.0,Daniel Martinez,41.0,Female,159.0,58.0,22.9,145.5,68.8,83.5,96.5,58.0,224.6,18.3,Yes,Yes,2.0,No,No,No,2,Private,No,No,Benign,Immunotherapy,Seafood,Normal,5.77,49.6,1,0,1,1,0,0,0,0
+409.0,Jason Delgado,81.0,Female,158.0,68.0,27.2,122.5,78.4,56.4,99.3,96.9,248.1,15.0,No,No,8.0,No,Yes,No,1,Private,No,No,Benign,,,Normal,5.48,54.1,1,0,0,0,0,1,0,0
+410.0,Margaret Haynes,66.0,Male,171.0,94.0,32.1,110.6,89.2,60.1,99.9,64.6,140.4,9.8,No,Yes,4.0,No,No,No,3,Public,No,No,Benign,Surgery,,Normal,2.74,23.7,0,1,0,1,0,0,0,1
+413.0,Dr. Martha Reyes,40.0,Female,176.0,64.0,20.7,133.3,80.9,43.4,97.6,56.7,223.5,13.2,No,No,1.0,Yes,No,No,2,Private,No,No,Benign,Radiation Therapy,,Normal,0.44,20.7,0,0,0,0,1,0,0,0
+414.0,Olivia Walters,79.0,Male,175.0,86.0,28.1,131.6,70.9,53.2,100.1,119.1,200.3,16.5,No,No,6.0,No,No,No,0,Private,Yes,No,Benign,,Peanuts,Normal,4.17,69.1,1,1,0,0,0,0,0,0
+415.0,Kimberly Summers,54.0,Female,152.0,85.0,36.8,131.5,74.9,67.0,97.5,152.3,221.7,15.2,No,No,5.0,No,No,No,3,Private,No,No,Benign,,,Normal,5.94,52.7,1,0,0,0,0,0,0,0
+416.0,Meghan Farley,29.0,Female,165.0,103.0,37.8,117.4,48.7,56.0,98.2,119.9,167.6,12.6,No,Yes,8.0,No,No,No,2,Public,No,No,Benign,Surgery,,Normal,5.86,29.8,0,0,0,1,0,0,0,1
+417.0,Alan Powell,72.0,Male,162.0,72.0,27.4,148.1,94.6,65.0,101.0,106.1,262.3,14.1,No,No,2.0,No,Yes,No,2,Public,No,No,Unknown,,Penicillin,Normal,0.2,45.5,1,1,0,0,0,1,0,1
+418.0,Richard Jacobs,30.0,Female,164.0,85.0,31.6,110.3,84.5,70.4,98.5,112.3,239.7,12.2,Yes,No,2.0,No,No,No,3,Private,No,No,Benign,Surgery,,Normal,2.11,46.4,1,0,1,0,0,0,0,0
+419.0,Ashley Perez,40.0,Female,168.0,76.0,26.9,139.1,68.4,87.5,97.5,142.4,146.2,13.6,Yes,No,5.0,No,No,No,1,Public,No,No,Unknown,Radiation Therapy,Pollen,Normal,0.62,41.3,0,0,1,0,0,0,0,1
+420.0,Michelle Hays,47.0,Female,165.0,94.0,34.5,119.2,108.5,66.5,97.3,73.8,157.0,12.9,No,No,4.0,No,Yes,No,1,Private,No,No,Benign,Chemotherapy,Dust,Normal,5.69,26.1,0,0,0,0,0,1,0,0
+421.0,Ann Anderson,34.0,Female,150.0,64.0,28.4,107.8,81.3,82.9,99.1,96.6,158.1,16.3,No,No,4.0,No,No,No,1,Private,No,Yes,Benign,Surgery,Penicillin,Abnormal,6.45,23.0,0,0,0,0,0,0,0,0
+422.0,Jenny Moore,79.0,Male,177.0,86.0,27.5,131.9,64.5,87.1,96.6,86.4,227.1,18.2,Yes,No,5.0,No,No,No,4,Public,Yes,No,Benign,,,Normal,1.6,68.4,1,1,1,0,0,0,0,1
+423.0,Kenneth Ramirez,30.0,Male,159.0,72.0,28.5,128.2,92.9,87.2,98.2,65.0,148.6,11.1,Yes,Yes,3.0,No,No,No,1,Private,No,No,Benign,,,Normal,3.33,32.0,0,1,1,1,0,0,0,0
+424.0,Amanda Payne,76.0,Female,172.0,74.0,25.0,127.1,86.0,73.4,99.1,90.1,186.8,10.2,No,No,3.0,No,No,No,3,Private,Yes,No,Benign,Immunotherapy,,Normal,3.3,47.8,1,0,0,0,0,0,0,0
+425.0,Jeffrey Bell,36.0,Female,191.0,76.0,20.8,121.6,85.9,46.4,100.5,133.2,218.2,13.5,No,No,6.0,No,No,No,4,Public,No,No,Benign,Surgery,,Normal,8.2,48.5,1,0,0,0,0,0,0,1
+426.0,Alexandra White,66.0,Male,161.0,79.0,30.5,119.2,73.6,75.5,99.6,117.0,197.4,11.0,No,No,2.0,Yes,No,No,1,Private,No,No,Malignant,Immunotherapy,,Normal,1.95,29.4,0,1,0,0,1,0,0,0
+427.0,Micheal Dennis,29.0,Female,145.0,73.0,34.7,167.8,86.8,82.6,97.5,119.3,210.4,14.1,No,No,3.0,No,No,No,2,Uninsured,No,No,Benign,,Penicillin,Normal,5.48,39.8,0,0,0,0,0,0,0,2
+428.0,Mary Browning,78.0,Female,167.0,78.0,28.0,143.7,76.1,69.0,100.4,104.4,157.4,15.5,No,No,3.0,No,Yes,No,1,Private,Yes,No,Benign,Surgery,,Abnormal,7.83,61.4,1,0,0,0,0,1,0,0
+429.0,Shaun Hodge,36.0,Female,181.0,99.0,30.2,134.5,88.3,90.9,98.2,115.7,223.8,17.0,No,No,2.0,No,No,No,2,Private,No,No,Benign,Surgery,Pollen,Normal,8.3,41.5,0,0,0,0,0,0,0,0
+430.0,James Henry,26.0,Male,190.0,90.0,24.9,122.2,51.4,80.3,96.7,76.0,175.5,14.4,No,No,1.0,No,Yes,No,1,Public,No,No,Benign,Immunotherapy,Pollen,Normal,6.67,21.1,0,1,0,0,0,1,0,1
+431.0,Victor Nunez,45.0,Female,158.0,88.0,35.3,140.1,73.5,76.8,98.3,90.7,187.0,13.6,Yes,No,1.0,No,No,No,2,Public,Yes,No,Benign,,Penicillin,Normal,3.0,54.6,1,0,1,0,0,0,0,1
+432.0,Chelsea Bishop,69.0,Female,175.0,68.0,22.2,130.4,105.8,83.0,100.8,105.8,209.5,10.0,No,No,2.0,No,No,No,3,Public,No,No,Benign,,Penicillin,Normal,8.23,49.2,1,0,0,0,0,0,0,1
+433.0,Patricia Williams,33.0,Male,165.0,62.0,22.8,120.5,68.5,74.0,98.8,108.3,204.1,14.1,No,No,2.0,Yes,No,No,0,Private,No,No,Benign,Chemotherapy,,Abnormal,7.42,40.8,0,1,0,0,1,0,0,0
+434.0,Daniel Fitzgerald,29.0,Male,169.0,89.0,31.2,113.9,70.9,40.1,98.6,109.6,201.0,14.1,No,Yes,1.0,No,Yes,No,1,Public,No,No,Benign,Chemotherapy,,Abnormal,7.04,39.8,0,1,0,1,0,1,0,1
+435.0,Bradley Foster,42.0,Female,196.0,88.0,22.9,118.4,73.3,64.0,101.1,95.8,170.0,15.3,Yes,Yes,0.0,Yes,No,No,0,Public,No,No,Malignant,,Dust,Normal,0.67,26.9,0,0,1,1,1,0,0,1
+436.0,Anthony Duffy,69.0,Male,155.0,97.0,40.4,56.6,61.8,84.4,96.5,88.7,188.0,12.6,No,Yes,2.0,No,Yes,No,4,Private,No,Yes,Benign,,Peanuts,Normal,0.43,17.5,0,1,0,1,0,1,0,0
+438.0,Jacqueline Carter,40.0,Female,175.0,72.0,23.5,110.2,76.5,67.3,96.2,127.2,145.0,11.0,Yes,No,4.0,No,No,No,1,Public,Yes,No,Benign,Surgery,Penicillin,Normal,9.45,74.4,1,0,1,0,0,0,0,1
+439.0,Justin Wells,33.0,Male,181.0,50.0,15.3,151.9,82.0,57.5,99.2,112.4,181.5,9.4,No,No,3.0,No,No,No,2,Private,No,No,Benign,,Pollen,Normal,7.74,30.8,0,1,0,0,0,0,0,0
+440.0,Thomas Miller,74.0,Female,171.0,69.0,23.6,120.4,79.2,91.4,98.8,93.0,215.5,11.8,No,No,4.0,No,Yes,No,1,Public,Yes,No,Benign,,,Normal,8.31,62.4,1,0,0,0,0,1,0,1
+441.0,Daniel Marsh,56.0,Male,173.0,90.0,30.1,96.2,77.8,90.2,100.9,86.5,148.9,10.9,No,No,4.0,No,No,No,2,Private,No,No,Benign,,,Normal,5.45,28.2,0,1,0,0,0,0,0,0
+442.0,Sonya Cooper,70.0,Female,166.0,68.0,24.7,119.0,80.6,59.4,99.0,96.1,246.3,14.7,No,No,1.0,No,No,No,6,Public,Yes,No,Benign,Radiation Therapy,Pollen,Normal,3.05,65.6,1,0,0,0,0,0,0,1
+443.0,Michael Curry,59.0,Male,173.0,85.0,28.4,99.1,95.3,71.8,98.0,108.8,250.8,13.0,No,No,6.0,No,No,No,6,Public,No,No,Benign,,,Normal,6.78,56.9,1,1,0,0,0,0,0,1
+444.0,Heather Landry,75.0,Female,167.0,72.0,25.8,129.5,77.1,61.8,98.6,43.6,150.2,12.9,No,Yes,2.0,No,No,No,2,Private,No,No,Benign,Chemotherapy,,Normal,7.12,32.6,0,0,0,1,0,0,0,0
+445.0,Steven Suarez,56.0,Male,176.0,80.0,25.8,125.8,71.4,77.4,98.8,52.9,254.3,12.0,No,Yes,1.0,No,Yes,No,2,Private,No,No,Benign,,,Normal,6.75,48.2,1,1,0,1,0,1,0,0
+446.0,Ronald Williams,31.0,Male,166.0,58.0,21.0,139.2,75.8,76.1,96.1,80.9,194.3,7.5,Yes,Yes,7.0,Yes,No,No,3,Private,No,No,Benign,Chemotherapy,Dust,Normal,9.47,37.3,0,1,1,1,1,0,0,0
+447.0,Jill Booker,22.0,Female,174.0,76.0,25.1,104.2,88.7,79.7,102.7,106.2,216.7,17.0,No,Yes,3.0,No,No,No,2,Private,No,Yes,Benign,Immunotherapy,Seafood,Normal,3.67,34.2,0,0,0,1,0,0,0,0
+448.0,Richard Griffin,52.0,Male,170.0,30.0,10.4,120.7,101.2,74.0,99.4,92.8,180.1,12.0,No,Yes,3.0,No,No,Yes,0,Private,No,No,Benign,Immunotherapy,,Normal,0.4,13.4,0,1,0,1,0,0,1,0
+449.0,Stanley Mays,35.0,Female,181.0,72.0,22.0,92.7,70.6,105.2,98.9,144.3,236.9,13.2,Yes,No,5.0,No,No,No,2,Private,No,No,Benign,,,Normal,9.08,63.2,1,0,1,0,0,0,0,0
+450.0,Christine Brooks,26.0,Male,169.0,51.0,17.9,134.0,81.5,57.7,99.5,55.5,216.2,11.1,No,Yes,2.0,No,Yes,No,2,Private,No,No,Benign,Surgery,,Normal,1.6,20.9,0,1,0,1,0,1,0,0
+452.0,Calvin Hardy,34.0,Male,183.0,87.0,26.0,129.9,65.1,65.3,98.4,145.6,153.4,14.3,No,Yes,1.0,No,Yes,No,4,Private,No,No,Benign,,,Normal,8.73,38.0,0,1,0,1,0,1,0,0
+453.0,Tina Ellis,24.0,Female,161.0,82.0,31.6,120.0,80.3,51.2,97.7,103.9,141.6,12.3,No,No,3.0,No,No,No,4,Public,No,No,Benign,Surgery,,Normal,3.1,22.9,0,0,0,0,0,0,0,1
+454.0,Peter Romero,63.0,Male,163.0,98.0,36.9,128.3,58.0,52.1,99.5,126.5,207.5,13.2,No,No,2.0,No,No,No,2,Private,No,No,Benign,Radiation Therapy,,Normal,8.3,54.8,1,1,0,0,0,0,0,0
+455.0,Ricky Hamilton,30.0,Male,164.0,61.0,22.7,152.1,53.5,58.0,99.2,161.5,222.9,17.4,Yes,No,8.0,No,No,No,0,Private,Yes,No,Benign,,Pollen,Normal,3.32,77.0,1,1,1,0,0,0,0,0
+456.0,William Benton,57.0,Male,184.0,101.0,29.8,114.3,85.5,58.9,97.4,79.2,226.0,13.9,Yes,Yes,0.0,No,No,No,2,Private,No,No,Benign,Surgery,,Normal,7.94,53.4,1,1,1,1,0,0,0,0
+457.0,Sue Baldwin,59.0,Male,149.0,89.0,40.1,122.8,74.2,58.5,100.7,97.0,195.3,13.6,No,No,5.0,No,Yes,No,0,Public,No,No,Benign,,,Normal,0.7,16.0,0,1,0,0,0,1,0,1
+458.0,Regina Rowe,26.0,Female,201.0,71.0,17.6,98.3,83.0,76.2,99.0,91.8,153.7,12.1,No,Yes,1.0,Yes,Yes,No,3,Public,No,No,Benign,Surgery,,Normal,6.55,21.1,0,0,0,1,1,1,0,1
+459.0,Brandon Blanchard,67.0,Male,181.0,92.0,28.1,102.6,79.7,63.9,99.7,41.4,172.7,10.2,No,Yes,4.0,No,Yes,Yes,2,Public,No,No,Malignant,,Peanuts,Normal,6.77,30.8,0,1,0,1,0,1,1,1
+460.0,David Sanders,44.0,Female,172.0,58.0,19.6,122.0,65.4,67.8,100.7,90.7,246.1,13.7,No,No,2.0,No,Yes,No,1,Private,No,No,Benign,,,Normal,4.91,45.1,1,0,0,0,0,1,0,0
+461.0,Christopher Calderon,83.0,Male,169.0,63.0,22.1,142.1,79.3,80.7,98.6,126.4,180.6,14.7,No,No,4.0,No,No,No,2,Public,No,No,Benign,Immunotherapy,Penicillin,Normal,6.87,49.5,1,1,0,0,0,0,0,1
+462.0,James Fields,22.0,Male,173.0,66.0,22.1,114.9,61.5,60.8,99.1,116.2,205.7,16.2,No,No,4.0,Yes,No,No,3,Public,No,No,Benign,,Seafood,Abnormal,9.23,38.2,0,1,0,0,1,0,0,1
+463.0,Erik Bishop,46.0,Female,175.0,67.0,21.9,115.3,100.9,66.8,99.8,118.6,157.0,9.5,No,No,3.0,No,No,No,3,Public,No,No,Malignant,Surgery,Pollen,Normal,7.34,33.8,0,0,0,0,0,0,0,1
+464.0,Lonnie Martinez,54.0,Female,176.0,59.0,19.0,111.9,59.7,74.4,97.5,88.7,213.5,11.7,Yes,No,2.0,No,No,No,3,Public,No,No,Benign,,Peanuts,Normal,9.61,52.7,1,0,1,0,0,0,0,1
+465.0,Lisa Taylor,55.0,Male,176.0,93.0,30.0,109.3,77.1,46.7,98.7,80.3,181.7,12.8,No,Yes,1.0,No,No,No,1,Private,No,Yes,Malignant,,,Abnormal,4.49,26.4,0,1,0,1,0,0,0,0
+466.0,Stephanie Butler,25.0,Male,171.0,71.0,24.3,125.9,64.4,41.4,98.8,138.1,241.9,14.0,No,No,2.0,No,No,No,2,Private,No,No,Benign,Surgery,,Normal,5.28,55.9,1,1,0,0,0,0,0,0
+467.0,Jennifer Bruce,82.0,Male,168.0,80.0,28.3,90.1,88.6,74.2,97.2,85.1,230.9,13.7,No,Yes,1.0,No,No,No,1,Public,No,No,Unknown,Surgery,Peanuts,Normal,2.64,37.2,0,1,0,1,0,0,0,1
+468.0,Carrie Lewis,34.0,Female,168.0,66.0,23.4,145.6,75.0,75.9,102.1,108.8,180.2,13.8,No,No,2.0,No,No,No,2,Private,No,No,Malignant,,,Normal,9.86,31.0,0,0,0,0,0,0,0,0
+469.0,Arthur White,62.0,Female,168.0,48.0,17.0,106.7,72.2,94.8,96.5,104.9,194.9,14.8,No,Yes,1.0,No,No,No,2,Public,No,Yes,Benign,Chemotherapy,,Normal,0.55,24.2,0,0,0,1,0,0,0,1
+470.0,Sylvia Salazar,21.0,Male,181.0,79.0,24.1,134.4,92.8,71.9,96.7,143.9,178.0,12.2,No,No,1.0,Yes,No,Yes,1,Public,No,No,Benign,Radiation Therapy,Pollen,Normal,3.59,30.7,0,1,0,0,1,0,1,1
+471.0,Thomas Rodriguez,53.0,Female,176.0,46.0,14.9,94.6,80.4,79.8,100.6,129.1,143.2,15.9,No,No,3.0,No,No,No,4,Private,No,No,Benign,Surgery,Seafood,Abnormal,2.98,36.4,0,0,0,0,0,0,0,0
+472.0,Victoria Mercer,48.0,Female,141.0,74.0,37.2,133.4,87.7,67.7,99.7,61.1,165.7,14.9,No,No,1.0,No,No,No,1,Private,No,No,Malignant,Chemotherapy,Seafood,Normal,3.87,22.9,0,0,0,0,0,0,0,0
+473.0,Mark Tucker,36.0,Female,177.0,54.0,17.2,133.4,65.3,73.6,97.1,64.4,207.9,13.4,No,Yes,3.0,No,No,No,2,Private,Yes,No,Malignant,,Dust,Normal,9.18,53.5,1,0,0,1,0,0,0,0
+474.0,Michael Gonzalez,78.0,Female,172.0,105.0,35.5,127.7,58.9,90.0,99.5,117.4,213.0,17.2,No,No,2.0,Yes,Yes,No,0,Private,No,No,Benign,Radiation Therapy,Penicillin,Abnormal,3.68,47.4,1,0,0,0,1,1,0,0
+475.0,Gregory Carson,71.0,Male,170.0,89.0,30.8,100.1,81.6,44.5,100.8,98.1,205.9,17.1,Yes,No,3.0,No,No,No,0,Private,No,No,Benign,Radiation Therapy,Peanuts,Normal,9.17,56.7,1,1,1,0,0,0,0,0
+476.0,Frank Carey,56.0,Male,166.0,77.0,27.9,125.0,75.2,75.0,98.6,86.3,187.9,15.9,No,No,2.0,No,No,No,2,Public,Yes,No,Benign,,,Normal,4.23,45.9,1,1,0,0,0,0,0,1
+477.0,Jon Walker,36.0,Male,181.0,94.0,28.7,96.3,89.4,95.6,102.5,130.5,237.3,8.0,No,No,4.0,No,No,No,0,Public,No,No,Benign,Radiation Therapy,Pollen,Normal,8.55,48.5,1,1,0,0,0,0,0,1
+478.0,Laura Weeks,56.0,Male,179.0,62.0,19.4,114.9,78.8,73.4,96.0,105.6,202.5,17.2,No,No,1.0,No,No,No,4,Public,No,No,Benign,Immunotherapy,,Normal,5.22,46.2,1,1,0,0,0,0,0,1
+479.0,Mary Cochran,84.0,Female,162.0,83.0,31.6,140.6,83.1,89.8,99.6,101.6,228.1,15.6,No,Yes,3.0,No,No,No,2,Private,No,No,Benign,,Penicillin,Normal,3.11,47.1,1,0,0,1,0,0,0,0
+480.0,Karen Carr,62.0,Female,174.0,78.0,25.8,135.9,55.6,62.4,100.3,123.4,129.0,18.0,No,No,3.0,No,No,No,0,Public,Yes,No,Malignant,,,Normal,4.49,56.1,1,0,0,0,0,0,0,1
+482.0,Kaitlin Santana,75.0,Male,156.0,94.0,38.6,100.5,77.5,70.4,98.3,147.1,211.4,17.2,No,Yes,4.0,No,No,No,5,Private,No,No,Benign,Chemotherapy,Penicillin,Normal,2.6,50.4,1,1,0,1,0,0,0,0
+483.0,Shane Lester,37.0,Male,164.0,86.0,32.0,132.9,90.5,43.4,98.2,76.4,143.0,15.8,No,No,4.0,No,No,Yes,2,Public,No,No,Benign,Chemotherapy,,Normal,2.9,17.4,0,1,0,0,0,0,1,1
+484.0,Sandra Thomas,78.0,Female,179.0,79.0,24.7,120.4,67.5,56.0,99.3,119.7,191.5,16.7,Yes,No,3.0,No,Yes,No,1,Public,No,No,Malignant,Radiation Therapy,Penicillin,Normal,1.86,46.9,1,0,1,0,0,1,0,1
+485.0,Zachary Kaufman,56.0,Male,180.0,50.0,15.4,73.6,84.6,56.8,99.8,143.0,187.9,18.0,No,Yes,4.0,No,No,No,2,Public,Yes,No,Benign,Chemotherapy,Penicillin,Normal,3.36,58.3,1,1,0,1,0,0,0,1
+486.0,Lisa Snow,18.0,Female,175.0,61.0,19.9,135.7,60.5,79.9,99.5,58.7,263.5,14.4,No,Yes,5.0,No,No,No,1,Public,No,No,Benign,Surgery,Penicillin,Normal,6.24,39.2,0,0,0,1,0,0,0,1
+487.0,Amy Dawson,20.0,Male,177.0,73.0,23.3,119.5,86.8,80.5,100.2,89.7,216.0,10.9,No,No,3.0,No,Yes,No,2,Private,No,No,Benign,Surgery,,Normal,3.87,26.3,0,1,0,0,0,1,0,0
+488.0,Alexander Sanchez,79.0,Male,175.0,76.0,24.8,144.0,74.7,73.9,97.1,134.3,206.6,13.4,No,Yes,3.0,Yes,No,No,1,Private,No,No,Benign,Surgery,,Abnormal,7.12,58.6,1,1,0,1,1,0,0,0
+489.0,Alyssa Bennett,80.0,Female,164.0,58.0,21.6,98.1,80.4,79.9,98.3,134.7,233.5,14.8,No,No,2.0,Yes,No,No,3,Public,No,No,Benign,Radiation Therapy,Seafood,Normal,9.87,58.8,1,0,0,0,1,0,0,1
+490.0,Nicole Chang,42.0,Female,174.0,111.0,36.7,56.5,90.5,68.0,97.2,94.9,214.7,14.1,Yes,No,3.0,No,No,No,0,Public,No,No,Benign,Surgery,,Normal,3.77,46.2,1,0,1,0,0,0,0,1
+491.0,Miranda Gibson,73.0,Male,178.0,98.0,30.9,125.6,61.5,84.4,98.0,78.0,181.7,11.5,Yes,No,4.0,No,No,No,0,Private,No,Yes,Benign,Radiation Therapy,,Normal,4.63,46.1,1,1,1,0,0,0,0,0
+492.0,Robert Fields,50.0,Female,178.0,84.0,26.5,125.8,69.7,70.1,100.1,128.7,242.9,10.7,No,Yes,2.0,No,No,Yes,1,Private,No,No,Benign,Chemotherapy,,Normal,1.64,51.7,1,0,0,1,0,0,1,0
+493.0,William Alexander,55.0,Female,182.0,76.0,22.9,86.2,86.9,70.7,98.8,135.5,155.6,12.5,No,Yes,7.0,No,Yes,No,3,Private,No,No,Malignant,Immunotherapy,Dust,Normal,3.92,39.7,0,0,0,1,0,1,0,0
+494.0,Rebecca Harris,23.0,Female,177.0,72.0,23.0,100.4,111.5,66.8,102.5,65.1,212.9,15.6,No,No,4.0,No,No,No,3,Private,No,No,Benign,Immunotherapy,Peanuts,Normal,7.27,30.4,0,0,0,0,0,0,0,0
+495.0,Jonathan Mcdonald,75.0,Male,174.0,61.0,20.1,175.1,77.9,78.2,98.9,63.9,138.1,17.2,No,No,2.0,Yes,No,No,2,Public,No,No,Benign,,,Normal,2.17,24.2,0,1,0,0,1,0,0,1
+496.0,Lisa Hobbs,61.0,Female,181.0,76.0,23.2,113.9,88.9,64.9,98.7,106.8,208.2,15.8,No,Yes,2.0,Yes,No,No,2,Uninsured,No,No,Benign,,Dust,Normal,1.82,37.8,0,0,0,1,1,0,0,2
+497.0,James Cole,62.0,Female,170.0,79.0,27.3,134.6,78.4,81.7,98.8,118.9,207.7,16.1,No,Yes,1.0,No,No,No,3,Private,No,No,Benign,,Seafood,Normal,3.76,43.9,1,0,0,1,0,0,0,0
+498.0,Kristen Odonnell,49.0,Female,161.0,56.0,21.6,107.0,109.1,56.4,97.6,91.0,267.1,13.8,No,Yes,2.0,No,Yes,No,3,Public,Yes,No,Benign,Immunotherapy,Seafood,Normal,8.19,66.5,1,0,0,1,0,1,0,1
+499.0,Stephanie Patrick,62.0,Male,168.0,80.0,28.3,78.2,53.8,56.8,98.5,120.4,137.4,10.5,No,No,3.0,Yes,No,No,2,Private,Yes,No,Benign,Chemotherapy,,Normal,6.24,57.6,1,1,0,0,1,0,0,0
+500.0,Sarah Patel,78.0,Male,163.0,73.0,27.5,116.6,81.4,78.2,100.3,78.7,176.0,13.1,Yes,No,6.0,No,No,No,1,Public,No,No,Benign,Chemotherapy,Seafood,Abnormal,9.58,48.4,1,1,1,0,0,0,0,1
+502.0,Megan Mitchell,38.0,Female,169.0,62.0,21.7,112.0,42.4,64.6,97.4,87.3,213.4,13.0,No,No,3.0,No,No,No,1,Uninsured,No,No,Benign,Radiation Therapy,Peanuts,Normal,1.51,23.5,0,0,0,0,0,0,0,2
+503.0,Matthew Campbell,53.0,Male,162.0,69.0,26.3,117.7,84.5,80.7,97.2,101.9,207.2,14.1,No,No,2.0,No,No,No,1,Private,No,No,Malignant,Surgery,Dust,Abnormal,0.43,31.8,0,1,0,0,0,0,0,0
+504.0,Marvin Taylor,36.0,Female,167.0,103.0,36.9,125.3,82.1,62.7,97.9,91.7,161.8,14.9,No,No,4.0,No,No,No,0,Public,No,No,Benign,Chemotherapy,Dust,Abnormal,3.99,20.4,0,0,0,0,0,0,0,1
+505.0,Barbara Johnson,37.0,Female,151.0,83.0,36.4,117.0,75.7,67.6,98.7,65.2,176.4,15.7,Yes,Yes,2.0,No,No,No,3,Public,No,No,Benign,Chemotherapy,,Normal,5.22,38.7,0,0,1,1,0,0,0,1
+506.0,Derek Williams,74.0,Male,172.0,55.0,18.6,94.7,78.4,86.8,100.4,45.5,249.8,13.4,No,Yes,3.0,No,Yes,No,2,Private,No,No,Benign,,Dust,Normal,5.16,52.4,1,1,0,1,0,1,0,0
+507.0,Kyle Williams,35.0,Female,170.0,82.0,28.4,129.7,126.5,88.5,96.6,84.6,197.9,10.2,No,Yes,4.0,No,No,No,3,Public,No,No,Benign,Radiation Therapy,,Normal,1.34,12.3,0,0,0,1,0,0,0,1
+508.0,Rebecca Baldwin,64.0,Male,162.0,52.0,19.8,81.0,76.1,88.9,98.1,126.9,215.0,13.0,Yes,No,1.0,No,No,No,3,Private,No,No,Benign,Surgery,,Normal,1.25,58.8,1,1,1,0,0,0,0,0
+509.0,Jeremy Carroll,66.0,Female,177.0,91.0,29.0,79.0,87.7,66.6,98.8,137.7,195.4,14.1,No,No,9.0,No,No,No,2,Private,No,No,Unknown,Chemotherapy,Penicillin,Normal,0.47,31.9,0,0,0,0,0,0,0,0
+510.0,Matthew Carey,31.0,Male,179.0,68.0,21.2,134.8,70.3,84.8,95.8,135.6,152.7,16.4,No,No,4.0,No,No,No,4,Private,No,Yes,Benign,Immunotherapy,Peanuts,Normal,8.51,37.3,0,1,0,0,0,0,0,0
+511.0,Timothy Dougherty,32.0,Female,154.0,74.0,31.2,130.1,84.4,58.6,97.3,75.5,237.4,12.9,No,Yes,3.0,No,No,No,0,Private,No,No,Benign,,,Normal,9.48,32.5,0,0,0,1,0,0,0,0
+512.0,Jason Hernandez,48.0,Female,162.0,95.0,36.2,118.9,76.4,59.1,97.6,65.4,220.1,15.0,Yes,Yes,3.0,No,No,No,0,Private,No,No,Benign,Surgery,,Normal,1.16,39.8,0,0,1,1,0,0,0,0
+513.0,Patrick Payne,18.0,Female,162.0,56.0,21.3,92.1,73.8,41.8,97.4,114.9,292.2,14.6,No,Yes,2.0,No,No,No,3,Uninsured,No,No,Benign,,,Abnormal,2.13,38.6,0,0,0,1,0,0,0,2
+515.0,Stanley Mccormick,20.0,Female,178.0,66.0,20.8,114.7,97.7,59.6,98.4,112.0,232.9,15.9,No,Yes,4.0,No,No,No,1,Private,No,No,Benign,Immunotherapy,Dust,Normal,8.78,37.7,0,0,0,1,0,0,0,0
+517.0,Shelby Webb,74.0,Female,167.0,52.0,18.6,105.2,45.4,59.1,99.2,74.0,206.3,12.8,No,No,2.0,No,No,No,0,Public,No,No,Benign,,,Normal,2.62,35.3,0,0,0,0,0,0,0,1
+518.0,Sandra Patterson,29.0,Female,150.0,33.0,14.7,133.0,74.6,78.3,101.2,99.1,239.1,14.0,No,Yes,2.0,No,No,No,5,Public,No,No,Malignant,Radiation Therapy,Pollen,Abnormal,3.04,25.9,0,0,0,1,0,0,0,1
+519.0,Megan Pennington,33.0,Male,176.0,68.0,22.0,148.5,120.5,65.5,101.1,114.6,117.1,12.7,No,No,3.0,No,No,Yes,1,Private,No,Yes,Benign,Chemotherapy,Peanuts,Normal,3.63,26.7,0,1,0,0,0,0,1,0
+520.0,Jacqueline Ashley,41.0,Female,158.0,83.0,33.2,111.6,76.5,54.3,95.7,123.0,191.8,15.0,No,Yes,2.0,No,No,No,1,Public,Yes,No,Benign,Radiation Therapy,Seafood,Normal,5.02,52.6,1,0,0,1,0,0,0,1
+521.0,Sean Lopez,45.0,Female,171.0,93.0,31.8,135.1,96.5,75.3,99.5,104.3,177.5,12.6,No,No,3.0,No,Yes,No,3,Private,No,No,Benign,Chemotherapy,Peanuts,Normal,6.82,33.6,0,0,0,0,0,1,0,0
+523.0,Cheryl Garcia,53.0,Male,184.0,69.0,20.4,133.2,83.3,60.0,98.8,102.5,215.4,13.8,No,No,3.0,No,No,No,4,Public,No,No,Benign,Radiation Therapy,Seafood,Normal,9.51,45.5,1,1,0,0,0,0,0,1
+525.0,Joe Smith,75.0,Male,140.0,47.0,24.0,126.1,43.5,52.9,98.8,109.4,194.7,13.1,Yes,No,4.0,No,No,Yes,0,Private,No,No,Benign,,,Normal,7.99,55.6,1,1,1,0,0,0,1,0
+526.0,Caitlin Rodriguez,77.0,Female,172.0,69.0,23.3,115.0,90.3,72.1,98.8,102.0,208.2,13.3,No,No,6.0,No,No,No,0,Private,No,No,Benign,Chemotherapy,Peanuts,Normal,3.34,46.1,1,0,0,0,0,0,0,0
+527.0,Ralph Hansen,67.0,Male,188.0,78.0,22.1,146.4,67.8,46.4,97.7,91.9,204.6,14.2,Yes,No,2.0,No,No,No,1,Public,No,No,Benign,,Penicillin,Normal,3.78,52.1,1,1,1,0,0,0,0,1
+528.0,Cassandra Watson,45.0,Female,182.0,82.0,24.8,102.5,82.6,52.2,97.3,102.4,200.1,14.4,No,No,3.0,No,No,No,1,Private,No,No,Benign,,Penicillin,Normal,7.09,43.6,1,0,0,0,0,0,0,0
+529.0,Jason Phillips,58.0,Female,172.0,67.0,22.6,132.6,61.3,70.0,97.9,114.5,156.4,14.0,Yes,No,5.0,No,No,No,3,Private,No,No,Benign,,,Normal,9.29,51.6,1,0,1,0,0,0,0,0
+530.0,Dustin Harvey,81.0,Male,165.0,76.0,27.9,114.4,76.0,63.5,99.0,108.0,244.3,17.4,No,No,1.0,No,No,No,2,Public,No,No,Benign,,,Normal,7.16,62.1,1,1,0,0,0,0,0,1
+531.0,Jose Hill,44.0,Female,178.0,38.0,12.0,116.8,80.5,93.9,99.5,111.4,211.8,12.0,No,Yes,4.0,No,No,No,3,Public,No,No,Unknown,,Penicillin,Normal,7.76,43.4,1,0,0,1,0,0,0,1
+532.0,Frank Graves,80.0,Male,160.0,65.0,25.4,116.3,84.0,92.0,99.9,140.3,215.8,13.9,No,No,3.0,No,No,No,0,Private,No,No,Benign,,Seafood,Normal,7.51,58.8,1,1,0,0,0,0,0,0
+533.0,Mark Garcia,34.0,Female,175.0,82.0,26.8,103.1,63.3,59.6,97.9,108.0,167.7,10.9,No,No,6.0,No,No,Yes,2,Private,No,No,Benign,Surgery,Seafood,Normal,3.21,25.6,0,0,0,0,0,0,1,0
+534.0,Kristina Lee,50.0,Female,175.0,60.0,19.6,119.7,98.0,76.7,99.0,80.5,181.6,14.7,No,No,3.0,No,No,No,2,Public,Yes,No,Benign,Surgery,,Normal,7.57,46.8,1,0,0,0,0,0,0,1
+535.0,Jason Brown,46.0,Female,181.0,76.0,23.2,118.7,71.0,79.0,100.0,126.5,193.0,11.8,No,Yes,1.0,No,No,No,3,Public,Yes,No,Benign,,,Normal,7.85,60.8,1,0,0,1,0,0,0,1
+536.0,Paul Carter,30.0,Female,198.0,82.0,20.9,124.8,54.9,62.8,100.3,59.0,138.6,13.4,No,No,4.0,No,No,No,2,Private,No,No,Benign,Surgery,,Normal,5.33,22.1,0,0,0,0,0,0,0,0
+537.0,Taylor Lowe,63.0,Female,174.0,70.0,23.1,121.7,78.4,52.1,98.5,67.6,132.5,13.3,No,Yes,3.0,Yes,No,No,3,Public,No,No,Benign,Chemotherapy,,Normal,5.37,29.8,0,0,0,1,1,0,0,1
+538.0,Christopher Taylor,52.0,Male,165.0,78.0,28.7,136.0,80.5,69.9,98.3,110.1,176.0,14.6,No,No,2.0,No,No,No,5,Uninsured,No,No,Unknown,,,Abnormal,7.6,35.2,0,1,0,0,0,0,0,2
+539.0,Judy Ramirez,23.0,Male,170.0,61.0,21.1,138.5,82.4,67.9,98.9,115.5,220.9,12.9,No,Yes,4.0,No,No,No,4,Public,No,No,Benign,Surgery,Seafood,Normal,8.17,38.4,0,1,0,1,0,0,0,1
+540.0,Jason Walter,64.0,Female,152.0,72.0,31.2,99.0,100.4,64.8,96.9,62.6,173.9,12.8,Yes,No,6.0,No,Yes,No,3,Private,No,No,Benign,,Dust,Normal,3.37,40.2,0,0,1,0,0,1,0,0
+541.0,James Hernandez,42.0,Female,163.0,84.0,31.6,137.4,76.5,75.3,98.3,88.5,159.2,16.9,No,Yes,3.0,No,Yes,No,1,Public,No,No,Benign,Chemotherapy,,Abnormal,8.02,24.9,0,0,0,1,0,1,0,1
+542.0,Heather Joseph,83.0,Female,166.0,77.0,27.9,96.3,78.2,61.0,99.7,81.8,167.4,14.6,No,Yes,6.0,No,No,No,1,Uninsured,No,No,Benign,Immunotherapy,Penicillin,Normal,8.14,34.5,0,0,0,1,0,0,0,2
+543.0,Jessica Harris,27.0,Female,165.0,66.0,24.2,131.8,63.5,56.2,99.6,85.4,181.8,12.9,No,No,5.0,Yes,No,No,3,Private,No,No,Benign,Radiation Therapy,Peanuts,Normal,2.34,13.4,0,0,0,0,1,0,0,0
+544.0,Sean Hayden,73.0,Male,172.0,78.0,26.4,132.4,92.3,71.3,98.2,128.3,185.8,13.5,No,No,2.0,No,No,Yes,2,Uninsured,No,No,Benign,,Pollen,Normal,7.17,47.2,1,1,0,0,0,0,1,2
+545.0,Madeline Harris,47.0,Female,162.0,86.0,32.8,81.8,82.8,74.6,98.9,121.2,286.6,17.3,No,Yes,4.0,No,No,No,2,Private,No,Yes,Benign,Chemotherapy,Dust,Normal,1.87,44.7,1,0,0,1,0,0,0,0
+546.0,Kent Lara,22.0,Male,181.0,44.0,13.4,121.9,73.7,55.9,97.4,99.4,242.2,13.5,No,No,1.0,Yes,No,No,2,Public,No,No,Benign,,,Normal,0.93,28.0,0,1,0,0,1,0,0,1
+547.0,Heather Cochran,50.0,Female,170.0,92.0,31.8,110.6,51.4,81.1,99.7,83.6,241.0,12.6,No,Yes,4.0,No,No,No,2,Public,No,No,Malignant,Chemotherapy,,Abnormal,5.75,46.8,1,0,0,1,0,0,0,1
+548.0,Brittney Bush,82.0,Male,170.0,70.0,24.2,104.8,101.7,48.8,98.5,59.5,246.7,12.6,No,No,1.0,No,No,Yes,1,Private,No,No,Malignant,Chemotherapy,,Normal,9.09,54.3,1,1,0,0,0,0,1,0
+549.0,Mackenzie Lee,35.0,Male,167.0,81.0,29.0,147.0,61.6,63.1,98.2,142.6,160.0,12.9,Yes,No,2.0,No,No,No,1,Private,No,No,Benign,Radiation Therapy,Penicillin,Normal,0.35,39.3,0,1,1,0,0,0,0,0
+550.0,Kevin Martin,66.0,Male,172.0,93.0,31.4,106.9,71.1,66.9,98.1,117.8,151.1,12.8,No,Yes,5.0,No,No,No,2,Uninsured,No,No,Benign,Radiation Therapy,Peanuts,Normal,8.27,38.5,0,1,0,1,0,0,0,2
+551.0,Jeffrey Sandoval,28.0,Male,178.0,54.0,17.0,103.9,85.4,62.4,98.5,78.8,155.7,11.4,No,No,1.0,No,No,No,4,Public,No,No,Benign,Immunotherapy,,Normal,5.06,21.6,0,1,0,0,0,0,0,1
+552.0,James Hamilton,43.0,Female,161.0,64.0,24.7,121.5,62.1,63.2,97.9,121.6,253.4,11.8,Yes,Yes,4.0,Yes,No,No,3,Private,No,No,Benign,Chemotherapy,Dust,Normal,8.61,68.1,1,0,1,1,1,0,0,0
+553.0,Jennifer Richardson,80.0,Male,163.0,71.0,26.7,133.7,57.6,92.5,99.6,97.9,178.1,12.3,No,No,1.0,No,No,Yes,0,Uninsured,No,No,Benign,Surgery,,Normal,8.43,33.8,0,1,0,0,0,0,1,2
+554.0,Wayne Marquez,76.0,Male,167.0,63.0,22.6,117.2,48.1,59.8,98.0,91.4,149.9,15.2,No,No,3.0,Yes,No,No,4,Public,No,No,Benign,Radiation Therapy,Pollen,Normal,8.75,32.9,0,1,0,0,1,0,0,1
+555.0,Vickie Shaw,44.0,Male,157.0,101.0,41.0,143.3,90.8,99.3,101.0,113.1,182.8,13.2,Yes,No,2.0,No,No,No,1,Private,No,No,Benign,,,Normal,7.69,48.4,1,1,1,0,0,0,0,0
+556.0,Elizabeth Hernandez,66.0,Male,162.0,62.0,23.6,130.6,71.8,75.2,100.8,77.8,190.5,13.6,No,No,4.0,No,No,Yes,3,Private,No,No,Unknown,Chemotherapy,,Abnormal,8.43,30.5,0,1,0,0,0,0,1,0
+557.0,Daniel Robinson,50.0,Male,165.0,67.0,24.6,76.4,123.9,71.1,97.3,89.7,210.7,16.5,Yes,No,3.0,No,No,No,3,Private,No,No,Benign,Surgery,,Normal,1.76,42.0,1,1,1,0,0,0,0,0
+558.0,Scott Bishop,18.0,Male,179.0,78.0,24.3,109.4,65.1,75.7,98.7,103.6,210.0,16.6,No,Yes,5.0,No,No,No,1,Public,No,No,Benign,Immunotherapy,,Normal,3.04,31.4,0,1,0,1,0,0,0,1
+559.0,Sally Medina,38.0,Female,173.0,57.0,19.0,108.8,66.2,100.4,97.6,85.0,166.9,13.4,No,No,6.0,No,No,No,2,Public,No,No,Benign,,Seafood,Normal,2.42,16.2,0,0,0,0,0,0,0,1
+560.0,Curtis Goodman,72.0,Female,172.0,69.0,23.3,129.6,71.5,58.1,98.1,120.1,227.4,12.7,No,No,4.0,No,No,No,4,Public,No,No,Benign,,,Normal,7.42,49.9,1,0,0,0,0,0,0,1
+562.0,Shelby Hood,22.0,Male,169.0,70.0,24.5,171.0,72.9,60.9,98.1,77.4,193.7,15.4,No,No,7.0,No,Yes,No,2,Private,No,No,Benign,Chemotherapy,,Normal,1.82,10.6,0,1,0,0,0,1,0,0
+563.0,Jason Powers,20.0,Male,174.0,74.0,24.4,130.6,89.2,70.4,99.1,50.0,227.5,13.6,Yes,Yes,2.0,No,No,No,0,Public,No,No,Benign,,,Normal,8.79,44.7,1,1,1,1,0,0,0,1
+565.0,Kimberly Thompson,40.0,Female,173.0,52.0,17.4,143.6,59.3,70.3,97.1,95.5,177.2,12.4,No,Yes,6.0,No,No,No,1,Private,No,No,Benign,,Pollen,Abnormal,8.75,24.4,0,0,0,1,0,0,0,0
+566.0,Mr. Ian Washington,70.0,Male,164.0,80.0,29.7,166.9,53.0,90.3,97.3,80.1,223.7,12.5,Yes,Yes,3.0,No,No,Yes,1,Private,No,No,Benign,Radiation Therapy,,Normal,1.39,45.6,1,1,1,1,0,0,1,0
+568.0,Dale Lloyd,34.0,Male,169.0,75.0,26.3,139.0,72.2,66.5,97.3,104.0,184.6,11.4,Yes,No,6.0,Yes,No,No,5,Public,No,No,Unknown,Surgery,Penicillin,Normal,2.83,39.5,0,1,1,0,1,0,0,1
+569.0,Kyle Walls,18.0,Male,184.0,78.0,23.0,122.6,75.5,62.6,94.3,51.9,222.2,16.0,No,No,3.0,Yes,No,No,4,Private,Yes,No,Benign,Immunotherapy,,Normal,0.1,34.5,0,1,0,0,1,0,0,0
+571.0,Michelle Davis,62.0,Female,180.0,56.0,17.3,110.5,98.7,60.1,101.7,108.9,224.2,13.7,No,No,2.0,No,No,No,4,Private,No,No,Benign,Surgery,,Normal,3.8,44.0,1,0,0,0,0,0,0,0
+573.0,Tammy Barnes,79.0,Female,171.0,78.0,26.7,106.3,75.0,93.2,96.5,87.2,221.2,14.0,No,No,4.0,No,No,No,1,Public,No,No,Benign,Surgery,Peanuts,Normal,5.66,43.6,1,0,0,0,0,0,0,1
+574.0,Sarah Simpson,82.0,Female,172.0,99.0,33.5,93.0,53.1,73.1,97.6,50.3,157.1,13.3,Yes,No,5.0,Yes,Yes,No,3,Public,No,No,Benign,,,Normal,3.83,45.8,1,0,1,0,1,1,0,1
+575.0,Leslie Cruz,49.0,Female,164.0,64.0,23.8,118.5,71.5,69.9,97.9,114.1,204.6,13.9,No,No,4.0,No,No,No,2,Uninsured,No,No,Benign,Immunotherapy,,Normal,0.46,30.9,0,0,0,0,0,0,0,2
+576.0,Christopher Kim,51.0,Female,167.0,102.0,36.6,86.3,71.0,82.4,97.1,138.2,198.8,16.9,No,No,4.0,No,No,No,1,Public,Yes,No,Benign,Immunotherapy,,Abnormal,7.04,62.0,1,0,0,0,0,0,0,1
+577.0,Molly Sullivan,56.0,Female,176.0,87.0,28.1,123.8,70.1,83.1,99.9,108.3,212.9,14.4,No,Yes,2.0,No,No,No,2,Public,No,No,Benign,Radiation Therapy,Seafood,Normal,7.29,46.2,1,0,0,1,0,0,0,1
+578.0,Natalie Walton,43.0,Male,182.0,83.0,25.1,119.3,69.5,60.3,99.8,74.6,204.7,12.4,No,No,6.0,No,No,No,2,Private,No,No,Benign,,Peanuts,Normal,8.34,35.1,0,1,0,0,0,0,0,0
+580.0,Amy Ray,71.0,Male,165.0,71.0,26.1,109.6,74.2,54.1,99.7,59.0,187.5,15.2,No,No,1.0,No,No,No,0,Private,No,No,Benign,Chemotherapy,Dust,Normal,9.69,31.7,0,1,0,0,0,0,0,0
+581.0,Douglas Maldonado,20.0,Female,170.0,93.0,32.2,181.5,70.5,74.9,100.9,131.7,202.3,16.6,Yes,Yes,7.0,No,No,No,3,Private,Yes,No,Benign,,,Normal,9.14,79.7,1,0,1,1,0,0,0,0
+582.0,Marcus Hunter,67.0,Female,176.0,77.0,24.9,147.2,83.1,78.0,101.5,102.5,150.9,14.6,Yes,No,3.0,No,No,No,4,Public,No,No,Benign,Chemotherapy,Peanuts,Normal,5.51,53.8,1,0,1,0,0,0,0,1
+583.0,Gerald Figueroa,29.0,Male,156.0,45.0,18.5,95.1,85.4,53.8,102.9,47.0,187.2,15.4,No,No,3.0,No,No,No,5,Public,No,No,Benign,Chemotherapy,Dust,Normal,4.45,20.2,0,1,0,0,0,0,0,1
+584.0,Jennifer George,82.0,Female,147.0,58.0,26.8,124.7,66.3,64.5,97.2,91.0,255.6,15.2,Yes,No,1.0,No,No,No,1,Private,Yes,No,Benign,Surgery,Seafood,Normal,0.03,74.4,1,0,1,0,0,0,0,0
+585.0,Lori Vargas,71.0,Male,164.0,72.0,26.8,107.8,99.1,53.8,102.8,113.9,212.8,16.8,Yes,Yes,2.0,No,No,No,3,Uninsured,No,Yes,Malignant,Surgery,Penicillin,Normal,7.11,64.7,1,1,1,1,0,0,0,2
+586.0,Samuel Campbell,22.0,Female,158.0,80.0,32.0,99.7,65.3,59.2,98.1,90.0,199.2,10.1,No,Yes,1.0,No,Yes,No,1,Private,No,No,Benign,Chemotherapy,Peanuts,Abnormal,5.65,20.2,0,0,0,1,0,1,0,0
+587.0,Amy Burke,74.0,Male,165.0,74.0,27.2,93.2,55.7,76.6,97.7,91.7,275.8,15.3,Yes,No,1.0,No,No,No,3,Public,No,No,Unknown,Radiation Therapy,,Normal,9.38,67.4,1,1,1,0,0,0,0,1
+588.0,Sharon Brown,34.0,Male,169.0,93.0,32.6,128.6,85.7,61.2,99.1,63.3,145.6,16.0,Yes,Yes,2.0,No,No,No,1,Public,No,No,Benign,,Penicillin,Normal,5.94,38.0,0,1,1,1,0,0,0,1
+590.0,Kimberly Foster,40.0,Male,185.0,77.0,22.5,139.4,84.8,50.5,99.2,80.5,268.5,12.2,Yes,Yes,2.0,No,No,No,1,Private,No,No,Benign,Chemotherapy,,Normal,8.54,59.4,1,1,1,1,0,0,0,0
+592.0,Autumn Pena,83.0,Male,173.0,86.0,28.7,147.5,100.9,69.5,98.2,88.9,190.3,12.5,No,Yes,4.0,No,No,No,3,Public,No,No,Benign,Radiation Therapy,,Normal,3.28,29.4,0,1,0,1,0,0,0,1
+593.0,Alicia Tran,68.0,Female,176.0,74.0,23.9,103.0,90.1,61.3,100.5,129.4,152.0,13.0,No,No,4.0,No,No,No,1,Private,No,Yes,Benign,Immunotherapy,Penicillin,Normal,1.49,35.5,0,0,0,0,0,0,0,0
+594.0,Sharon Austin,55.0,Female,159.0,81.0,32.0,129.5,57.5,67.7,98.5,88.4,217.9,14.5,No,Yes,3.0,Yes,No,No,2,Private,Yes,No,Benign,Radiation Therapy,Dust,Normal,7.97,57.9,1,0,0,1,1,0,0,0
+595.0,David Sandoval,81.0,Male,180.0,62.0,19.1,132.6,57.8,72.2,98.8,152.1,221.8,15.7,Yes,Yes,4.0,No,No,Yes,2,Private,No,No,Benign,Surgery,,Normal,7.86,74.1,1,1,1,1,0,0,1,0
+596.0,Lauren Ho,55.0,Female,169.0,94.0,32.9,110.5,105.1,60.2,99.3,112.9,156.2,16.2,Yes,Yes,4.0,No,No,No,0,Private,No,No,Benign,Surgery,,Normal,2.11,42.3,1,0,1,1,0,0,0,0
+597.0,Sherry Medina,67.0,Female,177.0,91.0,29.0,104.6,68.9,52.3,100.4,110.2,194.4,12.3,No,No,7.0,No,No,No,1,Private,Yes,No,Benign,,,Normal,7.65,58.8,1,0,0,0,0,0,0,0
+598.0,Shawn Murray,47.0,Male,159.0,84.0,33.2,152.2,67.5,91.7,96.1,96.1,186.6,12.3,No,No,4.0,No,Yes,No,1,Public,No,No,Benign,Surgery,Peanuts,Normal,5.82,26.1,0,1,0,0,0,1,0,1
+599.0,Garrett Knight,68.0,Male,154.0,73.0,30.8,124.5,46.0,62.4,99.5,98.0,210.2,16.6,No,No,4.0,No,No,Yes,2,Private,No,No,Benign,Surgery,,Normal,1.1,29.3,0,1,0,0,0,0,1,0
+600.0,Marco Hayes,80.0,Male,178.0,84.0,26.5,132.7,74.7,68.8,98.2,92.1,155.2,15.3,No,Yes,1.0,No,No,No,3,Public,No,No,Benign,,,Abnormal,5.02,33.8,0,1,0,1,0,0,0,1
+601.0,Caleb Howard,69.0,Male,174.0,64.0,21.1,103.6,76.6,82.1,98.8,90.9,250.1,14.2,No,No,1.0,No,No,No,2,Public,Yes,No,Benign,,Penicillin,Normal,9.31,71.2,1,1,0,0,0,0,0,1
+602.0,Charles Chambers,55.0,Female,161.0,88.0,33.9,95.6,90.7,112.3,100.2,115.9,236.6,14.9,Yes,No,1.0,No,No,No,2,Private,Yes,No,Benign,Chemotherapy,Seafood,Normal,5.06,80.9,1,0,1,0,0,0,0,0
+603.0,Jasmine Washington,47.0,Male,161.0,100.0,38.6,108.6,59.0,55.1,96.8,71.9,185.5,13.9,No,Yes,5.0,No,No,No,1,Private,No,No,Benign,,,Normal,7.89,26.1,0,1,0,1,0,0,0,0
+604.0,Kimberly Wilson,68.0,Female,181.0,91.0,27.8,117.5,57.2,75.4,97.1,67.7,191.3,15.0,No,No,6.0,No,No,No,2,Private,No,No,Benign,Surgery,,Normal,0.29,16.9,0,0,0,0,0,0,0,0
+605.0,Dylan Little,22.0,Female,158.0,64.0,25.6,98.7,86.8,61.5,95.7,66.3,194.5,13.3,No,No,3.0,No,No,No,1,Private,No,No,Unknown,Surgery,Peanuts,Normal,7.28,20.2,0,0,0,0,0,0,0,0
+606.0,Adam Riddle,46.0,Male,186.0,80.0,23.1,119.8,95.1,63.5,97.8,161.4,168.9,14.5,No,No,6.0,No,Yes,No,0,Private,No,No,Benign,Surgery,,Normal,9.47,40.8,0,1,0,0,0,1,0,0
+607.0,Lauren Mcdonald,21.0,Female,161.0,56.0,21.6,86.2,56.4,61.4,100.6,115.9,182.3,11.0,No,No,7.0,No,Yes,No,2,Private,No,No,Benign,Surgery,,Normal,5.0,27.9,0,0,0,0,0,1,0,0
+608.0,Alyssa Miller,27.0,Male,176.0,84.0,27.1,97.6,96.2,56.5,98.4,109.1,189.2,12.6,No,No,2.0,No,Yes,No,1,Private,No,No,Benign,Chemotherapy,Penicillin,Normal,3.38,24.5,0,1,0,0,0,1,0,0
+609.0,Sharon Powell,73.0,Female,167.0,82.0,29.4,133.4,80.6,69.5,96.6,68.3,264.5,12.6,No,Yes,3.0,No,No,No,2,Private,No,Yes,Benign,Surgery,Pollen,Normal,6.47,52.2,1,0,0,1,0,0,0,0
+610.0,Melanie Johnson,34.0,Female,176.0,47.0,15.2,132.1,96.4,52.3,97.9,118.7,237.9,13.3,No,No,3.0,Yes,Yes,No,4,Public,No,No,Benign,Surgery,,Normal,9.16,41.0,0,0,0,0,1,1,0,1
+611.0,Nancy Coffey,34.0,Female,165.0,58.0,21.3,112.2,78.9,81.4,96.4,96.5,237.4,12.1,No,Yes,2.0,No,No,No,1,Public,No,No,Benign,Chemotherapy,,Normal,1.77,23.3,0,0,0,1,0,0,0,1
+612.0,Danielle Fleming,51.0,Female,168.0,71.0,25.2,99.6,42.2,70.7,96.9,106.4,214.8,12.9,No,No,2.0,No,No,No,5,Private,Yes,No,Benign,Surgery,,Normal,4.04,62.1,1,0,0,0,0,0,0,0
+613.0,Linda Hanson,23.0,Male,170.0,70.0,24.2,99.5,77.7,75.1,99.2,70.7,155.3,11.0,No,Yes,1.0,No,No,No,3,Public,No,No,Benign,,Dust,Normal,1.56,10.1,0,1,0,1,0,0,0,1
+614.0,John Adams,70.0,Female,160.0,57.0,22.3,112.5,95.9,64.4,96.8,104.8,198.3,15.1,No,No,2.0,No,No,No,0,Private,Yes,No,Benign,,,Normal,4.97,59.4,1,0,0,0,0,0,0,0
+615.0,Yvonne Mitchell,83.0,Female,177.0,81.0,25.9,132.9,66.6,65.6,100.3,87.3,238.8,13.8,Yes,No,4.0,No,No,No,1,Private,No,No,Benign,Surgery,Penicillin,Normal,5.4,59.5,1,0,1,0,0,0,0,0
+616.0,Sara Hill,60.0,Female,165.0,79.0,29.0,138.6,74.2,73.5,98.5,77.0,149.7,10.6,No,No,1.0,No,No,No,1,Uninsured,No,No,Benign,,Seafood,Normal,9.44,29.1,0,0,0,0,0,0,0,2
+617.0,Thomas Caldwell,40.0,Female,168.0,72.0,25.5,110.1,77.4,56.0,98.7,122.0,225.5,12.3,Yes,Yes,5.0,No,No,No,1,Private,No,No,Malignant,Surgery,Pollen,Abnormal,4.13,54.8,1,0,1,1,0,0,0,0
+618.0,Brett Callahan,72.0,Female,160.0,64.0,25.0,96.9,36.5,65.7,98.2,53.9,292.9,14.7,No,No,3.0,No,No,No,3,Public,No,No,Benign,Chemotherapy,Peanuts,Normal,5.67,51.9,1,0,0,0,0,0,0,1
+620.0,Daniel Jones,25.0,Male,168.0,100.0,35.4,103.5,66.5,59.3,99.8,120.5,256.6,12.6,No,Yes,3.0,No,No,No,0,Public,No,No,Benign,Chemotherapy,,Normal,3.21,43.5,1,1,0,1,0,0,0,1
+621.0,Roger Flores,21.0,Female,194.0,68.0,18.1,109.6,87.6,44.7,99.1,73.6,208.7,13.9,Yes,No,4.0,No,No,No,1,Public,No,No,Benign,,,Normal,6.74,44.9,1,0,1,0,0,0,0,1
+622.0,Amanda Rose,21.0,Male,178.0,66.0,20.8,146.5,78.7,86.1,99.4,75.4,238.7,14.7,No,Yes,0.0,No,No,No,3,Private,Yes,No,Benign,,Penicillin,Normal,7.57,49.9,1,1,0,1,0,0,0,0
+623.0,Jacob Hurley MD,73.0,Female,170.0,82.0,28.4,136.5,98.9,61.8,98.3,93.3,171.3,11.1,No,No,4.0,No,No,No,5,Public,No,No,Benign,Surgery,Peanuts,Normal,3.31,27.1,0,0,0,0,0,0,0,1
+624.0,Carl Hunt,42.0,Female,167.0,70.0,25.1,123.2,86.1,84.0,99.4,108.5,231.8,15.1,No,Yes,6.0,No,No,No,3,Public,No,No,Malignant,Surgery,Seafood,Normal,1.64,32.8,0,0,0,1,0,0,0,1
+625.0,Teresa Carney,84.0,Male,170.0,73.0,25.3,94.6,76.5,82.8,98.1,95.4,226.2,12.4,No,Yes,4.0,No,No,Yes,2,Uninsured,No,No,Benign,Surgery,,Normal,5.03,44.8,1,1,0,1,0,0,1,2
+626.0,Jeremy Ritter,84.0,Male,175.0,86.0,28.1,124.2,66.6,54.6,98.6,113.0,211.6,14.0,No,No,1.0,No,No,No,1,Private,Yes,No,Benign,Radiation Therapy,Peanuts,Abnormal,3.57,68.5,1,1,0,0,0,0,0,0
+628.0,Darren Avery,49.0,Male,181.0,95.0,29.0,112.5,51.9,100.7,97.9,84.8,178.4,12.9,Yes,Yes,0.0,No,No,Yes,0,Private,No,No,Benign,Immunotherapy,Dust,Normal,9.73,41.5,0,1,1,1,0,0,1,0
+629.0,Gary Bush,67.0,Female,177.0,76.0,24.3,147.0,89.7,91.0,97.6,48.5,192.5,12.0,Yes,No,5.0,No,No,No,2,Private,Yes,No,Benign,Chemotherapy,Peanuts,Normal,5.02,65.8,1,0,1,0,0,0,0,0
+630.0,Christopher Watkins,78.0,Male,177.0,69.0,22.0,145.9,63.5,69.6,99.3,124.8,203.8,13.4,No,Yes,3.0,No,Yes,No,2,Public,Yes,No,Malignant,,Penicillin,Normal,8.56,71.4,1,1,0,1,0,1,0,1
+631.0,Laura Jones,68.0,Female,174.0,74.0,24.4,153.3,98.8,73.1,100.6,150.5,158.8,17.3,Yes,Yes,2.0,Yes,No,No,4,Private,No,No,Malignant,Chemotherapy,Penicillin,Abnormal,1.95,51.8,1,0,1,1,1,0,0,0
+632.0,Deanna Garcia,36.0,Male,170.0,74.0,25.6,126.1,82.4,62.4,100.4,111.8,209.1,11.3,No,No,4.0,No,No,No,4,Private,No,No,Benign,,,Normal,9.39,41.5,0,1,0,0,0,0,0,0
+633.0,Samantha Jones,38.0,Female,177.0,49.0,15.6,131.7,89.7,75.2,96.7,67.4,131.2,17.4,Yes,Yes,4.0,Yes,Yes,No,1,Public,No,No,Benign,Surgery,,Normal,7.94,38.9,0,0,1,1,1,1,0,1
+634.0,David Barnes,22.0,Male,176.0,97.0,31.3,148.3,81.2,61.4,100.5,96.3,241.9,13.5,No,No,6.0,Yes,Yes,No,4,Private,No,No,Malignant,Immunotherapy,,Normal,8.09,40.2,0,1,0,0,1,1,0,0
+636.0,Jenna Alexander,78.0,Male,164.0,82.0,30.5,110.0,67.1,54.1,99.5,119.3,179.2,11.8,No,No,2.0,Yes,No,No,2,Public,Yes,No,Benign,Radiation Therapy,Penicillin,Normal,4.86,60.9,1,1,0,0,1,0,0,1
+638.0,Melissa Rose,38.0,Female,185.0,60.0,17.5,124.8,82.5,56.4,98.8,91.0,190.6,13.0,Yes,Yes,3.0,No,No,No,2,Public,No,No,Benign,Surgery,Penicillin,Normal,7.9,38.9,0,0,1,1,0,0,0,1
+639.0,Tiffany Morris,18.0,Male,158.0,82.0,32.8,94.2,97.7,69.2,99.1,69.9,227.5,11.9,No,No,3.0,Yes,No,No,3,Private,No,No,Benign,,,Abnormal,8.49,29.2,0,1,0,0,1,0,0,0
+640.0,Kirsten Munoz,22.0,Male,155.0,71.0,29.6,117.1,86.0,57.1,96.4,103.8,221.9,13.6,No,No,4.0,No,No,No,2,Private,Yes,No,Benign,Surgery,,Normal,0.78,45.5,1,1,0,0,0,0,0,0
+641.0,Bethany Sosa,29.0,Male,172.0,88.0,29.7,141.9,65.5,60.6,99.5,89.0,171.8,13.2,No,Yes,3.0,No,No,No,4,Private,No,No,Benign,,,Normal,9.04,21.8,0,1,0,1,0,0,0,0
+642.0,Rebecca Johnson,63.0,Female,171.0,43.0,14.7,76.2,68.1,80.2,100.6,105.3,166.2,17.7,No,No,4.0,No,No,No,3,Private,No,No,Benign,,,Normal,9.37,37.8,0,0,0,0,0,0,0,0
+643.0,Mary Middleton,51.0,Female,172.0,74.0,25.0,150.7,81.5,73.0,98.3,100.7,226.3,11.7,No,No,1.0,No,No,No,3,Private,No,No,Benign,Surgery,Pollen,Normal,5.93,45.0,1,0,0,0,0,0,0,0
+644.0,Tracie Conley,66.0,Female,172.0,66.0,22.3,142.4,45.3,69.9,100.6,70.4,171.1,14.2,No,No,0.0,No,No,No,2,Private,No,No,Benign,Surgery,,Normal,1.87,21.1,0,0,0,0,0,0,0,0
+645.0,Diana Johnson,62.0,Male,168.0,81.0,28.7,110.8,105.1,80.5,98.3,118.8,202.4,14.5,No,No,3.0,No,No,No,1,Private,Yes,No,Benign,,,Abnormal,8.18,67.6,1,1,0,0,0,0,0,0
+646.0,Casey Galloway,44.0,Male,185.0,82.0,24.0,130.9,86.6,75.8,99.9,98.5,205.0,11.9,No,Yes,2.0,Yes,No,Yes,7,Uninsured,No,No,Benign,Radiation Therapy,,Normal,5.49,35.4,0,1,0,1,1,0,1,2
+648.0,Stacy Rowe,64.0,Female,162.0,64.0,24.4,144.6,56.3,64.5,102.2,167.2,234.3,13.2,No,No,2.0,No,No,No,0,Uninsured,No,No,Benign,Surgery,Peanuts,Normal,8.15,55.1,1,0,0,0,0,0,0,2
+649.0,Dr. Christian Nixon Jr.,73.0,Female,169.0,73.0,25.6,139.7,98.7,64.8,100.8,114.3,149.5,9.0,No,No,3.0,No,No,No,0,Private,No,No,Benign,,,Abnormal,0.87,27.8,0,0,0,0,0,0,0,0
+650.0,Christopher Rush,80.0,Male,154.0,62.0,26.1,92.0,113.5,54.4,98.2,95.4,123.6,15.3,Yes,Yes,3.0,No,No,No,2,Uninsured,No,No,Benign,Chemotherapy,Dust,Normal,6.07,48.8,1,1,1,1,0,0,0,2
+651.0,Chad Garcia,65.0,Female,168.0,88.0,31.2,131.7,60.2,64.9,95.6,142.5,177.3,11.8,No,No,0.0,No,No,No,0,Private,No,Yes,Benign,,Seafood,Normal,4.83,44.8,1,0,0,0,0,0,0,0
+652.0,Marvin Moore,78.0,Male,187.0,69.0,19.7,115.9,91.6,81.6,99.0,155.3,272.1,11.9,No,No,1.0,No,No,Yes,3,Private,No,No,Benign,Radiation Therapy,,Normal,9.46,68.4,1,1,0,0,0,0,1,0
+653.0,Catherine Powers,43.0,Male,170.0,31.0,10.7,121.7,80.0,85.6,96.4,95.6,280.9,15.4,No,No,2.0,No,No,No,1,Uninsured,No,No,Benign,,,Normal,2.97,39.0,0,1,0,0,0,0,0,2
+654.0,Richard Thompson,53.0,Female,172.0,69.0,23.3,105.4,56.8,81.5,99.3,110.4,273.2,13.3,No,No,4.0,No,No,No,2,Uninsured,No,No,Benign,Surgery,,Normal,2.06,46.7,1,0,0,0,0,0,0,2
+655.0,Nancy Russell,18.0,Female,157.0,59.0,23.9,155.0,87.4,48.5,99.2,70.4,192.3,15.8,No,No,3.0,No,No,No,1,Private,No,No,Benign,Radiation Therapy,,Normal,8.97,19.2,0,0,0,0,0,0,0,0
+656.0,Joshua Smith,25.0,Female,164.0,51.0,19.0,140.8,92.5,83.0,97.2,95.6,128.7,16.4,No,No,0.0,Yes,No,Yes,2,Private,No,No,Benign,,Seafood,Abnormal,1.49,10.4,0,0,0,0,1,0,1,0
+657.0,Donna Allen,69.0,Male,166.0,56.0,20.3,105.2,71.0,47.9,100.3,94.0,106.3,12.7,No,No,5.0,No,No,No,2,Public,No,Yes,Benign,,,Abnormal,6.87,31.2,0,1,0,0,0,0,0,1
+658.0,Elizabeth Kramer,64.0,Male,167.0,77.0,27.6,93.3,97.5,80.8,99.8,105.5,175.4,15.6,No,Yes,3.0,Yes,No,No,4,Public,No,No,Benign,,,Normal,3.0,32.1,0,1,0,1,1,0,0,1
+659.0,Bryan Mcintyre,73.0,Female,183.0,95.0,28.4,112.3,55.0,65.6,100.1,110.0,192.1,12.5,Yes,No,2.0,No,No,No,1,Private,No,No,Benign,Surgery,,Normal,5.68,55.2,1,0,1,0,0,0,0,0
+660.0,Matthew Fields,31.0,Female,176.0,80.0,25.8,128.7,57.6,78.4,98.6,116.8,252.0,18.5,Yes,No,2.0,No,No,No,2,Public,No,No,Malignant,Immunotherapy,,Normal,6.16,65.3,1,0,1,0,0,0,0,1
+662.0,Patricia Martin,19.0,Male,172.0,82.0,27.7,145.1,80.4,84.1,100.1,63.7,209.1,16.1,No,No,1.0,Yes,No,No,3,Private,Yes,No,Benign,Immunotherapy,,Normal,9.75,49.5,1,1,0,0,1,0,0,0
+663.0,Lindsey Schmitt,43.0,Male,175.0,68.0,22.2,135.8,69.3,52.4,98.2,71.8,164.4,15.7,No,No,0.0,No,Yes,No,0,Private,No,No,Benign,Chemotherapy,,Normal,1.32,14.1,0,1,0,0,0,1,0,0
+664.0,Jonathan Mitchell,31.0,Female,181.0,65.0,19.8,139.4,92.1,62.0,96.5,83.6,161.6,14.6,Yes,No,5.0,No,No,No,3,Uninsured,Yes,No,Benign,Radiation Therapy,Penicillin,Abnormal,3.91,54.0,1,0,1,0,0,0,0,2
+665.0,Lisa Heath,76.0,Male,186.0,58.0,16.8,126.5,88.0,58.0,100.6,91.5,210.2,12.7,No,Yes,5.0,Yes,Yes,No,3,Private,No,No,Benign,,,Normal,4.3,40.8,0,1,0,1,1,1,0,0
+666.0,Ricky Perez,73.0,Male,160.0,49.0,19.1,92.2,92.9,48.9,101.7,131.5,227.9,13.7,No,Yes,0.0,Yes,No,No,1,Private,No,No,Benign,Surgery,,Normal,6.31,57.2,1,1,0,1,1,0,0,0
+667.0,James Ortega,24.0,Male,162.0,69.0,26.3,116.1,78.2,71.1,98.5,65.1,215.7,9.7,No,No,1.0,No,Yes,No,2,Private,No,No,Benign,,,Normal,4.07,27.9,0,1,0,0,0,1,0,0
+668.0,Katie Richardson,20.0,Male,157.0,77.0,31.2,141.2,89.0,91.7,101.8,89.3,158.6,14.4,No,No,2.0,No,No,No,1,Private,No,No,Malignant,Radiation Therapy,,Normal,0.97,7.6,0,1,0,0,0,0,0,0
+669.0,Cory Ruiz,40.0,Male,168.0,74.0,26.2,119.0,73.3,102.0,98.7,128.6,226.0,14.7,No,No,2.0,No,No,No,0,Public,No,No,Benign,,,Normal,9.47,49.4,1,1,0,0,0,0,0,1
+670.0,Michael Harris,35.0,Female,175.0,69.0,22.5,130.1,110.8,71.2,98.0,91.0,217.0,14.3,No,No,4.0,No,Yes,No,3,Public,No,No,Malignant,Immunotherapy,,Normal,4.16,30.7,0,0,0,0,0,1,0,1
+671.0,Jocelyn Howe,55.0,Male,180.0,61.0,18.8,113.6,67.8,83.4,97.7,113.8,157.2,8.1,No,No,2.0,No,No,No,3,Uninsured,No,No,Benign,,,Abnormal,3.43,31.2,0,1,0,0,0,0,0,2
+672.0,Lauren Obrien,32.0,Female,169.0,84.0,29.4,99.4,111.6,72.8,101.1,95.8,168.6,11.5,No,No,5.0,Yes,No,No,0,Private,No,No,Malignant,Surgery,Penicillin,Normal,4.47,20.9,0,0,0,0,1,0,0,0
+673.0,Jacob Henderson,81.0,Male,167.0,55.0,19.7,117.5,80.5,76.0,97.4,107.7,227.5,12.5,No,No,3.0,No,No,No,2,Private,No,No,Malignant,,,Normal,2.17,43.6,1,1,0,0,0,0,0,0
+674.0,Kelli Fuentes,45.0,Female,172.0,87.0,29.4,126.2,59.4,65.9,99.7,93.1,190.6,14.6,No,No,2.0,Yes,No,No,2,Private,Yes,No,Malignant,Surgery,Pollen,Normal,1.0,33.6,0,0,0,0,1,0,0,0
+675.0,Timothy Hill,56.0,Female,162.0,60.0,22.9,106.9,100.5,72.3,97.8,120.0,263.6,14.6,No,No,4.0,Yes,No,No,5,Public,Yes,No,Benign,Immunotherapy,,Normal,1.49,65.6,1,0,0,0,1,0,0,1
+676.0,Christopher Clark,74.0,Female,191.0,64.0,17.5,115.3,81.9,76.4,97.9,53.6,220.0,13.7,No,No,4.0,No,No,Yes,2,Private,Yes,No,Malignant,Chemotherapy,Peanuts,Normal,1.67,52.4,1,0,0,0,0,0,1,0
+677.0,Tamara James,34.0,Female,154.0,53.0,22.3,101.2,92.8,63.1,100.1,89.1,180.5,15.3,No,No,2.0,No,No,No,0,Public,No,No,Unknown,Immunotherapy,Seafood,Normal,1.98,13.9,0,0,0,0,0,0,0,1
+678.0,Allen Cannon,61.0,Male,172.0,67.0,22.6,142.4,98.4,69.1,98.0,108.9,199.6,11.9,No,No,0.0,No,No,No,0,Private,No,No,Benign,,,Normal,4.2,35.0,0,1,0,0,0,0,0,0
+680.0,Scott Collier,34.0,Female,170.0,83.0,28.7,149.1,71.1,79.9,100.3,144.8,170.9,14.9,No,No,2.0,No,No,No,2,Private,No,No,Benign,,Seafood,Normal,6.29,38.0,0,0,0,0,0,0,0,0
+681.0,Joshua Bell,30.0,Female,168.0,90.0,31.9,150.6,94.6,57.2,101.0,88.3,163.5,14.8,No,No,3.0,No,No,No,2,Private,Yes,No,Benign,Chemotherapy,,Normal,0.0,27.1,0,0,0,0,0,0,0,0
+682.0,Maria Delgado,42.0,Female,166.0,83.0,30.1,118.4,80.0,69.4,99.6,144.4,228.1,13.6,No,Yes,0.0,No,Yes,No,3,Uninsured,No,No,Benign,,Pollen,Normal,9.21,49.9,1,0,0,1,0,1,0,2
+683.0,Roger Foster,27.0,Female,168.0,58.0,20.5,99.8,90.3,92.9,97.6,80.2,233.8,17.7,Yes,No,5.0,No,No,No,1,Private,No,No,Benign,,,Abnormal,8.23,46.4,1,0,1,0,0,0,0,0
+684.0,Priscilla Cooper,84.0,Female,184.0,70.0,20.7,78.3,47.7,84.0,97.8,139.9,224.2,15.0,Yes,No,3.0,No,No,No,1,Private,Yes,No,Benign,Surgery,,Normal,9.64,94.8,1,0,1,0,0,0,0,0
+685.0,Kelly Robinson,35.0,Male,148.0,63.0,28.8,90.6,86.7,86.2,98.7,124.5,260.6,12.1,No,No,3.0,No,No,Yes,2,Private,No,No,Benign,Chemotherapy,Seafood,Normal,3.6,47.0,1,1,0,0,0,0,1,0
+686.0,Luis Morrison,51.0,Male,185.0,95.0,27.8,92.5,70.4,70.3,99.1,72.6,178.3,14.5,No,No,1.0,No,Yes,No,1,Private,No,No,Benign,Immunotherapy,,Normal,6.65,27.0,0,1,0,0,0,1,0,0
+687.0,Jennifer Anderson,25.0,Female,156.0,57.0,23.4,147.6,104.8,73.9,97.1,109.2,267.0,15.5,No,Yes,6.0,No,No,Yes,2,Public,No,No,Benign,Chemotherapy,Peanuts,Normal,1.68,38.9,0,0,0,1,0,0,1,1
+688.0,Monica Joseph,57.0,Female,167.0,88.0,31.6,122.3,89.3,82.0,99.7,98.5,164.0,12.8,No,Yes,2.0,No,No,No,4,Public,No,No,Benign,Surgery,Dust,Normal,8.17,28.4,0,0,0,1,0,0,0,1
+689.0,Timothy Hill,59.0,Male,166.0,88.0,31.9,127.8,83.6,88.7,98.7,118.8,159.5,16.2,No,No,4.0,No,No,No,4,Private,No,No,Benign,Radiation Therapy,Pollen,Normal,1.61,26.7,0,1,0,0,0,0,0,0
+690.0,Christine Farrell,58.0,Female,176.0,102.0,32.9,75.6,87.3,46.6,96.0,93.3,129.6,14.8,Yes,Yes,3.0,No,No,No,1,Public,No,Yes,Benign,Surgery,,Abnormal,3.26,38.4,0,0,1,1,0,0,0,1
+691.0,Joseph Ortiz,23.0,Male,154.0,69.0,29.1,96.0,65.0,54.2,97.2,90.8,182.2,9.3,Yes,No,1.0,No,No,No,3,Private,Yes,No,Benign,Chemotherapy,Pollen,Normal,4.91,55.1,1,1,1,0,0,0,0,0
+692.0,Donna Mcmillan,69.0,Female,175.0,86.0,28.1,137.7,104.3,85.7,97.8,141.1,179.9,14.6,Yes,Yes,3.0,Yes,Yes,No,1,Private,Yes,No,Benign,Chemotherapy,,Normal,5.95,81.2,1,0,1,1,1,1,0,0
+693.0,Joshua Gonzalez,43.0,Male,190.0,109.0,30.2,125.7,109.9,66.7,98.5,97.0,221.0,13.2,No,No,3.0,No,No,No,2,Private,No,No,Benign,Chemotherapy,,Normal,5.6,35.1,0,1,0,0,0,0,0,0
+694.0,Samuel Stevens,81.0,Male,156.0,66.0,27.1,117.1,85.9,61.9,101.4,124.8,209.8,15.1,No,Yes,1.0,No,No,No,2,Uninsured,No,No,Benign,Immunotherapy,Penicillin,Normal,1.02,40.1,0,1,0,1,0,0,0,2
+695.0,Jonathan Lewis,76.0,Female,172.0,52.0,17.6,131.3,103.9,55.0,99.0,93.2,152.3,15.9,No,No,5.0,No,No,No,3,Public,Yes,No,Benign,Surgery,Penicillin,Abnormal,4.22,50.5,1,0,0,0,0,0,0,1
+696.0,Joseph Medina,73.0,Male,163.0,47.0,17.7,152.7,71.5,63.3,97.3,150.0,184.3,14.4,Yes,No,2.0,No,No,No,1,Public,No,No,Benign,Radiation Therapy,,Normal,9.23,62.2,1,1,1,0,0,0,0,1
+697.0,Ian Parker,76.0,Female,174.0,86.0,28.4,115.6,68.0,53.2,98.9,79.6,185.1,17.3,Yes,Yes,8.0,No,No,No,2,Private,No,No,Benign,Immunotherapy,Penicillin,Normal,8.72,47.9,1,0,1,1,0,0,0,0
+698.0,Sydney Pena,50.0,Female,170.0,47.0,16.3,121.4,80.6,95.1,98.1,81.6,129.0,13.6,Yes,No,5.0,No,Yes,No,2,Public,No,No,Unknown,,,Normal,5.91,41.8,1,0,1,0,0,1,0,1
+699.0,Martha Porter,70.0,Female,164.0,69.0,25.7,123.9,86.5,69.7,99.1,145.7,160.8,15.2,No,No,3.0,No,No,No,2,Public,No,No,Benign,Radiation Therapy,Penicillin,Normal,5.72,46.5,1,0,0,0,0,0,0,1
+700.0,Samantha Lynn,39.0,Male,175.0,82.0,26.8,167.8,74.1,69.3,99.5,86.7,169.2,15.6,No,No,2.0,Yes,No,No,1,Private,No,No,Benign,,Pollen,Normal,1.12,12.5,0,1,0,0,1,0,0,0
+701.0,Larry Gaines,38.0,Male,188.0,78.0,22.1,78.0,88.1,77.1,100.4,148.0,257.3,13.8,No,Yes,0.0,No,No,No,0,Uninsured,Yes,No,Unknown,Immunotherapy,,Normal,2.0,69.9,1,1,0,1,0,0,0,2
+702.0,James Valdez,21.0,Male,168.0,81.0,28.7,133.7,84.6,81.5,98.6,126.8,207.7,15.6,No,No,2.0,Yes,No,No,1,Private,No,No,Malignant,Chemotherapy,,Normal,2.53,37.5,0,1,0,0,1,0,0,0
+703.0,Cheryl Maynard,79.0,Female,177.0,78.0,24.9,117.7,65.0,81.4,101.1,95.4,226.5,12.8,No,No,6.0,Yes,Yes,No,2,Private,No,No,Malignant,Surgery,Seafood,Abnormal,4.88,43.2,1,0,0,0,1,1,0,0
+704.0,Michelle Nelson,79.0,Female,157.0,94.0,38.1,131.3,87.8,82.9,100.0,45.6,140.1,13.2,No,No,4.0,No,No,No,1,Private,No,No,Benign,Surgery,,Normal,7.31,33.6,0,0,0,0,0,0,0,0
+705.0,Kelly Stone,41.0,Female,160.0,61.0,23.8,106.9,93.0,62.4,97.5,99.4,247.8,11.4,Yes,No,3.0,No,No,No,3,Private,Yes,No,Benign,,Seafood,Normal,4.61,78.5,1,0,1,0,0,0,0,0
+706.0,Albert Banks,72.0,Female,175.0,65.0,21.2,119.0,82.6,66.4,101.9,103.0,252.0,14.5,No,No,4.0,No,No,No,1,Private,No,No,Malignant,Radiation Therapy,,Normal,1.26,48.7,1,0,0,0,0,0,0,0
+707.0,Laurie Williams,26.0,Female,185.0,63.0,18.4,134.2,97.3,79.2,99.1,135.0,120.1,14.7,No,No,2.0,No,No,No,4,Private,Yes,No,Malignant,,,Normal,4.39,54.3,1,0,0,0,0,0,0,0
+708.0,Dale Walker,20.0,Female,174.0,87.0,28.7,182.3,61.7,63.7,97.3,147.7,171.8,16.4,No,No,2.0,No,No,No,2,Public,No,No,Benign,Immunotherapy,,Normal,1.63,24.6,0,0,0,0,0,0,0,1
+710.0,Donna Ward,57.0,Female,170.0,82.0,28.4,103.0,62.4,74.8,101.7,124.0,225.8,13.4,No,No,3.0,No,No,No,0,Private,No,No,Benign,Chemotherapy,Peanuts,Normal,1.67,36.4,0,0,0,0,0,0,0,0
+711.0,Jill Johnson,53.0,Male,157.0,93.0,37.7,111.5,63.3,79.4,98.6,123.0,172.9,11.6,Yes,No,3.0,No,No,No,2,Private,No,No,Benign,Chemotherapy,,Normal,4.83,50.0,1,1,1,0,0,0,0,0
+712.0,James Jordan,41.0,Female,176.0,57.0,18.4,110.9,70.5,48.7,97.8,132.2,187.8,14.9,No,No,5.0,No,No,No,6,Uninsured,No,No,Benign,Surgery,Dust,Normal,6.93,39.6,0,0,0,0,0,0,0,2
+713.0,Sean Houston,23.0,Female,179.0,100.0,31.2,84.1,65.9,78.6,98.3,115.0,176.1,16.2,No,No,5.0,No,No,No,2,Public,No,No,Benign,Surgery,Penicillin,Normal,2.28,20.3,0,0,0,0,0,0,0,1
+714.0,Amanda Pierce,83.0,Female,165.0,98.0,36.0,113.4,71.8,67.2,99.7,41.7,204.4,15.5,No,No,2.0,No,Yes,No,2,Public,No,No,Benign,,,Normal,0.76,31.8,0,0,0,0,0,1,0,1
+715.0,Angela Howell,21.0,Male,165.0,86.0,31.6,134.7,76.8,78.5,100.5,95.3,247.9,16.2,No,Yes,0.0,No,No,No,0,Private,Yes,No,Benign,,Peanuts,Normal,5.63,59.9,1,1,0,1,0,0,0,0
+716.0,William Brennan,23.0,Male,173.0,102.0,34.1,94.5,92.6,79.3,99.5,65.3,169.2,13.6,No,No,1.0,No,No,No,4,Uninsured,No,Yes,Benign,Radiation Therapy,Penicillin,Normal,0.54,7.0,0,1,0,0,0,0,0,2
+717.0,Anthony Munoz,68.0,Male,166.0,50.0,18.1,141.0,75.2,89.3,98.8,93.9,240.0,13.1,No,No,3.0,No,No,No,1,Private,No,No,Benign,Surgery,Seafood,Normal,5.88,41.0,0,1,0,0,0,0,0,0
+719.0,Daniel Boone,74.0,Male,191.0,64.0,17.5,105.3,97.1,86.2,98.1,109.2,166.1,13.9,Yes,No,5.0,No,No,No,3,Private,Yes,No,Benign,Surgery,,Normal,3.29,70.3,1,1,1,0,0,0,0,0
+720.0,Matthew Jones,83.0,Female,168.0,86.0,30.5,117.2,67.4,87.3,100.1,134.4,232.7,13.8,No,No,2.0,Yes,No,No,2,Public,No,Yes,Benign,,Peanuts,Normal,4.88,59.2,1,0,0,0,1,0,0,1
+721.0,Steven Sparks,25.0,Female,166.0,59.0,21.4,152.0,79.1,73.5,98.2,110.3,236.9,14.4,No,No,2.0,Yes,No,No,4,Private,No,No,Benign,Surgery,,Abnormal,9.29,38.9,0,0,0,0,1,0,0,0
+722.0,Kenneth Davis,43.0,Male,164.0,86.0,32.0,134.7,86.7,70.4,99.2,61.1,234.1,13.7,No,No,5.0,Yes,Yes,No,1,Public,No,No,Benign,,,Normal,4.71,34.2,0,1,0,0,1,1,0,1
+724.0,Michaela Jefferson,62.0,Male,168.0,85.0,30.1,115.2,96.4,78.8,98.5,104.5,181.4,12.4,No,No,4.0,Yes,No,No,4,Private,No,No,Benign,Immunotherapy,,Normal,1.57,27.3,0,1,0,0,1,0,0,0
+725.0,Katelyn Lambert,61.0,Female,164.0,79.0,29.4,121.5,87.2,66.3,98.0,93.6,232.9,15.9,No,No,5.0,No,No,No,4,Private,No,No,Benign,Chemotherapy,Penicillin,Normal,7.09,39.4,0,0,0,0,0,0,0,0
+726.0,Andrew Clark,22.0,Female,183.0,60.0,17.9,109.8,67.1,74.9,100.6,70.7,201.7,14.2,No,No,3.0,No,No,No,5,Public,Yes,No,Benign,Surgery,,Normal,6.53,50.2,1,0,0,0,0,0,0,1
+727.0,Krystal Moody,43.0,Female,184.0,62.0,18.3,77.9,112.7,69.6,97.5,49.0,157.1,13.7,No,Yes,5.0,No,No,No,1,Public,No,No,Benign,Chemotherapy,,Normal,8.72,25.1,0,0,0,1,0,0,0,1
+728.0,Phillip Brooks,36.0,Female,164.0,94.0,34.9,160.8,82.9,59.8,97.5,78.0,218.3,12.5,Yes,No,2.0,No,No,No,0,Uninsured,No,No,Benign,Immunotherapy,,Normal,0.92,36.2,0,0,1,0,0,0,0,2
+729.0,Miss Amy Garcia,37.0,Female,151.0,87.0,38.2,123.1,77.8,85.5,101.8,94.2,171.4,11.3,Yes,Yes,6.0,No,Yes,No,4,Public,Yes,No,Malignant,,Penicillin,Normal,2.8,52.1,1,0,1,1,0,1,0,1
+732.0,Taylor Smith,18.0,Female,178.0,45.0,14.2,105.3,86.0,50.5,97.8,148.2,224.2,10.8,No,No,1.0,No,No,No,4,Private,No,No,Benign,,Seafood,Normal,4.27,42.0,1,0,0,0,0,0,0,0
+733.0,Mary King,31.0,Male,150.0,59.0,26.2,116.3,117.4,63.3,95.9,68.9,254.4,15.5,Yes,No,8.0,Yes,No,No,0,Public,No,No,Benign,,,Normal,9.1,57.3,1,1,1,0,1,0,0,1
+734.0,Julia Brown,81.0,Female,179.0,104.0,32.5,88.0,75.9,70.4,97.2,126.4,202.6,15.8,No,Yes,5.0,No,Yes,No,3,Private,No,No,Malignant,Radiation Therapy,,Normal,2.94,52.9,1,0,0,1,0,1,0,0
+735.0,Sandra Ward,55.0,Male,158.0,56.0,22.4,165.5,75.2,83.6,93.9,101.4,230.6,14.2,No,No,4.0,No,No,No,1,Private,No,No,Benign,,Seafood,Abnormal,1.26,34.7,0,1,0,0,0,0,0,0
+736.0,Caleb Ward,54.0,Female,177.0,78.0,24.9,95.3,81.7,74.8,98.4,120.8,259.1,17.2,No,No,1.0,No,No,No,2,Private,No,No,Malignant,Immunotherapy,Dust,Normal,2.97,49.6,1,0,0,0,0,0,0,0
+737.0,Joseph Rodriguez,28.0,Female,170.0,90.0,31.1,99.4,96.1,73.7,96.9,86.9,209.8,14.4,No,No,6.0,Yes,No,No,1,Public,No,No,Benign,Radiation Therapy,,Normal,5.97,31.6,0,0,0,0,1,0,0,1
+739.0,Matthew Evans,50.0,Female,166.0,78.0,28.3,145.8,50.5,56.1,96.2,108.9,131.8,14.7,Yes,No,5.0,No,No,No,1,Private,No,No,Benign,,,Abnormal,3.85,46.3,1,0,1,0,0,0,0,0
+740.0,Anthony Cunningham,23.0,Male,177.0,89.0,28.4,120.3,71.2,73.9,98.7,79.6,196.7,14.5,No,No,2.0,No,Yes,No,4,Public,No,No,Malignant,Surgery,,Normal,9.15,20.4,0,1,0,0,0,1,0,1
+742.0,Zachary Ball,27.0,Male,176.0,118.0,38.1,145.1,73.6,63.6,100.9,92.8,237.8,15.1,No,No,3.0,No,No,No,3,Uninsured,No,No,Benign,Radiation Therapy,Dust,Normal,6.94,31.4,0,1,0,0,0,0,0,2
+743.0,Karina Collier,22.0,Male,190.0,50.0,13.9,134.6,87.5,76.0,100.7,114.7,220.2,10.7,Yes,No,6.0,Yes,No,No,1,Public,Yes,No,Benign,Surgery,,Abnormal,7.36,73.2,1,1,1,0,1,0,0,1
+744.0,Sean Krause,40.0,Female,154.0,91.0,38.4,130.8,66.6,58.2,99.8,64.6,178.3,16.0,No,No,3.0,No,No,No,2,Private,Yes,Yes,Benign,Chemotherapy,,Normal,2.74,37.6,0,0,0,0,0,0,0,0
+745.0,Heather Nguyen,27.0,Male,186.0,72.0,20.8,134.3,58.6,89.3,98.1,99.1,120.9,12.2,Yes,No,6.0,No,No,Yes,0,Private,No,Yes,Benign,Surgery,,Abnormal,0.27,22.2,0,1,1,0,0,0,1,0
+746.0,George Torres,61.0,Female,171.0,87.0,29.8,167.9,81.0,84.7,101.6,111.9,180.2,12.0,No,Yes,5.0,No,No,No,1,Public,No,No,Benign,Surgery,,Normal,3.65,33.3,0,0,0,1,0,0,0,1
+747.0,Linda Henderson,19.0,Female,161.0,82.0,31.6,163.7,92.9,51.1,96.3,101.0,187.8,13.8,Yes,No,1.0,No,No,No,2,Public,Yes,No,Benign,Radiation Therapy,Seafood,Normal,0.45,48.8,1,0,1,0,0,0,0,1
+748.0,Angela Harrison,30.0,Female,157.0,64.0,26.0,106.3,54.6,58.8,96.5,140.4,187.5,14.9,Yes,Yes,3.0,Yes,No,Yes,1,Private,Yes,No,Benign,Immunotherapy,Penicillin,Normal,9.01,72.1,1,0,1,1,1,0,1,0
+749.0,Brandon Martinez,57.0,Male,168.0,78.0,27.6,152.5,92.3,42.6,98.5,123.2,224.7,14.3,Yes,Yes,3.0,No,No,Yes,1,Private,No,No,Benign,Chemotherapy,,Normal,9.54,61.4,1,1,1,1,0,0,1,0
+750.0,Brandon Mcclain,19.0,Female,179.0,47.0,14.7,127.7,92.3,60.6,102.0,99.8,279.4,12.5,Yes,Yes,2.0,No,No,No,1,Public,Yes,No,Benign,Chemotherapy,Penicillin,Normal,7.35,74.5,1,0,1,1,0,0,0,1
+751.0,Erik Adams,82.0,Female,169.0,84.0,29.4,130.0,94.3,79.2,98.3,106.5,204.9,13.0,Yes,Yes,4.0,No,No,No,2,Private,No,Yes,Benign,Surgery,Dust,Abnormal,7.27,67.3,1,0,1,1,0,0,0,0
+752.0,Terri Johnson,80.0,Female,185.0,79.0,23.1,86.2,98.3,65.0,98.3,108.9,191.3,11.7,No,No,2.0,No,Yes,No,1,Private,No,No,Benign,Surgery,,Normal,2.41,34.1,0,0,0,0,0,1,0,0
+753.0,Vicki Watts,34.0,Female,155.0,85.0,35.4,116.6,113.0,75.5,96.4,112.1,189.6,13.6,Yes,Yes,4.0,No,No,No,0,Public,No,No,Benign,Radiation Therapy,Peanuts,Normal,0.74,33.2,0,0,1,1,0,0,0,1
+755.0,Adam Allen,32.0,Male,157.0,81.0,32.9,136.6,81.6,79.6,100.0,91.0,166.9,14.0,Yes,Yes,0.0,No,No,No,2,Uninsured,No,No,Benign,Radiation Therapy,,Normal,5.59,37.5,0,1,1,1,0,0,0,2
+756.0,Mark Nolan,41.0,Female,174.0,77.0,25.4,141.4,73.8,63.3,99.8,55.5,204.8,15.7,No,Yes,4.0,No,No,No,1,Public,No,Yes,Benign,Chemotherapy,Seafood,Normal,6.82,34.6,0,0,0,1,0,0,0,1
+757.0,Mr. Tony Thomas DVM,55.0,Male,179.0,62.0,19.4,78.5,80.0,70.1,97.7,138.3,218.0,16.9,No,Yes,2.0,No,Yes,No,2,Private,Yes,No,Benign,Surgery,Peanuts,Normal,7.8,72.9,1,1,0,1,0,1,0,0
+758.0,Kylie Williams,52.0,Male,166.0,64.0,23.2,119.6,103.0,68.9,97.5,98.2,208.4,12.8,Yes,No,3.0,No,No,No,1,Private,No,No,Benign,,,Normal,4.09,49.5,1,1,1,0,0,0,0,0
+760.0,Dr. Samantha Johnson,79.0,Male,172.0,97.0,32.8,116.3,67.1,56.2,98.7,126.9,217.3,18.3,Yes,No,2.0,Yes,No,Yes,0,Public,No,No,Benign,Immunotherapy,Penicillin,Normal,7.95,73.6,1,1,1,0,1,0,1,1
+761.0,Randall Patterson,77.0,Male,174.0,71.0,23.5,134.6,100.7,81.6,97.0,112.7,129.1,16.9,No,No,0.0,Yes,Yes,No,3,Public,No,No,Benign,Chemotherapy,Penicillin,Normal,4.54,39.7,0,1,0,0,1,1,0,1
+763.0,Chelsea Pham,26.0,Female,182.0,61.0,18.4,126.8,74.6,82.6,98.0,97.9,173.2,14.8,Yes,Yes,5.0,No,Yes,No,1,Public,No,No,Benign,Radiation Therapy,,Normal,4.38,34.3,0,0,1,1,0,1,0,1
+764.0,Christina Dougherty,51.0,Female,159.0,93.0,36.8,114.6,92.8,73.9,97.9,89.9,156.2,14.0,No,Yes,4.0,No,No,No,3,Private,Yes,No,Malignant,,Peanuts,Normal,2.17,38.5,0,0,0,1,0,0,0,0
+765.0,Eric Castillo,52.0,Female,177.0,85.0,27.1,95.7,85.1,71.7,97.8,47.7,155.8,15.7,Yes,No,2.0,No,No,No,3,Uninsured,No,No,Benign,Surgery,,Normal,1.71,32.4,0,0,1,0,0,0,0,2
+767.0,Stephen Brown,57.0,Male,152.0,62.0,26.8,134.2,81.1,66.8,98.7,94.5,191.1,12.3,No,No,1.0,No,No,No,2,Private,No,No,Benign,Immunotherapy,,Normal,5.75,28.4,0,1,0,0,0,0,0,0
+769.0,Amanda Frye,39.0,Male,165.0,78.0,28.7,117.2,119.6,93.4,98.9,55.5,219.1,12.9,No,Yes,3.0,No,No,No,2,Public,No,No,Benign,,,Abnormal,4.92,33.9,0,1,0,1,0,0,0,1
+770.0,James Schmidt,77.0,Male,169.0,85.0,29.8,111.5,89.0,78.2,97.1,134.5,142.4,15.6,Yes,No,3.0,Yes,No,No,3,Public,No,No,Benign,Radiation Therapy,,Normal,5.5,63.1,1,1,1,0,1,0,0,1
+771.0,Jeffrey Rivera,81.0,Female,173.0,72.0,24.1,113.9,80.7,88.4,98.8,96.9,205.6,11.6,Yes,No,5.0,No,No,No,2,Public,Yes,No,Benign,Chemotherapy,,Normal,2.39,71.2,1,0,1,0,0,0,0,1
+772.0,Joanne Carroll,28.0,Male,165.0,62.0,22.8,140.9,90.8,77.2,98.8,101.1,209.5,12.8,Yes,No,4.0,No,No,No,1,Uninsured,No,No,Benign,Radiation Therapy,,Normal,3.78,50.9,1,1,1,0,0,0,0,2
+773.0,Charles Strong,31.0,Female,163.0,88.0,33.1,113.3,74.5,61.5,96.3,112.0,235.4,10.4,No,No,3.0,No,Yes,No,2,Public,Yes,No,Benign,Radiation Therapy,,Normal,2.92,54.1,1,0,0,0,0,1,0,1
+774.0,Ryan Diaz,77.0,Female,170.0,86.0,29.8,93.2,115.8,71.4,100.1,76.4,271.3,16.0,Yes,No,0.0,No,No,No,3,Private,No,No,Benign,Chemotherapy,Penicillin,Normal,3.88,64.8,1,0,1,0,0,0,0,0
+775.0,Judith Fisher,47.0,Male,159.0,61.0,24.1,134.9,82.7,72.8,97.3,113.7,145.4,16.5,No,No,7.0,No,No,No,2,Public,No,No,Benign,Immunotherapy,Peanuts,Normal,5.01,34.1,0,1,0,0,0,0,0,1
+776.0,Jeffrey Williams,52.0,Male,159.0,95.0,37.6,115.9,75.9,58.7,98.7,89.0,197.9,13.3,No,No,3.0,Yes,No,No,2,Public,No,No,Unknown,Radiation Therapy,Peanuts,Normal,1.73,17.4,0,1,0,0,1,0,0,1
+777.0,Theresa Rodriguez,54.0,Female,177.0,93.0,29.7,120.6,67.5,65.4,100.3,73.1,188.9,13.4,Yes,Yes,4.0,No,Yes,No,2,Private,Yes,No,Benign,Immunotherapy,,Normal,3.94,59.5,1,0,1,1,0,1,0,0
+778.0,Mr. Samuel Duncan,22.0,Male,159.0,77.0,30.5,152.2,96.5,67.5,100.0,117.2,217.3,14.9,No,No,4.0,No,No,No,3,Public,No,No,Malignant,Chemotherapy,,Normal,3.85,34.7,0,1,0,0,0,0,0,1
+779.0,Daniel Ochoa,43.0,Male,177.0,76.0,24.3,119.6,93.0,89.3,98.7,144.8,208.6,16.9,No,No,4.0,No,No,Yes,2,Uninsured,No,No,Unknown,,Pollen,Normal,2.86,43.7,1,1,0,0,0,0,1,2
+780.0,Katrina Stuart,79.0,Female,175.0,83.0,27.1,125.8,72.5,45.0,98.1,121.7,185.9,14.8,No,No,1.0,No,No,No,4,Public,No,No,Malignant,Chemotherapy,,Normal,9.98,41.6,1,0,0,0,0,0,0,1
+781.0,Margaret Ferguson,21.0,Male,153.0,62.0,26.5,96.4,88.6,84.5,100.0,127.7,182.4,12.6,No,No,4.0,No,No,No,2,Private,No,No,Malignant,Immunotherapy,Peanuts,Normal,0.74,22.2,0,1,0,0,0,0,0,0
+782.0,Sabrina Garza,59.0,Female,163.0,75.0,28.2,115.6,57.4,58.8,99.6,84.4,155.3,10.8,No,No,3.0,No,No,No,1,Uninsured,No,No,Malignant,,Dust,Abnormal,6.43,28.9,0,0,0,0,0,0,0,2
+783.0,Catherine Bowen,35.0,Female,182.0,43.0,13.0,132.2,82.8,53.5,97.7,52.1,239.5,11.8,No,No,4.0,No,Yes,Yes,2,Public,No,No,Benign,Chemotherapy,Peanuts,Normal,1.74,23.5,0,0,0,0,0,1,1,1
+784.0,Gary Caldwell,57.0,Male,160.0,88.0,34.4,88.9,86.8,84.2,97.4,144.7,218.4,14.1,No,No,2.0,No,No,No,2,Private,No,Yes,Benign,Chemotherapy,,Normal,8.4,53.4,1,1,0,0,0,0,0,0
+785.0,Anthony Ross,56.0,Male,165.0,52.0,19.1,124.0,105.6,78.8,95.5,161.6,236.7,12.7,No,No,5.0,No,No,No,2,Private,Yes,No,Benign,Chemotherapy,,Normal,9.14,73.2,1,1,0,0,0,0,0,0
+786.0,Robin Pierce,31.0,Male,175.0,98.0,32.0,122.0,68.4,85.1,98.8,146.3,187.6,14.4,Yes,No,3.0,No,No,No,2,Public,Yes,No,Benign,Radiation Therapy,,Normal,4.01,69.3,1,1,1,0,0,0,0,1
+787.0,Ryan Smith,49.0,Male,178.0,70.0,22.1,120.8,60.8,79.6,98.5,89.9,173.7,12.9,No,No,1.0,No,No,No,3,Private,No,No,Benign,Chemotherapy,Penicillin,Normal,8.23,26.5,0,1,0,0,0,0,0,0
+788.0,Elizabeth Stewart,68.0,Male,167.0,72.0,25.8,140.7,66.6,94.7,100.3,65.4,156.9,11.9,Yes,Yes,4.0,Yes,No,Yes,1,Public,No,Yes,Benign,Immunotherapy,Penicillin,Normal,2.5,38.5,0,1,1,1,1,0,1,1
+789.0,Brandon Moore,55.0,Female,164.0,66.0,24.5,126.7,60.0,76.7,99.1,68.0,214.4,11.6,Yes,No,6.0,Yes,No,No,3,Public,Yes,Yes,Benign,Surgery,Peanuts,Normal,1.4,62.1,1,0,1,0,1,0,0,1
+790.0,Lauren Kelley,40.0,Male,184.0,71.0,21.0,149.6,100.0,68.1,100.6,49.5,158.4,17.1,No,Yes,1.0,No,Yes,Yes,3,Public,No,No,Malignant,Surgery,,Normal,3.16,18.9,0,1,0,1,0,1,1,1
+791.0,Stephanie Romero,80.0,Female,187.0,96.0,27.5,100.1,103.2,74.1,97.6,96.8,273.9,15.8,No,No,3.0,No,No,No,3,Uninsured,No,No,Benign,Chemotherapy,Seafood,Abnormal,3.42,49.1,1,0,0,0,0,0,0,2
+792.0,Brandy Nelson,32.0,Female,180.0,38.0,11.7,122.7,84.8,84.9,100.3,148.2,147.7,17.5,No,No,2.0,Yes,No,No,2,Public,No,Yes,Benign,,Peanuts,Abnormal,3.97,34.4,0,0,0,0,1,0,0,1
+793.0,Samuel Crawford,42.0,Female,171.0,94.0,32.1,121.7,98.3,60.6,97.8,95.8,210.9,15.1,Yes,No,6.0,No,Yes,No,3,Public,No,No,Benign,Chemotherapy,,Normal,3.73,46.1,1,0,1,0,0,1,0,1
+795.0,Steven Cruz,83.0,Male,162.0,57.0,21.7,139.1,78.6,66.3,96.4,141.3,224.0,16.6,No,Yes,4.0,No,Yes,No,3,Public,Yes,No,Unknown,Chemotherapy,Penicillin,Normal,7.1,79.5,1,1,0,1,0,1,0,1
+796.0,Gabriel Martin,70.0,Female,175.0,59.0,19.3,166.5,75.0,44.7,99.0,87.9,207.0,13.9,Yes,Yes,2.0,No,No,No,1,Private,No,No,Benign,Chemotherapy,,Normal,2.46,48.9,1,0,1,1,0,0,0,0
+797.0,Mrs. Michelle Thomas,68.0,Female,174.0,100.0,33.0,119.7,75.3,71.7,95.6,161.1,161.3,14.4,No,No,5.0,No,No,No,1,Public,Yes,No,Benign,Immunotherapy,,Abnormal,0.19,51.6,1,0,0,0,0,0,0,1
+798.0,Courtney Ferguson,56.0,Male,184.0,61.0,18.0,130.1,56.8,47.4,98.2,159.8,144.7,13.9,No,Yes,2.0,Yes,No,No,2,Private,No,No,Benign,Immunotherapy,,Normal,4.9,42.9,1,1,0,1,1,0,0,0
+799.0,Anthony Choi,68.0,Male,177.0,58.0,18.5,121.7,84.0,70.6,99.3,96.1,230.8,8.1,No,No,1.0,No,No,No,2,Private,No,Yes,Benign,Immunotherapy,Seafood,Normal,4.48,39.4,0,1,0,0,0,0,0,0
+800.0,Sarah Landry,23.0,Female,155.0,92.0,38.3,105.7,79.4,80.4,97.8,82.7,260.2,17.2,Yes,No,2.0,No,Yes,No,3,Public,No,Yes,Benign,Surgery,,Normal,0.6,42.2,1,0,1,0,0,1,0,1
+801.0,Shelby Decker,84.0,Male,181.0,80.0,24.4,83.6,91.2,64.3,97.0,120.9,182.4,15.0,Yes,No,5.0,No,No,No,3,Public,No,Yes,Benign,,,Normal,1.34,46.8,1,1,1,0,0,0,0,1
+802.0,Matthew Martin,24.0,Male,160.0,61.0,23.8,105.9,81.4,90.1,99.9,89.6,154.4,14.7,No,No,2.0,No,No,No,3,Private,No,No,Benign,Surgery,Seafood,Normal,5.1,20.6,0,1,0,0,0,0,0,0
+803.0,Stephanie White,68.0,Male,166.0,78.0,28.3,92.2,77.6,52.5,98.4,65.3,101.7,13.9,No,No,2.0,Yes,No,No,2,Private,No,No,Benign,Surgery,Penicillin,Abnormal,2.35,23.0,0,1,0,0,1,0,0,0
+804.0,Katherine King,59.0,Male,173.0,60.0,20.0,154.1,66.9,84.3,97.9,138.4,160.8,14.3,No,No,3.0,No,No,No,1,Public,No,No,Malignant,Radiation Therapy,Penicillin,Normal,8.78,43.9,1,1,0,0,0,0,0,1
+805.0,Eric Johnson,81.0,Female,190.0,92.0,25.5,117.7,81.1,78.1,98.7,136.5,195.5,12.8,Yes,Yes,4.0,No,No,No,2,Public,No,No,Benign,Chemotherapy,,Normal,1.73,54.2,1,0,1,1,0,0,0,1
+807.0,Megan Tucker MD,46.0,Female,176.0,83.0,26.8,137.8,62.8,102.5,100.3,62.1,226.9,11.4,No,No,4.0,No,No,No,3,Private,No,No,Benign,Radiation Therapy,Penicillin,Normal,4.48,34.3,0,0,0,0,0,0,0,0
+808.0,Peter Smith,50.0,Male,168.0,80.0,28.3,97.6,81.3,69.2,100.3,63.1,212.2,14.4,Yes,No,4.0,No,No,No,1,Uninsured,No,Yes,Benign,Surgery,Pollen,Normal,9.86,51.8,1,1,1,0,0,0,0,2
+809.0,Jonathan Carter,44.0,Male,175.0,101.0,33.0,104.7,83.5,59.5,99.3,103.2,184.0,15.1,No,Yes,3.0,No,No,No,2,Public,No,No,Malignant,Radiation Therapy,,Normal,6.34,33.4,0,1,0,1,0,0,0,1
+810.0,Alicia Gray,53.0,Female,179.0,75.0,23.4,121.4,69.2,53.1,98.8,85.0,176.7,13.6,No,No,7.0,No,Yes,No,1,Public,No,No,Benign,,,Abnormal,3.54,23.1,0,0,0,0,0,1,0,1
+811.0,Jose Pugh,46.0,Male,167.0,57.0,20.4,140.6,71.2,67.4,95.0,89.8,256.2,14.7,Yes,No,0.0,No,No,No,3,Public,Yes,No,Unknown,,,Normal,0.17,66.3,1,1,1,0,0,0,0,1
+813.0,Jasmine Meadows,74.0,Female,172.0,106.0,35.8,125.0,63.0,71.2,97.9,122.0,115.9,12.1,No,No,5.0,Yes,No,No,1,Private,No,No,Benign,,Penicillin,Normal,2.06,31.6,0,0,0,0,1,0,0,0
+814.0,Teresa Hogan,44.0,Male,175.0,60.0,19.6,121.6,85.2,66.4,95.8,141.3,173.1,14.5,No,No,3.0,No,No,No,6,Uninsured,Yes,No,Benign,,,Abnormal,6.48,60.4,1,1,0,0,0,0,0,2
+815.0,Charles Hahn,72.0,Female,177.0,70.0,22.3,128.0,66.6,77.6,96.9,70.3,165.7,15.4,No,No,0.0,No,Yes,Yes,2,Public,No,No,Benign,,,Normal,5.83,31.9,0,0,0,0,0,1,1,1
+816.0,Willie Taylor,50.0,Male,174.0,81.0,26.8,124.0,95.9,65.3,95.6,89.7,178.1,10.3,No,No,5.0,Yes,Yes,No,1,Private,No,No,Benign,Radiation Therapy,,Normal,2.65,19.7,0,1,0,0,1,1,0,0
+817.0,Christina Gardner,83.0,Male,178.0,74.0,23.4,99.4,115.1,46.8,98.5,122.8,222.5,15.0,No,No,4.0,No,No,No,2,Public,No,No,Benign,,,Abnormal,0.69,39.6,0,1,0,0,0,0,0,1
+818.0,Edward Schmidt,27.0,Male,164.0,60.0,22.3,120.9,67.1,68.2,99.8,113.4,195.7,12.9,No,No,1.0,No,No,Yes,2,Private,No,No,Benign,Radiation Therapy,Pollen,Normal,7.55,29.4,0,1,0,0,0,0,1,0
+819.0,Maureen Pearson,22.0,Female,164.0,92.0,34.2,98.5,88.0,41.6,100.3,146.0,196.9,13.6,No,No,0.0,No,Yes,No,0,Private,No,Yes,Benign,Immunotherapy,Peanuts,Abnormal,5.85,35.2,0,0,0,0,0,1,0,0
+821.0,William Williams,30.0,Female,174.0,78.0,25.8,110.4,95.6,58.2,97.2,155.4,172.1,12.3,No,Yes,4.0,Yes,No,No,2,Uninsured,No,No,Benign,,,Abnormal,2.6,29.9,0,0,0,1,1,0,0,2
+822.0,Brandon Cooper,48.0,Female,178.0,61.0,19.3,170.8,61.0,72.0,95.7,116.2,274.6,15.9,Yes,No,4.0,No,No,No,4,Public,No,No,Benign,Radiation Therapy,,Normal,6.53,69.3,1,0,1,0,0,0,0,1
+823.0,Monica Fox,64.0,Male,175.0,52.0,17.0,119.2,87.2,85.8,96.0,131.9,173.1,14.1,Yes,No,1.0,No,Yes,No,3,Private,Yes,No,Benign,,Peanuts,Normal,1.19,68.6,1,1,1,0,0,1,0,0
+824.0,Jeffrey Scott,69.0,Female,187.0,79.0,22.6,91.9,66.9,58.6,96.7,90.3,203.6,13.2,No,No,2.0,No,Yes,No,3,Private,No,No,Benign,Surgery,,Normal,2.92,35.0,0,0,0,0,0,1,0,0
+825.0,Christopher Sanchez,73.0,Male,170.0,92.0,31.8,117.3,76.9,82.7,97.3,100.4,188.8,13.8,No,No,1.0,No,No,No,1,Public,No,No,Benign,Radiation Therapy,Pollen,Normal,6.57,40.2,0,1,0,0,0,0,0,1
+826.0,Miranda Barr,32.0,Female,177.0,82.0,26.2,130.4,64.5,64.8,98.4,127.3,204.9,15.0,No,Yes,1.0,No,No,No,1,Private,No,No,Benign,Surgery,Peanuts,Abnormal,8.26,47.5,1,0,0,1,0,0,0,0
+827.0,Paige Bowman,46.0,Male,159.0,75.0,29.7,153.5,92.3,91.0,97.1,148.4,217.8,14.9,No,No,0.0,Yes,No,No,5,Private,No,No,Benign,,Penicillin,Normal,3.21,45.5,1,1,0,0,1,0,0,0
+828.0,Cody Yates,25.0,Female,166.0,66.0,24.0,108.2,67.4,65.6,99.1,121.9,217.4,13.8,No,Yes,4.0,No,No,No,1,Uninsured,No,No,Benign,,Seafood,Abnormal,7.99,38.9,0,0,0,1,0,0,0,2
+829.0,Karen Scott,22.0,Male,177.0,59.0,18.8,88.4,88.3,59.9,98.3,97.5,169.9,16.2,No,No,3.0,No,No,No,1,Private,No,No,Malignant,,Peanuts,Normal,6.78,20.2,0,1,0,0,0,0,0,0
+830.0,Chris Pham,46.0,Male,178.0,88.0,27.8,136.3,74.8,78.2,98.6,141.3,155.1,15.9,No,No,1.0,No,Yes,No,3,Public,No,Yes,Malignant,Chemotherapy,,Abnormal,3.49,36.3,0,1,0,0,0,1,0,1
+832.0,David Nunez,62.0,Male,169.0,52.0,18.2,111.3,82.2,59.9,96.8,57.3,180.6,14.1,No,Yes,5.0,No,No,Yes,6,Private,No,No,Benign,Chemotherapy,Penicillin,Normal,5.09,29.6,0,1,0,1,0,0,1,0
+833.0,Eric Bowen,19.0,Male,155.0,99.0,41.2,114.8,68.6,64.3,99.2,120.4,228.0,15.3,No,No,3.0,No,No,No,1,Private,No,Yes,Benign,Chemotherapy,,Normal,6.48,37.5,0,1,0,0,0,0,0,0
+834.0,Brandon Brennan,44.0,Male,166.0,84.0,30.5,118.6,83.2,69.5,98.6,100.4,135.7,14.6,No,No,7.0,No,No,No,4,Private,Yes,No,Benign,Surgery,,Abnormal,4.96,53.2,1,1,0,0,0,0,0,0
+835.0,Kathleen Gonzalez,53.0,Male,179.0,96.0,30.0,133.8,103.0,86.1,98.1,118.2,188.8,16.1,No,No,1.0,No,No,No,1,Public,No,No,Benign,Radiation Therapy,,Normal,4.53,34.1,0,1,0,0,0,0,0,1
+836.0,Joseph Lozano,53.0,Female,176.0,55.0,17.8,106.3,68.3,46.8,99.9,101.9,194.9,15.8,Yes,No,3.0,Yes,No,Yes,2,Public,No,No,Benign,Chemotherapy,,Normal,8.48,50.5,1,0,1,0,1,0,1,1
+837.0,Blake Ford,43.0,Female,175.0,55.0,18.0,114.5,97.6,70.3,99.9,117.1,218.9,12.0,No,No,5.0,No,No,No,1,Private,No,No,Benign,,,Normal,2.95,37.0,0,0,0,0,0,0,0,0
+839.0,Eric Bryant,44.0,Female,170.0,83.0,28.7,123.0,67.8,72.3,98.3,117.1,206.6,12.6,No,No,2.0,No,No,No,0,Private,No,No,Benign,,Peanuts,Abnormal,8.8,43.4,1,0,0,0,0,0,0,0
+840.0,Dawn Brown,37.0,Male,163.0,102.0,38.4,122.0,58.2,85.7,99.0,129.8,154.0,16.0,Yes,Yes,2.0,No,No,No,1,Uninsured,No,No,Benign,Surgery,Peanuts,Normal,8.25,53.7,1,1,1,1,0,0,0,2
+841.0,Reginald Luna,28.0,Female,177.0,86.0,27.5,128.7,84.5,69.1,98.2,136.6,213.0,10.8,No,No,5.0,No,No,No,2,Uninsured,No,No,Benign,Surgery,Penicillin,Normal,3.67,42.6,1,0,0,0,0,0,0,2
+842.0,Bobby Weeks,55.0,Male,174.0,71.0,23.5,136.9,71.8,67.8,99.5,160.4,158.5,14.8,No,No,2.0,No,No,No,0,Uninsured,No,No,Benign,Radiation Therapy,Peanuts,Abnormal,1.85,33.5,0,1,0,0,0,0,0,2
+843.0,Adam Hudson,23.0,Male,175.0,60.0,19.6,127.9,108.0,77.1,99.0,107.3,165.8,14.7,Yes,No,1.0,No,No,No,1,Uninsured,Yes,No,Unknown,Surgery,Pollen,Normal,6.76,63.4,1,1,1,0,0,0,0,2
+844.0,Melissa Little,40.0,Female,165.0,93.0,34.2,129.1,80.5,71.2,101.3,108.2,189.1,16.3,No,Yes,3.0,No,No,No,0,Private,No,No,Benign,Immunotherapy,,Normal,0.79,19.8,0,0,0,1,0,0,0,0
+845.0,Mark Higgins,64.0,Male,148.0,61.0,27.8,88.4,68.0,65.3,96.3,54.3,157.9,14.4,No,Yes,3.0,No,No,No,2,Private,No,No,Benign,Surgery,Peanuts,Normal,4.24,27.8,0,1,0,1,0,0,0,0
+846.0,Anita Smith,63.0,Female,181.0,99.0,30.2,121.0,62.8,76.2,98.4,84.1,181.0,11.3,No,Yes,1.0,No,No,No,2,Private,Yes,No,Benign,,,Abnormal,0.86,37.4,0,0,0,1,0,0,0,0
+847.0,Ryan Welch,29.0,Male,165.0,71.0,26.1,129.6,96.3,62.2,97.2,94.2,152.3,12.1,No,No,5.0,No,No,No,3,Public,No,No,Benign,,Dust,Normal,5.98,21.8,0,1,0,0,0,0,0,1
+848.0,Emily Payne,30.0,Female,161.0,99.0,38.2,134.6,71.4,62.7,99.5,131.5,126.7,11.6,No,No,2.0,No,No,No,2,Public,No,No,Benign,Surgery,Dust,Normal,0.27,22.9,0,0,0,0,0,0,0,1
+849.0,Gloria Ramos,79.0,Female,177.0,85.0,27.1,106.2,80.7,63.7,96.2,81.7,240.7,12.9,No,No,4.0,Yes,No,No,0,Public,No,No,Benign,Radiation Therapy,Dust,Normal,6.29,53.6,1,0,0,0,1,0,0,1
+850.0,Matthew Young,77.0,Female,166.0,73.0,26.5,106.8,94.3,86.2,99.1,123.9,148.2,13.6,No,No,5.0,No,No,No,1,Public,No,No,Benign,,,Normal,6.73,41.1,0,0,0,0,0,0,0,1
+851.0,Desiree Thompson,60.0,Female,181.0,67.0,20.5,108.5,72.7,31.3,97.7,100.0,192.9,11.7,No,No,4.0,No,Yes,No,1,Public,No,Yes,Benign,,,Normal,4.87,28.7,0,0,0,0,0,1,0,1
+853.0,Jordan Potter,54.0,Male,177.0,81.0,25.9,140.7,79.8,70.4,96.4,107.5,175.4,11.3,Yes,No,4.0,No,No,No,0,Private,No,No,Benign,,,Normal,1.01,38.7,0,1,1,0,0,0,0,0
+854.0,Amy Mills,48.0,Female,156.0,76.0,31.2,111.9,90.2,49.8,97.9,88.3,167.0,16.7,Yes,No,4.0,No,Yes,No,2,Public,No,Yes,Benign,Chemotherapy,,Normal,3.13,35.7,0,0,1,0,0,1,0,1
+855.0,Crystal Oconnell,26.0,Male,182.0,66.0,19.9,138.2,88.9,73.7,100.2,87.1,209.0,16.4,No,No,2.0,No,Yes,No,0,Private,No,No,Malignant,Chemotherapy,,Abnormal,4.65,30.1,0,1,0,0,0,1,0,0
+856.0,Lisa Scott,68.0,Female,173.0,73.0,24.4,122.5,76.7,75.7,98.6,48.9,244.7,15.8,No,No,6.0,No,Yes,No,1,Private,No,No,Benign,Chemotherapy,Peanuts,Normal,6.42,51.0,1,0,0,0,0,1,0,0
+857.0,Sheri Huang,46.0,Female,166.0,76.0,27.6,117.5,81.0,77.1,99.5,92.6,153.2,12.6,Yes,Yes,0.0,No,No,No,1,Public,No,No,Malignant,Chemotherapy,,Normal,0.01,25.9,0,0,1,1,0,0,0,1
+858.0,Daniel Woodward,57.0,Female,171.0,43.0,14.7,115.8,74.4,38.2,101.1,85.6,194.0,14.7,Yes,No,1.0,No,No,Yes,2,Private,No,No,Benign,Surgery,Dust,Normal,7.11,43.4,1,0,1,0,0,0,1,0
+859.0,Nathan Mays,58.0,Male,152.0,82.0,35.5,134.9,57.8,86.4,99.0,84.5,130.7,11.4,No,No,0.0,No,No,No,3,Public,Yes,No,Benign,Chemotherapy,,Normal,7.13,48.6,1,1,0,0,0,0,0,1
+861.0,Scott Francis,40.0,Female,160.0,58.0,22.7,165.5,108.4,78.2,99.3,119.8,201.4,13.9,No,No,1.0,No,No,Yes,2,Public,No,No,Malignant,Surgery,Penicillin,Abnormal,3.43,37.7,0,0,0,0,0,0,1,1
+862.0,Jamie Peters,18.0,Male,156.0,50.0,20.5,103.0,66.7,78.9,97.8,107.0,165.8,13.2,No,Yes,2.0,No,No,No,1,Private,No,No,Benign,Surgery,Penicillin,Abnormal,8.42,27.2,0,1,0,1,0,0,0,0
+863.0,Lisa Romero,63.0,Male,155.0,48.0,20.0,130.4,68.4,59.5,97.8,129.9,181.7,11.6,No,No,8.0,No,No,No,0,Private,Yes,No,Unknown,Chemotherapy,,Normal,7.85,64.8,1,1,0,0,0,0,0,0
+864.0,Roger Poole,38.0,Male,181.0,55.0,16.8,109.4,66.9,77.9,96.3,117.3,143.7,9.0,No,No,5.0,No,No,No,2,Public,No,No,Benign,Surgery,Seafood,Normal,9.83,31.9,0,1,0,0,0,0,0,1
+865.0,Michael Flores,53.0,Female,164.0,64.0,23.8,102.6,90.9,65.4,100.0,91.1,203.1,11.9,No,No,2.0,Yes,No,No,5,Uninsured,Yes,No,Benign,Chemotherapy,Penicillin,Normal,3.72,53.6,1,0,0,0,1,0,0,2
+866.0,Sabrina Lane,71.0,Female,185.0,104.0,30.4,119.8,86.7,45.1,98.0,86.1,242.2,16.2,Yes,Yes,1.0,No,No,No,3,Public,No,No,Benign,,Dust,Normal,9.07,66.7,1,0,1,1,0,0,0,1
+867.0,William Brady,74.0,Male,165.0,67.0,24.6,122.7,77.6,84.0,98.9,109.4,156.1,13.2,Yes,No,2.0,Yes,No,No,2,Private,No,No,Benign,,Dust,Normal,0.87,43.0,1,1,1,0,1,0,0,0
+868.0,Jason Romero,18.0,Male,153.0,78.0,33.3,178.4,66.2,60.7,97.0,117.2,175.1,13.7,Yes,No,5.0,Yes,Yes,No,3,Uninsured,No,No,Benign,Surgery,Penicillin,Normal,4.11,39.6,0,1,1,0,1,1,0,2
+869.0,Mary Marshall,80.0,Male,159.0,81.0,32.0,116.3,81.4,59.7,99.3,141.9,220.1,15.3,No,No,5.0,No,No,No,0,Uninsured,No,No,Benign,Chemotherapy,Dust,Normal,4.65,57.8,1,1,0,0,0,0,0,2
+870.0,Deborah Christensen,71.0,Female,182.0,77.0,23.2,97.4,56.5,65.2,97.5,135.7,248.5,17.6,No,Yes,2.0,No,No,No,3,Public,Yes,No,Benign,,Seafood,Abnormal,4.41,84.9,1,0,0,1,0,0,0,1
+871.0,Christopher Zuniga,72.0,Female,168.0,74.0,26.2,125.5,82.2,73.3,98.4,83.8,140.3,16.7,Yes,Yes,4.0,No,No,Yes,0,Public,No,No,Benign,Radiation Therapy,Pollen,Normal,6.25,46.9,1,0,1,1,0,0,1,1
+872.0,Mary Stewart,57.0,Male,165.0,57.0,20.9,78.5,93.1,69.3,99.9,96.9,193.2,12.1,No,No,1.0,No,No,No,2,Private,No,No,Benign,Radiation Therapy,Dust,Normal,1.7,18.5,0,1,0,0,0,0,0,0
+873.0,Justin Herrera,32.0,Male,172.0,97.0,32.8,118.2,61.2,76.6,99.8,120.1,211.3,10.1,No,No,1.0,No,Yes,Yes,0,Public,No,No,Benign,Surgery,Seafood,Abnormal,8.66,40.5,0,1,0,0,0,1,1,1
+874.0,Mary Atkinson,38.0,Male,175.0,102.0,33.3,120.3,57.0,53.9,98.6,132.0,195.9,18.7,No,No,1.0,No,No,No,2,Private,No,No,Benign,,,Normal,5.52,38.9,0,1,0,0,0,0,0,0
+875.0,Thomas Hernandez,64.0,Female,181.0,50.0,15.3,135.9,103.7,61.1,95.9,128.2,100.9,18.5,Yes,No,5.0,No,No,No,2,Private,No,No,Benign,Radiation Therapy,,Normal,9.04,60.1,1,0,1,0,0,0,0,0
+876.0,Corey Williams,70.0,Female,184.0,60.0,17.7,139.5,70.8,68.6,103.1,98.1,220.0,14.4,No,No,2.0,No,No,No,5,Private,Yes,No,Benign,,Dust,Normal,0.03,46.6,1,0,0,0,0,0,0,0
+877.0,Cheryl Martin,26.0,Male,166.0,71.0,25.8,109.9,97.0,92.8,101.2,62.4,260.8,11.5,No,No,4.0,No,No,No,1,Public,No,No,Malignant,Chemotherapy,Peanuts,Normal,6.3,41.1,0,1,0,0,0,0,0,1
+878.0,Julie Jackson,69.0,Male,157.0,61.0,24.7,117.0,77.7,68.6,99.7,70.0,204.7,15.9,Yes,Yes,4.0,No,No,No,3,Private,No,No,Benign,Chemotherapy,,Normal,4.12,53.6,1,1,1,1,0,0,0,0
+879.0,Laurie Walters,74.0,Male,166.0,83.0,30.1,104.7,77.6,83.0,97.5,108.2,158.8,13.8,No,No,5.0,No,No,No,0,Uninsured,No,Yes,Malignant,Immunotherapy,,Normal,5.05,40.4,0,1,0,0,0,0,0,2
+880.0,Heather Adkins,43.0,Female,173.0,64.0,21.4,97.4,86.6,70.5,98.4,110.3,179.5,13.8,Yes,No,4.0,No,No,No,0,Private,No,No,Benign,Chemotherapy,Peanuts,Normal,7.44,48.1,1,0,1,0,0,0,0,0
+881.0,Heather Harris,58.0,Male,160.0,107.0,41.8,126.2,66.7,64.2,97.8,67.0,270.8,15.8,Yes,No,3.0,Yes,No,No,2,Private,No,No,Benign,Radiation Therapy,,Normal,2.27,55.5,1,1,1,0,1,0,0,0
+882.0,Ashley Morris,52.0,Female,160.0,93.0,36.3,94.5,82.0,67.0,100.5,101.3,236.4,14.7,No,No,3.0,No,No,No,4,Public,No,No,Benign,Chemotherapy,,Normal,2.05,36.4,0,0,0,0,0,0,0,1
+883.0,Paul Sawyer,80.0,Female,173.0,78.0,26.1,111.7,74.3,68.0,99.0,118.9,225.6,11.6,No,No,3.0,No,Yes,No,0,Public,No,No,Benign,Radiation Therapy,,Normal,7.03,51.8,1,0,0,0,0,1,0,1
+885.0,Jackie Bernard,55.0,Male,170.0,92.0,31.8,131.0,85.1,86.5,97.9,133.1,173.6,15.3,Yes,No,4.0,No,No,No,1,Private,No,No,Benign,,,Normal,2.34,50.0,1,1,1,0,0,0,0,0
+886.0,Alyssa White,19.0,Male,162.0,67.0,25.5,156.0,76.1,74.3,100.3,88.7,192.0,15.0,No,No,3.0,No,No,No,2,Public,No,No,Benign,,Penicillin,Normal,4.84,19.0,0,1,0,0,0,0,0,1
+887.0,Samantha Garner,24.0,Female,168.0,63.0,22.3,94.0,77.6,84.2,101.0,137.7,196.9,14.5,No,No,2.0,No,No,No,2,Private,No,No,Benign,,Seafood,Normal,4.6,34.4,0,0,0,0,0,0,0,0
+888.0,Joseph Walker,51.0,Female,161.0,76.0,29.3,82.9,61.8,58.4,100.9,84.0,222.0,15.9,No,No,4.0,No,No,No,0,Private,No,No,Benign,,Seafood,Normal,6.91,37.0,0,0,0,0,0,0,0,0
+889.0,Christopher Thompson,34.0,Female,179.0,88.0,27.5,117.5,103.9,65.0,99.7,69.2,260.4,13.3,No,Yes,5.0,No,Yes,No,1,Private,No,No,Benign,Immunotherapy,,Normal,0.03,28.1,0,0,0,1,0,1,0,0
+890.0,Stacy Whitaker,60.0,Female,180.0,77.0,23.8,120.3,93.2,61.3,98.2,86.3,244.7,14.4,Yes,No,1.0,No,No,No,3,Public,No,No,Benign,Immunotherapy,,Normal,5.87,64.1,1,0,1,0,0,0,0,1
+891.0,Emily Walker,76.0,Male,152.0,51.0,22.1,124.4,94.5,73.8,93.7,97.1,143.2,7.2,No,No,5.0,No,No,No,2,Private,No,No,Unknown,,Penicillin,Abnormal,6.06,32.9,0,1,0,0,0,0,0,0
+892.0,Christopher Kim,68.0,Female,161.0,63.0,24.3,111.1,75.4,65.7,99.0,88.3,209.0,13.1,No,Yes,5.0,No,Yes,No,4,Private,No,No,Benign,Radiation Therapy,Peanuts,Normal,7.46,41.0,0,0,0,1,0,1,0,0
+893.0,Megan Medina,71.0,Female,155.0,74.0,30.8,116.0,54.1,78.8,98.6,93.5,229.5,15.5,No,No,2.0,No,No,No,1,Public,No,Yes,Benign,Radiation Therapy,,Normal,8.89,41.7,1,0,0,0,0,0,0,1
+894.0,Angela Bowers,41.0,Male,163.0,74.0,27.9,127.4,109.3,58.8,98.8,110.0,224.8,13.2,No,Yes,2.0,No,No,No,3,Public,Yes,No,Benign,,,Normal,4.4,60.8,1,1,0,1,0,0,0,1
+895.0,Connie Smith,42.0,Female,169.0,105.0,36.8,140.8,79.1,70.5,98.7,94.9,174.8,13.1,Yes,No,2.0,No,No,No,1,Private,No,No,Benign,Radiation Therapy,Dust,Normal,3.43,35.2,0,0,1,0,0,0,0,0
+897.0,Lauren Hubbard,50.0,Female,161.0,83.0,32.0,112.6,86.3,45.2,99.4,48.7,148.9,16.0,No,No,4.0,No,No,No,1,Public,No,No,Benign,Surgery,,Abnormal,3.37,21.9,0,0,0,0,0,0,0,1
+898.0,Travis Villanueva,66.0,Female,160.0,97.0,37.9,124.3,97.5,95.5,99.5,111.8,156.7,15.1,No,Yes,3.0,Yes,Yes,No,1,Public,No,Yes,Benign,Radiation Therapy,,Normal,0.68,25.6,0,0,0,1,1,1,0,1
+899.0,Kathy Pruitt,46.0,Female,172.0,109.0,36.8,101.6,79.7,66.6,99.6,97.3,209.3,15.7,No,No,1.0,Yes,No,No,1,Public,No,No,Benign,,,Abnormal,8.03,35.8,0,0,0,0,1,0,0,1
+901.0,Kevin Hall,39.0,Male,163.0,82.0,30.9,107.3,96.2,71.9,99.5,71.8,166.6,13.7,No,No,2.0,No,No,Yes,2,Private,No,No,Benign,,,Normal,4.17,21.7,0,1,0,0,0,0,1,0
+902.0,Yvonne Dodson,43.0,Male,172.0,84.0,28.4,119.2,63.9,70.4,98.0,45.8,189.4,13.4,No,No,3.0,No,No,No,2,Private,No,Yes,Benign,,,Normal,2.6,17.9,0,1,0,0,0,0,0,0
+903.0,Jesus Sharp,45.0,Female,165.0,78.0,28.7,131.1,69.9,69.0,98.5,118.5,243.1,13.4,No,Yes,0.0,No,No,No,2,Uninsured,No,No,Benign,Immunotherapy,Penicillin,Normal,1.18,42.1,1,0,0,1,0,0,0,2
+904.0,Nicholas Rocha,66.0,Male,167.0,74.0,26.5,108.2,94.4,81.9,98.7,110.4,199.3,12.8,Yes,No,1.0,No,No,No,1,Private,Yes,No,Benign,Chemotherapy,,Normal,8.51,73.5,1,1,1,0,0,0,0,0
+905.0,Dean Wagner,66.0,Male,187.0,82.0,23.4,83.1,39.3,79.0,98.8,69.7,186.6,13.3,Yes,No,3.0,No,No,No,4,Private,No,No,Benign,Radiation Therapy,Dust,Normal,8.77,45.5,1,1,1,0,0,0,0,0
+906.0,Adriana Summers,37.0,Male,183.0,37.0,11.0,111.4,77.8,73.6,100.1,54.1,222.6,15.7,No,No,2.0,No,Yes,No,4,Public,No,No,Benign,Surgery,Penicillin,Normal,2.66,26.7,0,1,0,0,0,1,0,1
+907.0,Alexandria Woodard,80.0,Male,157.0,85.0,34.5,140.6,58.5,75.4,99.6,146.1,210.9,10.2,No,No,2.0,No,Yes,No,0,Private,No,No,Benign,,Penicillin,Normal,6.22,58.8,1,1,0,0,0,1,0,0
+908.0,Rebecca Barber,78.0,Female,178.0,77.0,24.3,113.3,72.9,68.7,101.7,142.4,241.2,17.6,No,No,3.0,No,No,No,2,Public,No,No,Malignant,Chemotherapy,Pollen,Normal,2.59,61.1,1,0,0,0,0,0,0,1
+911.0,Curtis Harrison,30.0,Male,178.0,65.0,20.5,113.4,71.7,71.7,92.8,149.9,211.7,15.8,Yes,Yes,5.0,No,Yes,No,4,Public,No,No,Benign,Surgery,,Abnormal,5.77,62.1,1,1,1,1,0,1,0,1
+912.0,Ian Freeman,68.0,Male,185.0,69.0,20.2,109.8,63.5,70.8,100.5,85.7,208.6,11.1,Yes,No,3.0,No,No,No,1,Public,No,No,Benign,,,Abnormal,1.5,45.5,1,1,1,0,0,0,0,1
+913.0,Deborah Bradley,73.0,Female,159.0,105.0,41.5,123.0,114.4,79.8,97.8,85.3,219.6,12.7,Yes,Yes,5.0,No,No,No,3,Public,No,No,Benign,Chemotherapy,Penicillin,Normal,0.12,42.5,1,0,1,1,0,0,0,1
+914.0,Miguel Brown,79.0,Female,161.0,63.0,24.3,135.4,108.0,59.9,97.4,91.5,202.2,13.8,No,No,4.0,No,No,No,2,Private,No,No,Benign,Radiation Therapy,Penicillin,Normal,1.05,31.7,0,0,0,0,0,0,0,0
+915.0,Tyler Brown,49.0,Male,180.0,67.0,20.7,167.6,62.6,49.1,98.0,66.4,200.0,16.7,No,Yes,4.0,No,No,Yes,3,Public,No,No,Benign,Immunotherapy,,Normal,3.14,20.9,0,1,0,1,0,0,1,1
+916.0,Theresa Tate,47.0,Female,173.0,73.0,24.4,136.5,103.7,71.9,97.9,48.9,247.9,13.9,No,No,4.0,Yes,Yes,No,0,Private,No,No,Benign,,Peanuts,Normal,6.69,46.1,1,0,0,0,1,1,0,0
+917.0,Darryl Stokes,46.0,Female,176.0,88.0,28.4,143.2,74.0,73.4,99.5,131.6,260.6,14.9,Yes,Yes,2.0,No,No,Yes,2,Private,No,No,Benign,,,Normal,2.03,66.9,1,0,1,1,0,0,1,0
+918.0,William Sanchez,66.0,Female,173.0,78.0,26.1,109.9,81.9,87.9,96.3,44.7,139.7,12.8,No,Yes,2.0,No,Yes,Yes,2,Private,No,No,Malignant,,Peanuts,Normal,8.88,30.5,0,0,0,1,0,1,1,0
+919.0,Summer Vargas,62.0,Female,174.0,56.0,18.5,99.5,79.1,54.8,97.0,107.4,200.4,15.0,No,No,5.0,Yes,No,No,4,Public,No,No,Unknown,Chemotherapy,,Abnormal,2.88,41.2,0,0,0,0,1,0,0,1
+920.0,Sydney Lopez,47.0,Male,157.0,67.0,27.2,121.2,70.1,83.9,99.1,126.6,172.5,17.4,No,Yes,5.0,No,No,No,0,Uninsured,No,No,Benign,Surgery,Peanuts,Normal,3.31,36.0,0,1,0,1,0,0,0,2
+921.0,Tracy Lopez,33.0,Female,180.0,66.0,20.4,122.1,94.8,98.4,99.5,56.5,187.6,16.0,Yes,No,1.0,No,No,No,3,Public,No,No,Benign,,,Normal,2.18,29.3,0,0,1,0,0,0,0,1
+922.0,Rebecca Wagner,57.0,Male,182.0,74.0,22.3,98.4,81.9,65.5,99.6,72.3,216.1,13.8,No,No,3.0,No,No,Yes,6,Private,No,No,Benign,,Pollen,Normal,2.54,31.0,0,1,0,0,0,0,1,0
+923.0,Blake Hanson,36.0,Female,168.0,81.0,28.7,116.5,72.9,54.5,97.4,136.4,226.8,15.4,No,Yes,8.0,No,No,No,1,Private,No,No,Benign,Immunotherapy,,Normal,0.74,35.7,0,0,0,1,0,0,0,0
+924.0,Melissa Reed,35.0,Female,170.0,81.0,28.0,128.0,60.4,65.1,97.1,116.0,195.5,15.2,No,No,3.0,No,No,No,3,Private,No,No,Benign,,Pollen,Normal,2.95,25.1,0,0,0,0,0,0,0,0
+925.0,Peter Cook,18.0,Female,155.0,48.0,20.0,127.2,66.6,70.2,97.8,81.5,123.5,15.0,No,No,6.0,No,No,No,1,Public,No,No,Malignant,,,Normal,8.6,19.2,0,0,0,0,0,0,0,1
+926.0,Glenn Sims PhD,64.0,Female,175.0,91.0,29.7,130.1,55.4,76.8,99.0,136.1,161.4,16.2,Yes,No,1.0,No,No,No,3,Private,No,No,Benign,Surgery,Peanuts,Normal,6.88,60.1,1,0,1,0,0,0,0,0
+927.0,Kevin Deleon,83.0,Male,176.0,79.0,25.5,125.8,80.2,62.9,100.8,136.2,235.9,16.2,No,No,3.0,No,No,No,1,Private,Yes,No,Malignant,Chemotherapy,,Normal,8.75,79.5,1,1,0,0,0,0,0,0
+929.0,David Cole,68.0,Female,181.0,82.0,25.0,109.7,76.0,56.6,98.3,73.0,247.5,15.3,No,No,1.0,No,No,Yes,2,Uninsured,No,No,Benign,,Seafood,Normal,4.56,49.7,1,0,0,0,0,0,1,2
+930.0,Ashley Ochoa,80.0,Female,167.0,92.0,33.0,96.0,100.6,49.1,96.6,87.6,220.8,13.2,No,Yes,2.0,No,No,No,4,Public,Yes,No,Benign,Immunotherapy,Seafood,Normal,2.29,55.7,1,0,0,1,0,0,0,1
+931.0,Scott Bailey,21.0,Male,176.0,82.0,26.5,155.7,98.0,83.3,96.1,108.6,252.6,12.2,Yes,No,3.0,No,Yes,Yes,2,Public,Yes,No,Benign,,,Normal,7.21,82.9,1,1,1,0,0,1,1,1
+932.0,Stephen Moss,18.0,Male,160.0,95.0,37.1,120.3,79.5,42.7,100.1,94.3,192.1,13.5,Yes,No,4.0,No,No,No,2,Public,No,No,Benign,Surgery,Seafood,Abnormal,9.7,34.2,0,1,1,0,0,0,0,1
+933.0,Margaret Robinson,25.0,Male,170.0,83.0,28.7,115.5,78.7,67.6,99.4,128.2,117.5,13.8,No,No,2.0,Yes,No,No,1,Uninsured,No,No,Benign,Chemotherapy,,Normal,8.15,35.9,0,1,0,0,1,0,0,2
+934.0,Emily Munoz,46.0,Female,168.0,74.0,26.2,101.4,108.2,107.4,99.3,54.1,217.2,10.7,No,No,2.0,Yes,No,No,0,Public,Yes,No,Benign,Chemotherapy,,Normal,0.35,41.9,1,0,0,0,1,0,0,1
+935.0,Bobby Marks,72.0,Female,172.0,109.0,36.8,178.7,87.8,69.9,100.0,55.2,251.0,15.7,No,No,3.0,No,No,No,1,Private,Yes,No,Malignant,,,Abnormal,3.17,66.5,1,0,0,0,0,0,0,0
+936.0,Nathan Moore,20.0,Male,166.0,88.0,31.9,98.5,75.1,56.6,97.9,105.4,237.0,8.5,No,Yes,5.0,No,No,No,3,Uninsured,No,No,Malignant,Surgery,,Normal,0.29,23.6,0,1,0,1,0,0,0,2
+937.0,Glenn Lewis,49.0,Female,169.0,84.0,29.4,111.4,58.6,69.3,98.0,85.3,173.5,19.4,Yes,No,3.0,No,Yes,Yes,1,Private,No,No,Benign,Chemotherapy,Peanuts,Normal,0.4,27.7,0,0,1,0,0,1,1,0
+938.0,Luke Jackson,27.0,Female,178.0,56.0,17.7,128.3,85.9,69.4,101.9,81.2,203.5,17.0,No,No,3.0,No,No,No,3,Private,No,No,Benign,,,Normal,0.8,18.8,0,0,0,0,0,0,0,0
+940.0,Juan Flores,72.0,Female,154.0,79.0,33.3,139.2,70.5,77.9,99.7,100.6,167.2,14.0,No,Yes,1.0,No,No,Yes,2,Private,No,No,Malignant,,Penicillin,Normal,3.04,34.1,0,0,0,1,0,0,1,0
+941.0,Chad Khan,49.0,Female,187.0,77.0,22.0,156.2,84.4,57.5,98.6,98.4,238.2,14.6,No,Yes,3.0,No,No,No,3,Uninsured,No,No,Benign,Surgery,Pollen,Normal,4.0,33.5,0,0,0,1,0,0,0,2
+942.0,Belinda Bates,67.0,Female,184.0,66.0,19.5,130.1,74.5,90.3,95.8,119.6,152.1,12.8,No,No,4.0,No,No,No,3,Private,No,No,Benign,Chemotherapy,Penicillin,Normal,4.05,35.9,0,0,0,0,0,0,0,0
+943.0,Jason Martin,24.0,Male,157.0,77.0,31.2,98.9,77.2,72.9,95.5,102.1,164.2,14.4,No,No,2.0,Yes,Yes,No,3,Public,Yes,No,Benign,Immunotherapy,Peanuts,Abnormal,7.71,48.6,1,1,0,0,1,1,0,1
+944.0,Tony Reyes,25.0,Female,177.0,99.0,31.6,114.9,42.7,78.7,97.7,96.0,155.8,13.7,Yes,Yes,1.0,No,No,No,0,Public,No,No,Benign,,Penicillin,Abnormal,1.41,25.1,0,0,1,1,0,0,0,1
+945.0,Jennifer Rocha,82.0,Female,165.0,85.0,31.2,126.2,76.7,62.5,100.2,135.3,140.4,13.8,No,Yes,5.0,No,No,No,1,Public,No,No,Benign,Chemotherapy,Seafood,Abnormal,1.58,39.0,0,0,0,1,0,0,0,1
+946.0,Tiffany Curtis,74.0,Female,173.0,58.0,19.4,161.4,94.5,85.4,99.8,60.6,205.9,14.4,No,No,2.0,No,Yes,Yes,0,Private,No,Yes,Benign,,Pollen,Abnormal,6.27,42.4,1,0,0,0,0,1,1,0
+947.0,Mark Lewis,84.0,Female,173.0,73.0,24.4,92.0,70.5,66.9,100.0,116.1,246.5,11.4,No,No,2.0,No,No,No,2,Public,Yes,No,Benign,Radiation Therapy,Penicillin,Normal,5.72,82.8,1,0,0,0,0,0,0,1
+948.0,Daniel Carney,76.0,Female,168.0,63.0,22.3,144.1,80.8,73.3,97.1,49.9,192.6,14.1,No,No,5.0,Yes,No,No,1,Private,No,No,Benign,Surgery,,Normal,1.54,22.5,0,0,0,0,1,0,0,0
+949.0,Alexander Pennington,71.0,Male,162.0,69.0,26.3,123.6,68.7,58.8,101.0,74.8,139.8,14.3,No,No,1.0,No,No,No,5,Private,No,No,Malignant,Surgery,Dust,Normal,8.52,31.7,0,1,0,0,0,0,0,0
+950.0,Sabrina West,84.0,Male,163.0,69.0,26.0,136.8,85.4,58.0,97.2,63.6,233.6,14.3,No,No,3.0,No,Yes,No,3,Private,No,No,Benign,,Pollen,Normal,3.29,39.6,0,1,0,0,0,1,0,0
+951.0,James Mitchell,68.0,Male,161.0,68.0,26.2,118.0,76.8,78.3,98.9,123.5,267.4,13.6,No,Yes,6.0,No,Yes,No,2,Public,No,No,Benign,Surgery,,Normal,3.67,55.0,1,1,0,1,0,1,0,1
+952.0,Joseph Hernandez,25.0,Male,162.0,56.0,21.3,103.2,65.9,64.7,98.6,98.0,174.2,16.3,No,No,4.0,Yes,No,No,2,Private,No,No,Benign,Surgery,Penicillin,Normal,4.2,18.5,0,1,0,0,1,0,0,0
+953.0,Miguel Salazar,51.0,Female,169.0,73.0,25.6,135.0,100.0,59.8,98.3,99.6,180.9,13.3,Yes,No,6.0,No,No,No,1,Private,Yes,No,Benign,,Seafood,Abnormal,3.23,56.7,1,0,1,0,0,0,0,0
+954.0,Heather Morales,52.0,Female,163.0,67.0,25.2,133.1,93.9,62.3,100.6,66.8,220.6,14.5,No,No,0.0,No,Yes,No,1,Public,No,Yes,Benign,Chemotherapy,Penicillin,Normal,5.57,37.2,0,0,0,0,0,1,0,1
+956.0,Jacqueline Page,63.0,Male,185.0,106.0,31.0,119.7,87.5,62.5,96.6,77.1,179.2,13.8,Yes,No,5.0,No,No,No,0,Public,No,No,Malignant,Chemotherapy,Peanuts,Normal,2.59,37.6,0,1,1,0,0,0,0,1
+958.0,Blake Anderson,54.0,Male,172.0,69.0,23.3,88.8,89.6,70.2,98.0,70.3,225.3,13.8,No,No,4.0,Yes,Yes,No,5,Public,No,No,Benign,Surgery,,Abnormal,3.08,31.9,0,1,0,0,1,1,0,1
+959.0,Christopher Little,71.0,Female,175.0,75.0,24.5,136.4,54.6,47.0,103.7,139.9,232.0,16.5,No,No,1.0,No,No,No,1,Private,No,No,Benign,,Pollen,Normal,6.98,56.7,1,0,0,0,0,0,0,0
+960.0,Hannah Bush,31.0,Female,175.0,57.0,18.6,128.5,95.1,52.3,99.6,49.7,200.2,13.5,No,No,7.0,No,No,No,3,Private,No,No,Benign,Surgery,Penicillin,Normal,3.47,27.7,0,0,0,0,0,0,0,0
+961.0,Steven Hanson,72.0,Female,171.0,100.0,34.2,100.7,71.5,74.0,98.0,75.8,177.7,16.6,No,No,2.0,No,Yes,No,2,Public,No,No,Benign,Radiation Therapy,Dust,Abnormal,4.35,30.0,0,0,0,0,0,1,0,1
+962.0,Mark Thomas,65.0,Male,177.0,103.0,32.9,109.2,74.6,61.2,97.0,150.3,239.8,13.8,No,Yes,4.0,No,Yes,No,2,Private,No,Yes,Unknown,,Seafood,Normal,2.36,47.4,1,1,0,1,0,1,0,0
+963.0,Donald Wilson,24.0,Male,175.0,77.0,25.1,110.7,119.6,82.7,95.8,86.9,221.1,12.3,No,Yes,4.0,Yes,No,No,0,Private,No,No,Benign,Radiation Therapy,Peanuts,Normal,7.52,30.6,0,1,0,1,1,0,0,0
+964.0,Michael Robinson,24.0,Female,158.0,90.0,36.1,90.3,84.5,81.6,97.1,60.6,169.3,15.4,No,No,1.0,No,No,No,0,Private,No,No,Benign,,Seafood,Normal,7.37,20.6,0,0,0,0,0,0,0,0
+965.0,Andrew White,50.0,Female,179.0,78.0,24.3,103.6,74.2,78.6,98.8,106.6,202.0,13.4,No,Yes,3.0,No,No,No,1,Public,No,Yes,Benign,Radiation Therapy,,Normal,0.22,30.4,0,0,0,1,0,0,0,1
+966.0,Sandra Davis,40.0,Male,179.0,55.0,17.2,97.3,46.9,91.8,100.7,85.7,145.9,15.2,No,No,3.0,No,No,No,3,Public,Yes,No,Benign,Chemotherapy,Penicillin,Normal,0.6,31.2,0,1,0,0,0,0,0,1
+967.0,Stephanie Rhodes,36.0,Female,162.0,69.0,26.3,111.8,100.8,69.0,100.3,74.9,227.4,8.5,No,Yes,6.0,No,No,No,3,Private,No,No,Benign,Surgery,Penicillin,Abnormal,9.22,33.5,0,0,0,1,0,0,0,0
+968.0,Kathy Todd,36.0,Male,170.0,77.0,26.6,105.2,59.8,77.8,98.9,67.1,189.5,14.0,No,No,4.0,No,No,No,2,Public,No,No,Benign,Chemotherapy,Penicillin,Abnormal,8.89,23.5,0,1,0,0,0,0,0,1
+970.0,Stacey May,46.0,Male,168.0,72.0,25.5,160.5,75.0,99.4,99.0,92.5,198.7,11.9,No,No,3.0,No,No,No,1,Public,No,No,Malignant,Surgery,,Normal,4.93,25.6,0,1,0,0,0,0,0,1
+971.0,Christopher Torres,77.0,Female,181.0,74.0,22.6,145.1,101.2,93.8,97.8,42.2,201.6,12.9,No,Yes,3.0,No,No,No,3,Public,No,No,Malignant,Radiation Therapy,,Abnormal,8.12,43.1,1,0,0,1,0,0,0,1
+972.0,Ashley Bowers,19.0,Male,194.0,74.0,19.7,104.4,91.6,70.1,101.2,144.8,235.8,12.9,No,No,3.0,No,Yes,No,2,Private,Yes,No,Benign,Chemotherapy,Penicillin,Normal,1.38,53.6,1,1,0,0,0,1,0,0
+973.0,Jennifer Beltran,18.0,Male,162.0,76.0,29.0,125.4,77.6,74.6,98.3,118.3,223.6,13.9,No,No,4.0,No,No,No,1,Private,No,No,Benign,Radiation Therapy,Pollen,Abnormal,6.54,37.2,0,1,0,0,0,0,0,0
+975.0,Allen Jones,37.0,Male,173.0,64.0,21.4,143.8,71.0,68.2,95.3,72.0,230.5,14.6,No,Yes,1.0,Yes,No,No,2,Private,No,No,Benign,Surgery,,Normal,7.43,33.7,0,1,0,1,1,0,0,0
+976.0,Michael Thompson,28.0,Female,177.0,56.0,17.9,103.6,82.1,62.1,98.3,120.2,216.0,16.7,No,Yes,4.0,No,Yes,No,5,Private,No,No,Benign,Chemotherapy,,Normal,0.3,25.5,0,0,0,1,0,1,0,0
+977.0,Christine Huerta,19.0,Female,168.0,90.0,31.9,141.8,81.1,80.5,99.9,92.6,182.9,14.6,No,No,5.0,Yes,No,No,2,Private,No,No,Benign,Surgery,,Normal,5.93,19.5,0,0,0,0,1,0,0,0
+978.0,Brianna Howell,84.0,Male,185.0,43.0,12.6,109.0,94.5,70.9,97.0,42.2,195.0,15.6,No,Yes,5.0,No,No,No,2,Uninsured,No,No,Benign,,,Normal,5.57,34.8,0,1,0,1,0,0,0,2
+979.0,Samantha Williams,29.0,Male,157.0,92.0,37.3,93.3,94.5,72.2,97.5,153.6,194.1,16.2,No,No,3.0,Yes,No,No,2,Private,No,No,Benign,Immunotherapy,Seafood,Normal,8.41,36.8,0,1,0,0,1,0,0,0
+980.0,Sherry Osborn,37.0,Female,177.0,96.0,30.6,134.5,87.4,60.0,99.8,87.0,220.2,16.5,No,No,3.0,No,No,No,5,Private,No,No,Benign,Surgery,Dust,Normal,6.77,33.7,0,0,0,0,0,0,0,0
+981.0,Rhonda Lopez,22.0,Female,164.0,70.0,26.0,145.8,74.6,49.4,96.4,144.9,185.3,17.7,No,Yes,5.0,No,Yes,No,0,Private,No,No,Unknown,Chemotherapy,,Normal,8.8,35.2,0,0,0,1,0,1,0,0
+982.0,Mary Nguyen,54.0,Female,187.0,36.0,10.3,171.8,91.1,72.8,100.2,138.4,184.4,13.0,No,No,3.0,No,No,Yes,1,Uninsured,No,No,Benign,Surgery,,Normal,8.87,42.7,1,0,0,0,0,0,1,2
+983.0,Kevin Baker,55.0,Male,190.0,70.0,19.4,96.0,78.6,80.9,97.8,70.0,278.8,12.6,No,Yes,2.0,No,No,No,1,Public,No,No,Benign,,,Normal,4.08,45.2,1,1,0,1,0,0,0,1
+984.0,Christina Snyder,26.0,Male,162.0,74.0,28.2,134.0,63.8,67.3,98.0,131.0,237.6,15.6,Yes,No,3.0,No,Yes,No,0,Public,No,Yes,Benign,Surgery,,Normal,1.37,50.2,1,1,1,0,0,1,0,1
+985.0,Brian Cline,70.0,Female,165.0,60.0,22.0,111.8,74.0,87.2,96.9,80.5,169.6,15.4,No,No,1.0,No,Yes,No,3,Public,No,Yes,Benign,Chemotherapy,Seafood,Abnormal,6.3,31.5,0,0,0,0,0,1,0,1
+986.0,Carolyn Taylor,61.0,Male,179.0,67.0,20.9,135.7,81.3,61.6,99.2,44.0,222.8,15.6,No,No,4.0,No,Yes,No,1,Public,No,No,Benign,Chemotherapy,Penicillin,Abnormal,8.74,39.4,0,1,0,0,0,1,0,1
+987.0,Adrian Mason,41.0,Female,166.0,98.0,35.6,90.6,93.7,57.3,102.3,87.3,204.7,17.8,No,No,5.0,No,No,Yes,3,Public,Yes,No,Benign,,Seafood,Abnormal,0.75,41.9,1,0,0,0,0,0,1,1
+988.0,Lauren Ewing,47.0,Male,170.0,85.0,29.4,94.7,77.2,69.2,99.8,111.9,215.7,14.0,No,No,3.0,No,No,No,1,Private,No,No,Benign,,Penicillin,Normal,5.58,44.1,1,1,0,0,0,0,0,0
+989.0,Lisa Jones,76.0,Female,170.0,61.0,21.1,104.5,61.9,69.0,97.3,86.1,205.5,14.9,Yes,No,3.0,No,No,No,2,Private,No,No,Unknown,Radiation Therapy,,Normal,1.15,46.3,1,0,1,0,0,0,0,0
+990.0,Dustin Jenkins,31.0,Male,151.0,51.0,22.4,121.6,80.9,79.2,100.3,90.8,247.6,12.0,No,No,1.0,No,No,No,1,Public,No,No,Benign,Radiation Therapy,,Normal,0.27,28.1,0,1,0,0,0,0,0,1
+991.0,Robert Stanley,26.0,Female,170.0,70.0,24.2,107.2,81.7,60.7,98.1,134.3,213.8,18.3,No,No,2.0,No,No,No,5,Private,No,No,Benign,,,Normal,6.8,46.1,1,0,0,0,0,0,0,0
+992.0,Eileen Brown,57.0,Female,163.0,72.0,27.1,133.2,82.8,86.4,100.7,103.2,197.5,13.3,Yes,No,2.0,No,No,No,1,Private,Yes,No,Benign,Chemotherapy,Seafood,Normal,6.82,71.4,1,0,1,0,0,0,0,0
+993.0,David Scott,83.0,Female,165.0,82.0,30.1,140.5,93.8,93.6,99.8,74.7,241.7,13.4,No,Yes,6.0,No,Yes,No,5,Private,Yes,No,Benign,Surgery,Seafood,Abnormal,6.01,74.5,1,0,0,1,0,1,0,0
+994.0,Jordan Palmer,42.0,Male,184.0,67.0,19.8,132.0,95.3,69.5,94.2,121.1,209.3,13.3,No,Yes,5.0,No,No,Yes,0,Public,No,No,Malignant,,Seafood,Normal,8.59,42.9,1,1,0,1,0,0,1,1
+995.0,Kaylee Moreno,39.0,Female,157.0,83.0,33.7,152.4,71.1,85.0,97.1,105.9,204.9,12.7,No,No,4.0,No,Yes,No,2,Private,No,No,Benign,Surgery,,Normal,0.81,29.6,0,0,0,0,0,1,0,0
+997.0,Angela Rodriguez,43.0,Female,167.0,87.0,31.2,95.7,64.4,82.9,98.8,112.9,196.3,13.0,No,No,4.0,No,No,No,2,Public,No,No,Benign,Radiation Therapy,,Normal,8.65,33.1,0,0,0,0,0,0,0,1
+998.0,Robert Collins,75.0,Female,167.0,74.0,26.5,147.3,90.5,82.6,97.1,111.8,200.4,11.3,No,No,1.0,No,No,No,1,Public,Yes,No,Benign,,,Abnormal,5.03,70.6,1,0,0,0,0,0,0,1
+999.0,Gary Lewis,46.0,Female,178.0,72.0,22.7,107.9,101.7,80.4,97.6,100.6,176.5,12.4,Yes,Yes,6.0,No,No,Yes,2,Private,Yes,No,Benign,Surgery,,Normal,2.73,62.0,1,0,1,1,0,0,1,0
+1000.0,Lauren Willis,54.0,Female,173.0,70.0,23.4,138.2,75.3,69.8,95.7,126.8,170.0,17.9,Yes,Yes,2.0,No,No,No,2,Private,No,Yes,Benign,,,Normal,7.38,57.7,1,0,1,1,0,0,0,0
+129.0,Kelly Ritter,47.0,Male,171.0,68.0,23.3,113.0,71.4,75.9,98.6,83.5,204.3,15.7,Yes,No,0.0,No,No,Yes,0,Private,No,No,Benign,,Pollen,Normal,1.93,41.8,1,1,1,0,0,0,1,0
+1.0,Leah Singh,44.0,Male,176.0,100.0,32.3,159.6,72.6,93.8,94.7,69.8,256.0,15.0,Yes,No,1.0,No,Yes,No,3,Public,No,No,Malignant,,Pollen,Normal,6.23,60.4,1,1,1,0,0,1,0,1
+2.0,Cheryl Hoover,62.0,Female,161.0,94.0,36.3,120.5,68.2,75.1,100.8,115.9,132.4,11.1,Yes,No,2.0,No,No,No,4,Private,No,No,Benign,,Dust,Normal,7.4,52.6,1,0,1,0,0,0,0,0
+3.0,Nathan Richardson,44.0,Female,173.0,68.0,22.7,129.6,85.0,53.7,98.0,109.5,186.6,15.2,No,No,4.0,No,No,No,4,Private,No,No,Benign,Surgery,,Normal,8.21,33.4,0,0,0,0,0,0,0,0
+4.0,Donald Fitzpatrick,33.0,Male,148.0,72.0,32.9,137.9,89.0,60.6,100.2,70.5,170.4,13.8,No,No,1.0,No,Yes,No,2,Public,No,No,Benign,Chemotherapy,,Normal,8.8,22.8,0,1,0,0,0,1,0,1
+5.0,Christina Miles,56.0,Male,180.0,73.0,22.5,76.0,91.9,71.9,99.1,102.7,196.1,17.3,No,No,1.0,No,No,No,1,Private,No,No,Malignant,,,Normal,5.83,36.2,0,1,0,0,0,0,0,0
+6.0,Danny Rice,53.0,Female,163.0,82.0,30.9,164.1,62.4,72.1,99.2,148.1,207.6,15.0,No,No,2.0,No,No,No,1,Private,No,No,Benign,Surgery,,Normal,1.36,41.6,1,0,0,0,0,0,0,0
+7.0,Crystal Shaw,23.0,Female,170.0,83.0,28.7,126.8,95.7,77.0,99.3,126.1,167.3,14.5,No,No,4.0,No,No,No,1,Private,No,No,Benign,Chemotherapy,,Normal,3.27,30.2,0,0,0,0,0,0,0,0
+8.0,Susan Johnson,83.0,Male,165.0,72.0,26.4,134.4,80.3,84.2,100.9,109.3,205.5,15.7,Yes,Yes,2.0,No,No,No,2,Private,No,No,Benign,Chemotherapy,,Abnormal,0.44,53.8,1,1,1,1,0,0,0,0
+9.0,Michele Carson,62.0,Female,154.0,97.0,40.9,146.3,65.8,64.6,95.6,89.8,161.3,13.4,Yes,No,3.0,No,No,No,1,Private,No,No,Benign,Surgery,Peanuts,Normal,0.07,29.8,0,0,1,0,0,0,0,0
+10.0,Kelly Smith,41.0,Female,186.0,98.0,28.3,131.5,92.1,69.4,97.7,143.8,274.4,17.8,Yes,Yes,2.0,Yes,No,No,1,Public,No,Yes,Benign,Chemotherapy,Penicillin,Normal,1.06,62.8,1,0,1,1,1,0,0,1
+11.0,James Guerrero,18.0,Male,158.0,56.0,22.4,151.3,85.7,90.6,99.0,101.3,260.9,17.6,No,Yes,4.0,No,No,No,3,Uninsured,No,No,Benign,,Dust,Normal,5.08,47.2,1,1,0,1,0,0,0,2
+12.0,Kevin Nelson,52.0,Male,167.0,89.0,31.9,113.3,76.2,63.1,97.3,142.1,144.2,12.4,No,No,2.0,No,Yes,No,0,Private,No,No,Benign,,Dust,Normal,0.97,30.1,0,1,0,0,0,1,0,0
+13.0,Carolyn Robles,50.0,Female,165.0,78.0,28.7,118.0,89.2,78.4,98.8,64.4,213.3,14.3,Yes,Yes,1.0,No,No,No,5,Public,No,No,Benign,,,Normal,2.67,44.8,1,0,1,1,0,0,0,1
+14.0,Andrew Williams,74.0,Male,164.0,83.0,30.9,82.7,89.2,86.6,96.0,129.1,147.7,13.9,No,Yes,0.0,No,Yes,No,1,Uninsured,No,No,Benign,Immunotherapy,Penicillin,Normal,6.7,47.4,1,1,0,1,0,1,0,2
+15.0,Kathy Reynolds,59.0,Female,166.0,75.0,27.2,90.8,70.2,72.9,97.4,128.4,143.8,15.2,Yes,No,1.0,No,No,No,2,Private,Yes,No,Benign,Chemotherapy,,Normal,4.4,77.1,1,0,1,0,0,0,0,0
+16.0,David Wood,36.0,Female,175.0,82.0,26.8,133.7,73.0,83.2,98.1,136.2,182.5,12.0,No,No,2.0,No,No,No,3,Public,Yes,Yes,Benign,,,Abnormal,2.31,50.4,1,0,0,0,0,0,0,1
+17.0,Elizabeth Jones,24.0,Female,163.0,83.0,31.2,113.8,70.7,80.9,99.3,48.3,215.6,13.9,Yes,Yes,4.0,Yes,Yes,No,4,Public,Yes,No,Malignant,Radiation Therapy,Dust,Normal,0.07,50.9,1,0,1,1,1,1,0,1
+18.0,Jacqueline Ross,83.0,Female,169.0,74.0,25.9,78.4,75.7,74.8,97.6,83.3,200.6,13.2,No,No,5.0,No,Yes,No,4,Public,No,No,Benign,Radiation Therapy,,Normal,4.75,43.8,1,0,0,0,0,1,0,1
+19.0,Rebecca Sweeney,79.0,Male,168.0,59.0,20.9,165.0,89.1,48.7,99.8,102.3,138.1,16.1,Yes,No,4.0,Yes,Yes,No,2,Public,No,No,Benign,Surgery,,Normal,0.7,43.7,1,1,1,0,1,1,0,1
+21.0,Bailey Maldonado,37.0,Male,161.0,78.0,30.1,134.7,82.4,69.4,97.6,91.0,219.8,15.8,Yes,Yes,3.0,No,No,No,3,Public,No,No,Benign,,Peanuts,Normal,5.93,48.7,1,1,1,1,0,0,0,1
+22.0,Andrew Garza,60.0,Male,171.0,61.0,20.9,119.0,109.3,76.3,100.6,59.6,142.0,15.5,No,No,3.0,No,No,No,3,Public,No,No,Benign,Surgery,,Normal,2.18,20.7,0,1,0,0,0,0,0,1
+23.0,Kent Cohen,25.0,Male,175.0,78.0,25.5,114.6,81.7,82.0,98.3,107.1,188.8,17.0,Yes,Yes,5.0,No,No,No,1,Public,No,No,Benign,Surgery,Seafood,Normal,4.08,41.1,0,1,1,1,0,0,0,1
+24.0,Jodi Summers,20.0,Male,175.0,72.0,23.5,144.1,92.5,63.0,95.0,117.2,182.8,15.1,Yes,Yes,1.0,No,No,No,3,Public,No,No,Benign,Surgery,Dust,Normal,5.79,42.7,1,1,1,1,0,0,0,1
+26.0,Jose Blackwell,52.0,Male,170.0,87.0,30.1,122.2,61.8,83.2,96.6,58.2,187.1,12.2,No,Yes,4.0,No,No,No,1,Public,No,No,Benign,Immunotherapy,,Normal,0.7,14.3,0,1,0,1,0,0,0,1
+27.0,Jessica Jones,65.0,Male,175.0,85.0,27.8,101.1,76.2,91.5,100.0,80.6,194.0,9.6,No,No,4.0,No,Yes,No,2,Public,No,No,Benign,Radiation Therapy,,Normal,7.2,30.3,0,1,0,0,0,1,0,1
+28.0,Jennifer Costa,39.0,Female,177.0,64.0,20.4,143.4,75.7,66.3,98.9,141.8,183.2,16.5,Yes,No,2.0,No,No,No,3,Public,Yes,No,Benign,,,Normal,3.87,70.8,1,0,1,0,0,0,0,1
+29.0,John Brown,70.0,Male,170.0,59.0,20.4,123.9,66.1,67.1,101.2,99.2,193.7,14.1,No,Yes,3.0,Yes,No,No,1,Public,No,No,Benign,,Peanuts,Normal,3.9,28.2,0,1,0,1,1,0,0,1
+31.0,Rhonda English,34.0,Male,173.0,101.0,33.7,92.6,82.8,58.5,97.3,108.0,199.1,14.9,Yes,No,2.0,No,No,No,2,Public,Yes,No,Benign,Chemotherapy,Dust,Normal,4.44,64.3,1,1,1,0,0,0,0,1
+32.0,Autumn Brown,81.0,Female,170.0,74.0,25.6,113.6,57.9,79.1,98.2,97.5,231.4,11.5,No,Yes,3.0,No,No,No,1,Public,Yes,No,Malignant,Surgery,Penicillin,Normal,6.03,64.1,1,0,0,1,0,0,0,1
+33.0,Courtney Romero,27.0,Female,164.0,79.0,29.4,109.6,114.1,80.2,101.0,90.4,195.7,15.0,No,No,4.0,No,No,No,1,Private,Yes,No,Benign,Radiation Therapy,,Normal,0.06,26.5,0,0,0,0,0,0,0,0
+34.0,Mark Powell,57.0,Female,173.0,65.0,21.7,125.6,78.3,53.7,98.0,101.3,217.4,16.4,No,No,3.0,No,Yes,No,5,Private,No,No,Benign,,Penicillin,Normal,2.28,38.3,0,0,0,0,0,1,0,0
+35.0,Albert Rose,57.0,Female,178.0,65.0,20.5,134.6,85.9,64.6,97.4,75.3,269.6,8.6,No,No,5.0,No,No,No,2,Private,No,No,Malignant,Radiation Therapy,Penicillin,Normal,5.26,48.4,1,0,0,0,0,0,0,0
+36.0,Christopher Morris,75.0,Female,156.0,76.0,31.2,143.5,92.7,77.3,99.2,128.7,204.8,11.7,Yes,No,2.0,No,No,No,2,Private,No,No,Benign,Immunotherapy,,Normal,4.26,70.4,1,0,1,0,0,0,0,0
+37.0,Michelle Monroe,39.0,Male,176.0,60.0,19.4,126.9,98.8,67.9,98.9,92.0,195.8,16.8,No,Yes,1.0,No,No,No,2,Public,No,No,Benign,Chemotherapy,Peanuts,Abnormal,4.66,23.2,0,1,0,1,0,0,0,1
+38.0,Dr. Eric Hall,68.0,Female,157.0,75.0,30.4,119.0,73.4,64.6,99.7,64.9,148.9,8.5,Yes,No,3.0,No,No,No,2,Private,No,No,Malignant,Radiation Therapy,Seafood,Normal,5.36,46.0,1,0,1,0,0,0,0,0
+39.0,Jaime Casey,34.0,Male,169.0,75.0,26.3,142.0,60.6,81.0,96.7,106.4,199.2,11.5,No,Yes,0.0,No,No,No,1,Private,No,No,Benign,Surgery,Dust,Normal,5.24,31.0,0,1,0,1,0,0,0,0
+40.0,Christopher Kennedy,57.0,Female,176.0,61.0,19.7,136.8,87.3,57.4,101.5,166.8,200.1,15.3,No,No,4.0,Yes,No,No,1,Public,Yes,No,Benign,Chemotherapy,,Normal,2.62,66.3,1,0,0,0,1,0,0,1
+41.0,Joshua Lynch,22.0,Male,187.0,84.0,24.0,99.5,72.2,82.2,96.9,90.4,98.0,14.2,No,Yes,2.0,No,No,No,4,Public,No,No,Unknown,Chemotherapy,Peanuts,Normal,0.1,5.5,0,1,0,1,0,0,0,1
+42.0,Tina Gregory,74.0,Female,154.0,50.0,21.1,111.5,66.8,59.6,99.3,54.6,193.2,18.2,No,No,3.0,No,No,No,3,Public,No,No,Benign,,,Normal,9.1,32.4,0,0,0,0,0,0,0,1
+43.0,Madison Garrett,45.0,Male,175.0,69.0,22.5,131.9,97.4,79.5,100.1,137.6,246.3,14.4,Yes,No,3.0,No,No,No,1,Private,No,No,Malignant,Radiation Therapy,,Normal,8.92,75.6,1,1,1,0,0,0,0,0
+44.0,Sean Miles,41.0,Male,182.0,88.0,26.6,124.2,106.6,68.6,99.0,82.7,152.6,16.4,Yes,Yes,2.0,No,No,Yes,3,Uninsured,No,No,Benign,,Seafood,Abnormal,5.91,39.6,0,1,1,1,0,0,1,2
+45.0,Shawn Walsh,70.0,Female,160.0,82.0,32.0,108.0,85.5,70.5,97.2,84.3,151.4,9.3,No,No,0.0,No,No,No,2,Public,Yes,No,Benign,Surgery,Pollen,Normal,4.05,48.6,1,0,0,0,0,0,0,1
+46.0,James Giles,59.0,Male,159.0,76.0,30.1,142.9,91.2,93.3,100.3,62.0,180.6,15.5,No,Yes,0.0,No,No,No,3,Private,No,No,Benign,Chemotherapy,Peanuts,Normal,8.0,28.9,0,1,0,1,0,0,0,0
+47.0,Melissa Berry,28.0,Female,164.0,72.0,26.8,137.7,81.1,60.1,96.3,76.8,164.5,11.7,No,No,3.0,No,Yes,No,4,Private,No,No,Benign,,,Normal,1.34,10.6,0,0,0,0,0,1,0,0
+48.0,James Rodriguez,81.0,Female,171.0,75.0,25.6,130.5,68.2,61.3,98.5,82.6,166.5,14.5,No,No,4.0,No,No,Yes,3,Public,No,No,Benign,Chemotherapy,Dust,Abnormal,7.06,34.1,0,0,0,0,0,0,1,1
+49.0,Jennifer Wright,56.0,Female,170.0,108.0,37.4,110.7,49.7,72.3,101.9,102.4,243.4,17.3,No,Yes,3.0,Yes,No,No,1,Uninsured,Yes,No,Benign,,Seafood,Normal,0.88,63.8,1,0,0,1,1,0,0,2
+50.0,Andrea Brown,51.0,Female,191.0,82.0,22.5,68.4,56.7,74.6,100.4,50.1,183.0,18.3,No,No,1.0,No,Yes,No,0,Private,Yes,No,Benign,,,Normal,8.76,47.0,1,0,0,0,0,1,0,0
+51.0,Mrs. Natalie Summers,28.0,Male,166.0,77.0,27.9,125.3,89.7,65.9,98.5,88.9,207.0,11.8,No,No,1.0,No,Yes,No,0,Public,No,Yes,Benign,,Penicillin,Normal,5.71,31.6,0,1,0,0,0,1,0,1
+52.0,Tina Pena,25.0,Male,171.0,62.0,21.2,110.7,63.9,55.9,99.2,93.7,230.6,15.0,Yes,No,4.0,No,No,No,2,Public,No,No,Benign,,,Normal,3.39,41.1,0,1,1,0,0,0,0,1
+53.0,Mr. Andrew Mccoy,56.0,Female,161.0,68.0,26.2,114.6,72.4,63.0,98.4,73.3,165.4,12.4,Yes,No,1.0,No,No,No,1,Private,No,No,Benign,Immunotherapy,Pollen,Normal,1.68,33.2,0,0,1,0,0,0,0,0
+54.0,Stacy Johnson,30.0,Male,163.0,63.0,23.7,108.7,66.1,83.0,97.6,79.3,306.0,12.0,No,No,2.0,No,No,No,1,Public,No,No,Malignant,Surgery,,Normal,6.66,42.1,1,1,0,0,0,0,0,1
+55.0,Michael Ashley,47.0,Male,163.0,57.0,21.5,156.3,60.6,64.3,98.7,118.1,132.7,12.7,No,Yes,5.0,No,No,No,4,Private,No,No,Benign,Surgery,,Abnormal,8.29,34.1,0,1,0,1,0,0,0,0
+56.0,Jeffrey Roberson,30.0,Male,158.0,64.0,25.6,128.3,65.9,85.2,98.7,61.3,209.5,11.5,No,No,4.0,No,No,Yes,2,Private,No,No,Unknown,Radiation Therapy,Peanuts,Abnormal,2.87,25.7,0,1,0,0,0,0,1,0
+57.0,Jennifer Baldwin,81.0,Female,167.0,81.0,29.0,117.1,87.8,87.3,98.0,158.8,155.4,12.8,No,No,3.0,Yes,No,No,3,Uninsured,No,No,Benign,Radiation Therapy,Penicillin,Normal,4.8,48.5,1,0,0,0,1,0,0,2
+58.0,Robert Morse,34.0,Female,189.0,68.0,19.0,101.5,47.4,73.0,98.0,108.9,162.4,12.4,Yes,No,3.0,No,No,No,2,Public,No,No,Benign,Chemotherapy,Pollen,Abnormal,4.44,44.3,1,0,1,0,0,0,0,1
+59.0,Dr. Pamela Alvarez MD,25.0,Male,159.0,88.0,34.8,126.0,52.6,64.9,98.5,95.3,236.0,15.3,Yes,No,4.0,No,No,No,1,Private,No,No,Benign,Chemotherapy,Seafood,Normal,3.84,42.4,1,1,1,0,0,0,0,0
+60.0,Angela Castro,53.0,Female,182.0,62.0,18.7,141.1,75.7,63.1,96.3,96.2,236.2,14.9,No,Yes,3.0,No,No,No,1,Private,No,No,Benign,Chemotherapy,Seafood,Normal,4.06,34.7,0,0,0,1,0,0,0,0
+62.0,Kevin Gray,19.0,Male,185.0,94.0,27.5,129.7,104.3,77.6,98.9,98.9,233.7,11.6,No,No,2.0,No,Yes,No,5,Private,No,No,Benign,Surgery,Dust,Normal,7.01,29.5,0,1,0,0,0,1,0,0
+63.0,Robert Petersen,39.0,Female,175.0,76.0,24.8,122.0,58.8,76.1,99.1,58.4,276.3,16.7,No,No,5.0,No,No,No,0,Private,No,No,Malignant,Immunotherapy,,Normal,5.73,44.2,1,0,0,0,0,0,0,0
+64.0,Jennifer Patel,30.0,Male,178.0,103.0,32.5,131.8,77.1,80.7,99.5,114.4,269.8,16.6,No,Yes,7.0,No,No,No,0,Public,No,No,Benign,Surgery,Dust,Normal,2.96,43.9,1,1,0,1,0,0,0,1
+65.0,Kara Chavez,25.0,Male,162.0,72.0,27.4,113.5,95.1,61.8,99.2,85.8,205.2,15.5,No,No,4.0,No,No,No,4,Private,No,No,Benign,,Dust,Normal,0.07,16.1,0,1,0,0,0,0,0,0
+66.0,Kathleen Barber,62.0,Female,173.0,69.0,23.1,104.2,89.4,63.2,97.6,112.0,240.6,15.7,Yes,No,4.0,No,No,No,2,Public,No,No,Malignant,Chemotherapy,,Abnormal,3.91,69.3,1,0,1,0,0,0,0,1
+67.0,Natalie Solis,18.0,Male,175.0,77.0,25.1,106.9,96.0,52.1,100.0,94.1,206.4,13.2,Yes,No,7.0,No,No,No,1,Private,No,No,Benign,Radiation Therapy,Pollen,Normal,5.2,44.2,1,1,1,0,0,0,0,0
+68.0,Christian Cooper,20.0,Male,189.0,45.0,12.6,87.8,98.0,61.5,100.1,141.9,245.9,14.4,Yes,Yes,5.0,Yes,Yes,Yes,1,Public,No,No,Benign,Radiation Therapy,Seafood,Abnormal,1.5,59.2,1,1,1,1,1,1,1,1
+69.0,Marie Russell,75.0,Male,172.0,73.0,24.7,119.1,82.0,104.8,97.1,116.8,206.6,15.3,Yes,No,3.0,No,No,Yes,4,Uninsured,No,Yes,Benign,Chemotherapy,,Normal,7.53,65.6,1,1,1,0,0,0,1,2
+70.0,Eric Reeves,26.0,Female,188.0,99.0,28.0,123.6,41.7,63.9,99.9,59.6,186.2,10.8,No,Yes,3.0,No,No,No,1,Private,No,No,Benign,,,Normal,5.05,21.1,0,0,0,1,0,0,0,0
+71.0,Brian Smith,65.0,Female,175.0,65.0,21.2,131.6,79.5,58.6,99.4,94.5,236.5,13.9,Yes,No,3.0,No,No,No,3,Private,No,No,Benign,Chemotherapy,Penicillin,Normal,9.52,55.3,1,0,1,0,0,0,0,0
+72.0,Mark Walker,84.0,Female,164.0,72.0,26.8,110.4,68.8,53.4,95.3,138.6,228.6,16.8,No,No,2.0,No,Yes,No,1,Uninsured,No,No,Benign,Surgery,Penicillin,Normal,0.44,46.1,1,0,0,0,0,1,0,2
+73.0,Eric Beck,34.0,Female,165.0,56.0,20.6,133.1,88.6,66.6,99.1,125.7,195.6,14.4,No,Yes,2.0,Yes,No,No,1,Private,No,No,Benign,Immunotherapy,,Normal,7.48,31.0,0,0,0,1,1,0,0,0
+74.0,Emily Jones,24.0,Male,167.0,59.0,21.2,134.7,73.7,66.1,98.7,127.7,279.3,13.8,No,No,2.0,No,No,No,1,Public,No,No,Benign,,Penicillin,Normal,2.15,47.1,1,1,0,0,0,0,0,1
+75.0,Donna Jenkins,27.0,Female,182.0,91.0,27.5,75.8,56.5,51.8,100.9,67.6,196.2,14.3,No,No,2.0,No,No,No,0,Private,Yes,No,Benign,Surgery,Penicillin,Normal,1.08,29.6,0,0,0,0,0,0,0,0
+76.0,Bonnie Martinez,30.0,Female,162.0,61.0,23.2,119.2,82.4,77.4,99.8,121.9,167.8,10.7,No,No,5.0,No,No,No,1,Private,Yes,No,Benign,Radiation Therapy,Seafood,Normal,7.95,50.1,1,0,0,0,0,0,0,0
+77.0,Misty Mckenzie,39.0,Female,180.0,100.0,30.9,112.9,90.6,65.9,101.0,83.2,191.2,14.1,No,Yes,3.0,No,No,No,1,Private,No,No,Unknown,Surgery,Penicillin,Normal,5.25,24.2,0,0,0,1,0,0,0,0
+79.0,Michele Jones,48.0,Male,194.0,70.0,18.6,143.3,85.5,84.2,97.0,86.8,261.3,9.8,No,No,1.0,No,No,No,2,Public,No,No,Benign,Surgery,,Normal,6.31,46.3,1,1,0,0,0,0,0,1
+80.0,Christopher Baker,60.0,Female,164.0,91.0,33.8,107.9,72.4,77.9,99.0,100.7,168.0,17.8,No,No,3.0,No,No,No,2,Private,Yes,No,Benign,Radiation Therapy,Peanuts,Normal,8.73,57.1,1,0,0,0,0,0,0,0
+81.0,Steven Logan,84.0,Female,183.0,91.0,27.2,104.6,52.7,64.4,99.7,88.9,181.6,13.6,No,No,4.0,Yes,No,No,3,Private,No,No,Malignant,Surgery,,Normal,6.15,34.8,0,0,0,0,1,0,0,0
+82.0,Mrs. Kimberly Miller,26.0,Female,155.0,69.0,28.7,102.0,61.7,73.7,99.8,51.8,215.6,13.5,Yes,Yes,3.0,No,No,Yes,5,Private,No,No,Benign,,,Normal,4.57,44.8,1,0,1,1,0,0,1,0
+83.0,Kelsey Mason,71.0,Female,176.0,63.0,20.3,61.0,108.9,80.3,96.4,94.7,211.1,11.6,Yes,No,3.0,No,No,No,1,Public,No,No,Benign,,,Normal,8.54,56.7,1,0,1,0,0,0,0,1
+84.0,Matthew Harris,19.0,Male,167.0,89.0,31.9,117.6,80.4,67.1,97.4,88.6,170.9,13.0,Yes,Yes,5.0,No,No,No,1,Private,No,No,Benign,Surgery,Seafood,Normal,8.14,34.5,0,1,1,1,0,0,0,0
+85.0,Aaron Cummings,50.0,Female,186.0,87.0,25.1,126.1,98.6,84.7,96.1,100.4,128.7,13.9,No,No,2.0,No,Yes,No,1,Private,No,No,Benign,Surgery,,Normal,2.88,28.4,0,0,0,0,0,1,0,0
+86.0,Monica Cook,57.0,Female,168.0,62.0,22.0,109.5,86.6,75.4,99.2,107.8,151.6,14.5,No,No,8.0,No,Yes,No,1,Public,No,No,Benign,Chemotherapy,,Normal,3.35,31.5,0,0,0,0,0,1,0,1
+87.0,Jason James,74.0,Female,182.0,98.0,29.6,93.1,64.5,71.6,99.2,122.5,217.5,15.5,No,No,1.0,No,No,Yes,1,Public,No,No,Benign,Immunotherapy,Penicillin,Normal,5.03,50.4,1,0,0,0,0,0,1,1
+88.0,Teresa Mays,42.0,Male,158.0,98.0,39.3,123.0,69.9,69.7,98.7,138.8,188.9,17.2,No,No,4.0,No,No,No,2,Private,No,No,Benign,Surgery,,Normal,4.84,39.4,0,1,0,0,0,0,0,0
+89.0,Dana Santos,51.0,Female,180.0,63.0,19.4,126.1,85.6,78.4,97.5,82.4,267.2,15.1,No,Yes,6.0,Yes,No,No,2,Public,No,No,Benign,Chemotherapy,Penicillin,Normal,8.06,47.0,1,0,0,1,1,0,0,1
+90.0,Jon Martinez,25.0,Male,142.0,72.0,35.7,129.0,95.4,92.7,97.0,81.8,199.1,16.0,No,No,1.0,Yes,No,No,2,Private,No,No,Benign,Radiation Therapy,Dust,Normal,9.21,20.9,0,1,0,0,1,0,0,0
+91.0,Aaron Sanchez,84.0,Female,164.0,43.0,16.0,134.2,92.7,39.7,99.2,100.4,178.9,11.7,No,No,0.0,Yes,No,No,0,Uninsured,No,No,Malignant,Radiation Therapy,,Normal,9.14,42.8,1,0,0,0,1,0,0,2
+92.0,Christopher Mejia,84.0,Male,163.0,73.0,27.5,90.6,71.5,76.8,96.0,86.4,130.4,12.3,No,No,4.0,No,No,No,2,Public,No,No,Benign,Immunotherapy,Seafood,Normal,5.65,34.8,0,1,0,0,0,0,0,1
+93.0,Christopher Faulkner,54.0,Male,180.0,68.0,21.0,102.8,77.7,80.2,97.0,131.2,213.0,11.0,No,No,3.0,No,No,No,0,Private,No,No,Malignant,Surgery,,Normal,7.78,52.7,1,1,0,0,0,0,0,0
+94.0,Steven Landry,52.0,Male,177.0,66.0,21.1,122.7,57.2,57.0,98.5,78.6,135.6,14.6,No,No,0.0,No,No,No,1,Public,No,No,Benign,,Seafood,Normal,6.26,27.2,0,1,0,0,0,0,0,1
+95.0,Jessica Bernard,28.0,Female,160.0,85.0,33.2,130.9,68.4,85.4,99.3,150.9,243.0,12.5,No,No,3.0,No,Yes,No,0,Public,No,No,Unknown,,,Normal,1.97,47.5,1,0,0,0,0,1,0,1
+96.0,Daniel Mcguire,48.0,Male,176.0,60.0,19.4,105.4,79.9,73.6,97.5,95.2,205.6,17.1,No,No,2.0,Yes,No,No,2,Private,No,No,Benign,,,Normal,0.2,21.9,0,1,0,0,1,0,0,0
