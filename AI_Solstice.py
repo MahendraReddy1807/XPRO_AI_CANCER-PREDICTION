@@ -1,25 +1,21 @@
 import pandas as pd
 import numpy as np
-from sklearn.preprocessing import LabelEncoder
+from faker import Faker
+from sklearn.preprocessing import LabelEncoder #used to convert string --> numeric values
 import warnings
 warnings.filterwarnings('ignore')
-from faker import Faker
-from sklearn.model_selection import train_test_split
-from sklearn.preprocessing import StandardScaler
-import pickle
-import joblib
-from sklearn.linear_model import LogisticRegression
-from sklearn.ensemble import RandomForestClassifier
-from sklearn.ensemble import RandomForestClassifier, GradientBoostingClassifier
-from sklearn.linear_model import LogisticRegression
-from sklearn.svm import SVC
-from sklearn.neighbors import KNeighborsClassifier
+from sklearn.model_selection import train_test_split    # to split dataset into train and test sets
+from sklearn.preprocessing import StandardScaler    #standardizes numerical features so they have mean=0 and variance=1
+import pickle   #to save train models to disk
+from sklearn.linear_model import LogisticRegression #AI linear model. works well on binary classification
+from sklearn.ensemble import RandomForestClassifier, GradientBoostingClassifier #More accurate and robust than a single tree
+from sklearn.tree import DecisionTreeClassifier 
 from sklearn.model_selection import cross_val_score
 from sklearn.metrics import accuracy_score, confusion_matrix, classification_report, precision_score, recall_score, f1_score
 fake = Faker()
-import matplotlib.pyplot as plt
-import seaborn as sns
-from sklearn.metrics import classification_report, confusion_matrix, roc_auc_score, roc_curve
+import matplotlib.pyplot as plt # genral plots(line,bar,scatter)
+import seaborn as sns   #advanced plot
+from sklearn.metrics import roc_auc_score, roc_curve    #ROC curve → model performance across thresholds AUC → Single number summarizing performance (higher is better).
 
 # -------------------------------
 # Risk score calculation
@@ -347,8 +343,7 @@ def prepare_features_and_target(data):
         'Heart_Rate', 'Temperature_F', 'Blood_Sugar', 'Cholesterol', 'Hemoglobin',
         'Exercise_Hours_Week', 'Hospital_Visits_Year', 'Gender_encoded',
         'Smoking_encoded', 'Alcohol_Consumption_encoded', 'Diabetes_encoded',
-        'Hypertension_encoded', 'Heart_Disease_encoded', 'Insurance_Type_encoded',
-        'Tumor_Size_cm'  # ✅ keep these
+        'Hypertension_encoded', 'Heart_Disease_encoded', 'Insurance_Type_encoded' # ✅ keep these
     ]
 
     # Filter existing columns
@@ -369,6 +364,8 @@ def save_feature_info(X, y, label_encoders):
     }
 
     # Save encoders and feature info
+    # pickle is used to store the processed or ml model
+    # instead of pickle joblib can also be used
     import pickle
     with open('label_encoders.pkl', 'wb') as f:
         pickle.dump(label_encoders, f)
@@ -460,10 +457,9 @@ if __name__ == "__main__":
 def train_multiple_models(X_train, y_train):
     models = {
         'RandomForest': RandomForestClassifier(n_estimators=100, random_state=42),
-        'GradientBoosting': GradientBoostingClassifier(n_estimators=100, random_state=42),
+        'GradientBoosting':GradientBoostingClassifier(n_estimators=100,random_state=42),
         'LogisticRegression': LogisticRegression(random_state=42, max_iter=1000),
-        'SVM': SVC(random_state=42, probability=True),
-        'KNN': KNeighborsClassifier(n_neighbors=5)
+        'DecisionTree': DecisionTreeClassifier(random_state=42, class_weight='balanced')
     }
 
     trained_models = {}
@@ -495,29 +491,32 @@ def select_best_model(model_scores):
     return best_model_name, best_score
 
 def save_models(trained_models, model_scores, best_model_name):
-    # Save all trained models
-    with open('trained_models.pkl', 'wb') as f:
-        pickle.dump(trained_models, f)
+    import os
+    
+    best_model = trained_models[best_model_name]
 
-    # Save model scores
-    with open('model_scores.pkl', 'wb') as f:
-        pickle.dump(model_scores, f)
+    # Debug check
+    print("🔍 Best model before saving:", best_model_name, type(best_model))
 
-    # Save best model separately
-    with open('best_model.pkl', 'wb') as f:
-        pickle.dump(trained_models[best_model_name], f)
+    # Save best model
+    with open("best_model.pkl", "wb") as f:
+        pickle.dump(best_model, f)
 
-    # Save model info
+    print("✅ Saved best model:", best_model_name, "->", os.path.abspath("best_model.pkl"))
+
+    # Save info (include ALL model scores to avoid KeyError)
     model_info = {
-        'best_model_name': best_model_name,
-        'best_model_score': model_scores[best_model_name]['cv_mean'],
-        'all_model_scores': {name: scores['cv_mean'] for name, scores in model_scores.items()}
+        "best_model_name": best_model_name,
+        "best_model_score": model_scores[best_model_name]["cv_mean"],
+        "all_model_scores": {name: scores["cv_mean"] for name, scores in model_scores.items()}
     }
 
-    with open('model_info.pkl', 'wb') as f:
+    with open("model_info.pkl", "wb") as f:
         pickle.dump(model_info, f)
 
     return model_info
+
+
 
 if __name__ == "__main__":
     print("Loading training data and training models...")
@@ -538,7 +537,7 @@ if __name__ == "__main__":
     print("\nSaved files: trained_models.pkl, model_scores.pkl, best_model.pkl, model_info.pkl")
 
 
-#-------- VISUALIZATION PART ---------#
+
 def evaluate_all_models(trained_models, X_test, y_test):
     results = {}
 
@@ -557,9 +556,9 @@ def evaluate_all_models(trained_models, X_test, y_test):
             'confusion_matrix': confusion_matrix(y_test, y_pred),
             'classification_report': classification_report(y_test, y_pred, output_dict=True)
         }
-
     return results
 
+#-------- VISUALIZATION PART ---------#
 def create_visualizations(results, y_test):
     # Set up the plotting style
     plt.style.use('default')
@@ -678,6 +677,7 @@ def save_evaluation_results(results):
             'Precision': metrics['precision'],
             'Recall': metrics['recall'],
             'F1_Score': metrics['f1'],
+            'CV'
             'AUC': metrics['auc'] if metrics['auc'] is not None else 'N/A'
         })
 
@@ -731,7 +731,7 @@ if __name__ == "__main__":
     print("\nSaved files: model_evaluation_summary.csv, evaluation_results.pkl, model_evaluation_results.png")
 
 
-    # -------PREDICTION -------#
+# -------PREDICTION -------#
 class ModelInference:
     def __init__(self):
         self.model = None
@@ -885,8 +885,7 @@ def create_sample_patient():
         'Diabetes': 'No',
         'Hypertension': 'Yes',
         'Heart_Disease': 'No',
-        'Insurance_Type': 'Private',
-        'Tumor_Size_cm':4.5
+        'Insurance_Type': 'Private'
     }
     return sample_patient
 
